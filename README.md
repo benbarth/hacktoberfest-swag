@@ -20,4 +20,4 @@ Hacktoberfest is open to everyone. For the official hacktoberfest you have to op
 ### [Check out all of this cool swag!](https://twitter.com/search?q=%23hacktoberfest%20%23swag)
 
 ## Contribute
-Know of another hacktoberfast swag opportunity? Send a pull request!
+Know of another hacktoberfast swag opportunity? Send a [pull request](https://github.com/benbarth/hacktoberfest-swag/pulls)!
