@@ -12,10 +12,11 @@ Many companies join the official hacktoberfest celebration by rewarding open sou
 Hacktoberfest is open to everyone. For the official hacktoberfest you have to open five pull requests on any Github repository in the month of October - even this repository! You can sign up at https://hacktoberfest.digitalocean.com/.
 
 # Where can I get swag?
-| Who / Sponsors | What | How | Url |
+| Who / Sponsors | What | How | Additional Details |
 |---|---|---|---|
 | DigitalOcean + GitHub + twilio | 👕 + Stickers | Five pull requests must be made to GitHub-hosted repositories. | https://hacktoberfest.digitalocean.com/ |
 | Microsoft | 👕 | "anyone who submits a pull request to one of our [open source projects](https://opensource.microsoft.com/)" | https://aka.ms/hacktoberfest |
+| Auth0 | 👕 + "psychedelic sticker pack" | Contribute to an [Auth0 Project](https://github.com/auth0) or [Community](https://github.com/auth0-community) | https://auth0.com/blog/celebrate-hacktoberfest-with-auth0/ |
 
 ### [Check out all of this cool swag!](https://twitter.com/search?q=%23hacktoberfest%20%23swag)
 
