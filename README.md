@@ -26,7 +26,7 @@ Hacktoberfest is open to everyone. For the [official hacktoberfest swag](https:/
 | SendGrid | "swag" | Contribute to a [SendGrid](https://github.com/sendgrid) project. | <https://sendgrid.com/blog/hacktoberfest-2018-hack-on-sendgrid-open-source-projects/> |
 | Sylabs | 💻 Linux ready DELL XPS 13” laptop | "to the top Singularity OSS contributor" | <https://www.sylabs.io/2018/09/singularity-hacktoberfest-2018/> |
 
-### [Check out all of this cool swag!](https://twitter.com/search?q=%23hacktoberfest%20%23swag)
+[View some of this cool swag on Twitter.](https://twitter.com/search?q=%23hacktoberfest%20%23swag)
 
 ## Contribute
 Know of another hacktoberfast swag opportunity? Send a [pull request](https://github.com/benbarth/hacktoberfest-swag/pulls)!
