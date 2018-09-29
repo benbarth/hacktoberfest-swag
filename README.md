@@ -13,7 +13,7 @@ Hacktoberfest is open to everyone. For the [official hacktoberfest swag](https:/
 
 # Where else can I find swag?
 | Who / Sponsors | What | How | Additional Details |
-|---|---|---|---|
+| :---: | :---: | :---: | --- |
 | DigitalOcean + GitHub + twilio | 👕 + Stickers | Five pull requests must be made to GitHub-hosted repositories. | https://hacktoberfest.digitalocean.com/ |
 | Auth0 | 👕 + "psychedelic sticker pack" | Contribute to an [Auth0 Project](https://github.com/auth0) or [Community](https://github.com/auth0-community). | https://auth0.com/blog/celebrate-hacktoberfest-with-auth0/ |
 | Hasura | "swag" | "PRs merged into the [GraphQL Engine repo](https://github.com/hasura/graphql-engine)" | https://blog.hasura.io/announcing-hacktoberfest-2018-with-hasura-621045dc9560 |
