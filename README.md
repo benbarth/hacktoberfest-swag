@@ -12,7 +12,6 @@ Looking for hacktoberfest swag? You've come to the right place.
 
 Many companies join the hacktoberfest celebration by rewarding open source contributors with swag!
 
-## Contribute
 Hacktoberfest is open to everyone. For the [official hacktoberfest swag](https://hacktoberfest.digitalocean.com/), _five pull requests must be made to GitHub-hosted repositories_ in the month of October - you can even contribute to this repository! You can sign up at https://hacktoberfest.digitalocean.com/.
 
 # Where else can I find swag?
