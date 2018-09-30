@@ -10,11 +10,11 @@ Looking for hacktoberfest swag? You've come to the right place.
 ## What is hacktoberfest?
 "Hacktoberfest is a month-long celebration of open source software." - DigitalOcean
 
-Many companies join the hacktoberfest celebration by rewarding open source contributors with swag!
-
 Hacktoberfest is open to everyone. For the [official hacktoberfest swag](https://hacktoberfest.digitalocean.com/), _five pull requests must be made to GitHub-hosted repositories_ in the month of October - you can even contribute to this repository! You can sign up at https://hacktoberfest.digitalocean.com/.
 
-# Where else can I find swag?
+Hacktoberfest is about more than just receiving swag. It's about **Everyone is welcome!**, **Quantity is fun, Quality is key**, & **Short term action, long term impact**. For more information regarding hacktoberfest vales visit <https://hacktoberfest.digitalocean.com/details>.
+
+In all of the hacktoberfest excitement, many companies want to join the celebration by rewarding their contributors with even more swag! That's why we're here!
 
 | Who / Sponsors | What | How | Additional Details |
 | :---: | :---: | :---: | --- |
