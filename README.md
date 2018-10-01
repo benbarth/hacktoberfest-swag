@@ -24,6 +24,7 @@ In all of the hacktoberfest excitement, many companies want to join the celebrat
 | Microsoft | 👕 | "anyone who submits a pull request to one of our [open source projects](https://opensource.microsoft.com/)" | <https://aka.ms/hacktoberfest> |
 | SendGrid | "swag" | Contribute to a [SendGrid](https://github.com/sendgrid) project. | <https://sendgrid.com/blog/hacktoberfest-2018-hack-on-sendgrid-open-source-projects/> |
 | Sylabs | 💻 Linux ready DELL XPS 13” laptop | "to the top Singularity OSS contributor" | <https://www.sylabs.io/2018/09/singularity-hacktoberfest-2018/> |
+| Ada Programmers | ☕️ Make with Ada mug | "to the first 10 people reaching the 5 pull-requests goal with at least one Ada/SPARK pull-request" | <https://twitter.com/adaprogrammers/status/1046736295052095489/> |
 
 [View some of this cool swag on Twitter.](https://twitter.com/search?q=%23hacktoberfest%20%23swag)
 
