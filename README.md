@@ -19,7 +19,7 @@ In all of the hacktoberfest excitement, many companies want to join the celebrat
 
 | Who / Sponsors | What | How | Additional Details |
 | :---: | :---: | :---: | --- |
-| DigitalOcean + GitHub + twilio | 👕 + Stickers | Five pull requests must be made to GitHub-hosted repositories. | <https://hacktoberfest.digitalocean.com/> |
+| **DigitalOcean + GitHub + twilio** | **👕 + Stickers** | **Five pull requests must be made to GitHub-hosted repositories.** | **<https://hacktoberfest.digitalocean.com/>** |
 | Ada Programmers | ☕️ Make with Ada mug | "to the first 10 people reaching the 5 pull-requests goal with at least one Ada/SPARK pull-request" | <https://twitter.com/adaprogrammers/status/1046736295052095489/> |
 | Auth0 | 👕 + "psychedelic sticker pack" | Contribute to an [Auth0 Project](https://github.com/auth0) or [Community](https://github.com/auth0-community). | <https://auth0.com/blog/celebrate-hacktoberfest-with-auth0/> |
 | Hasura | "swag" | "PRs merged into the [GraphQL Engine repo](https://github.com/hasura/graphql-engine)" | <https://blog.hasura.io/announcing-hacktoberfest-2018-with-hasura-621045dc9560> |
