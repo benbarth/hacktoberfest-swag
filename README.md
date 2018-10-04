@@ -27,6 +27,7 @@ In all of the hacktoberfest excitement, many companies want to join the celebrat
 | OpenEBS | 👕 + Stickers + 💻 | "anyone who submits a pull request to one of our [github repos](https://github.com/openebs)" gets a 👕, BEST PR Gets 💻 | <https://openebs.io/hackfests/hacktoberfest-2018> |
 | SendGrid | 👕 | Five accepted pull requests to [SendGrid repositories](https://github.com/sendgrid). | <https://sendgrid.com/blog/hacktoberfest-2018-has-arrived/> |
 | Sylabs | 💻 Linux ready DELL XPS 13” laptop | "to the top Singularity OSS contributor" | <https://www.sylabs.io/2018/09/singularity-hacktoberfest-2018/> |
+| Umbraco | "swag" | "everybody who sends us a pull request during October that is accepted to be merged (even if we for some reason don’t get around to merging it during October 😉)" | <https://umbraco.com/blog/happy-hacktoberfest/> |
 
 [View some of this cool swag on Twitter.](https://twitter.com/search?q=%23hacktoberfest%20%23swag)
 
