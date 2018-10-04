@@ -25,7 +25,7 @@ In all of the hacktoberfest excitement, many companies want to join the celebrat
 | Hasura | 👕 + Stickers | "PRs merged into the [GraphQL Engine repo](https://github.com/hasura/graphql-engine)" | <https://blog.hasura.io/announcing-hacktoberfest-2018-with-hasura-621045dc9560> |
 | Microsoft | 👕 | "anyone who submits a pull request to one of our [open source projects](https://opensource.microsoft.com/)" | <https://aka.ms/hacktoberfest> |
 | OpenEBS | 👕 + Stickers + 💻 | "anyone who submits a pull request to one of our [github repos](https://github.com/openebs)" gets a 👕, BEST PR Gets 💻 | <https://openebs.io/hackfests/hacktoberfest-2018> |
-| SendGrid | 👕 | Five accepted pull requests to [SendGrid repositories](https://github.com/sendgrid). | <https://sendgrid.com/blog/hacktoberfest-2018-has-arrived/> |
+| SendGrid | 👕 | Contribute 5 `difficulty: easy` or 2 `difficulty: medium` or 1 `difficulty: hard` or greater PRs to [SendGrid repositories](https://github.com/sendgrid) to receive swag kit. | <https://sendgrid.com/blog/hacktoberfest-2018-has-arrived/> |
 | Sylabs | 💻 Linux ready DELL XPS 13” laptop | "to the top Singularity OSS contributor" | <https://www.sylabs.io/2018/09/singularity-hacktoberfest-2018/> |
 | Umbraco | "swag" | "everybody who sends us a pull request during October that is accepted to be merged (even if we for some reason don’t get around to merging it during October 😉)" | <https://umbraco.com/blog/happy-hacktoberfest/> |
 
