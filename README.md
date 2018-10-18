@@ -28,6 +28,7 @@ In all of the hacktoberfest excitement, many companies want to join the celebrat
 | Auth0 | 👕 + "psychedelic sticker pack" | Contribute to an [Auth0 Project](https://github.com/auth0) or [Community](https://github.com/auth0-community). | <https://auth0.com/blog/celebrate-hacktoberfest-with-auth0/> |
 | Hasura | 👕 + Stickers | "PRs merged into the [GraphQL Engine repo](https://github.com/hasura/graphql-engine)" | <https://blog.hasura.io/announcing-hacktoberfest-2018-with-hasura-621045dc9560> |
 | Kong | 👕 | "everyone who gets a PR accepted to a Kong repo can also get a sweet Kong Contributor T-shirt!" | <https://discuss.konghq.com/t/contribute-to-kong-for-hacktoberfest/2029> |
+| LBRY | 👕 | "A sweet T-shirt for anyone who submits 3 PRs." | <https://lbry.io/news/hacktoberfest> |
 | Magento | 👕 | "if you submit 5 or more pull requests or validate 10 or more issues in the month of October, you will receive one of our #SQUASHTOBERFEST t-shirts" | <https://github.com/magento/magento2/wiki/SQUASHTOBERFEST-2018#what-can-i-get> |
 | Microsoft | 👕 | "anyone who submits a pull request to one of our [open source projects](https://opensource.microsoft.com/)" | <https://aka.ms/hacktoberfest> |
 | Nexmo | 👕 | "If you get at least one pull request merged on any Nexmo repo between October 1st – 31st, we’ll ship you a free special edition Nexmo t-shirt." | <https://www.nexmo.com/blog/2018/10/09/join-nextoberfest-tis-the-season-to-be-hacking-dr/> |
