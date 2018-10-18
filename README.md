@@ -28,6 +28,7 @@ In all of the hacktoberfest excitement, many companies want to join the celebrat
 | Hasura | 👕 + Stickers | "PRs merged into the [GraphQL Engine repo](https://github.com/hasura/graphql-engine)" | <https://blog.hasura.io/announcing-hacktoberfest-2018-with-hasura-621045dc9560> |
 | Kong | 👕 | "everyone who gets a PR accepted to a Kong repo can also get a sweet Kong Contributor T-shirt!" | <https://discuss.konghq.com/t/contribute-to-kong-for-hacktoberfest/2029> |
 | Microsoft | 👕 | "anyone who submits a pull request to one of our [open source projects](https://opensource.microsoft.com/)" | <https://aka.ms/hacktoberfest> |
+| Nexmo | 👕 | "If you get at least one pull request merged on any Nexmo repo between October 1st – 31st, we’ll ship you a free special edition Nexmo t-shirt." | <https://www.nexmo.com/blog/2018/10/09/join-nextoberfest-tis-the-season-to-be-hacking-dr/> |
 | OpenEBS | 👕 + Stickers + 💻 | "anyone who submits a pull request to one of our [github repos](https://github.com/openebs)" gets a 👕, BEST PR Gets 💻 | <https://openebs.io/hackfests/hacktoberfest-2018> |
 | SendGrid | 👕 | Contribute 5 `difficulty: easy` or 2 `difficulty: medium` or 1 `difficulty: hard` or greater PRs to [SendGrid repositories](https://github.com/sendgrid) to receive swag kit. | <https://sendgrid.com/blog/hacktoberfest-2018-has-arrived/> |
 | Sylabs | 💻 Linux ready DELL XPS 13” laptop | "to the top Singularity OSS contributor" | <https://www.sylabs.io/2018/09/singularity-hacktoberfest-2018/> |
