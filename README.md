@@ -35,7 +35,11 @@ In all of the hacktoberfest excitement, many companies want to join the celebrat
 
 [View some of this cool swag on Twitter.](https://twitter.com/search?q=%23hacktoberfest%20%23swag)
 
+
 ## Contribute
+
 Looking for a Hacktoberfest issue? 👉 <https://github.com/search?utf8=✓&q=label%3AHacktoberfest&type=Issues>
+
 Looking for a good first issue? 👉 <https://github.com/search?utf8=✓&q=label%3A"good+first+issue"&type=Issues>
+
 Know of another hacktoberfast swag opportunity? Send a [pull request](https://github.com/benbarth/hacktoberfest-swag/pulls)!
