@@ -26,13 +26,13 @@ In all of the hacktoberfest excitement, many companies want to join the celebrat
 | Ada Programmers | ☕️ Make with Ada mug | "to the first 10 people reaching the 5 pull-requests goal with at least one Ada/SPARK pull-request" | <https://twitter.com/adaprogrammers/status/1046736295052095489/> |
 | Auth0 | 👕 + "psychedelic sticker pack" | Contribute to an [Auth0 Project](https://github.com/auth0) or [Community](https://github.com/auth0-community). | <https://auth0.com/blog/celebrate-hacktoberfest-with-auth0/> |
 | Hasura | 👕 + Stickers | "PRs merged into the [GraphQL Engine repo](https://github.com/hasura/graphql-engine)" | <https://blog.hasura.io/announcing-hacktoberfest-2018-with-hasura-621045dc9560> |
+| Kong | 👕 | "everyone who gets a PR accepted to a Kong repo can also get a sweet Kong Contributor T-shirt!" | <https://discuss.konghq.com/t/contribute-to-kong-for-hacktoberfest/2029> |
 | Microsoft | 👕 | "anyone who submits a pull request to one of our [open source projects](https://opensource.microsoft.com/)" | <https://aka.ms/hacktoberfest> |
 | OpenEBS | 👕 + Stickers + 💻 | "anyone who submits a pull request to one of our [github repos](https://github.com/openebs)" gets a 👕, BEST PR Gets 💻 | <https://openebs.io/hackfests/hacktoberfest-2018> |
 | SendGrid | 👕 | Contribute 5 `difficulty: easy` or 2 `difficulty: medium` or 1 `difficulty: hard` or greater PRs to [SendGrid repositories](https://github.com/sendgrid) to receive swag kit. | <https://sendgrid.com/blog/hacktoberfest-2018-has-arrived/> |
 | Sylabs | 💻 Linux ready DELL XPS 13” laptop | "to the top Singularity OSS contributor" | <https://www.sylabs.io/2018/09/singularity-hacktoberfest-2018/> |
 | Typeform | "swag" | "We will have special Typeform swag to celebrate your contributions to Typeform projects during Hacktoberfest 😉" | <https://medium.com/typeforms-engineering-blog/get-involved-in-open-source-participate-to-hacktoberfest-with-typeform-278b4fa4cf19> |
 | Umbraco | "swag" | "everybody who sends us a pull request during October that is accepted to be merged (even if we for some reason don’t get around to merging it during October 😉)" | <https://umbraco.com/blog/happy-hacktoberfest/> |
-| Kong | 👕 | "everyone who gets a PR accepted to a Kong repo can also get a sweet Kong Contributor T-shirt!" | <https://discuss.konghq.com/t/contribute-to-kong-for-hacktoberfest/2029>
 
 [View some of this cool swag on Twitter.](https://twitter.com/search?q=%23hacktoberfest%20%23swag)
 
