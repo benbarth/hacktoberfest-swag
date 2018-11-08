@@ -1,6 +1,6 @@
 ![Hacktoberfest](https://user-images.githubusercontent.com/121322/45907730-f6a80b00-bdad-11e8-93ef-774392192716.png "Hacktoberfest") Photo Credit: <https://blog.github.com/2018-09-24-hacktoberfest-is-back-and-celebrating-its-fifth-year/>
 
-### Hacktoberfest 2018 is over. Come back next year to see new swag opportunities.
+## Hacktoberfest 2018 is over. Come back next year to see new swag opportunities.
 
 # Hacktoberfest 2018 Swag
 
