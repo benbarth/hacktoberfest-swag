@@ -14,7 +14,7 @@ Looking for hacktoberfest swag? You've come to the right place.
 ## What is hacktoberfest?
 "Hacktoberfest is a month-long celebration of open source software." - DigitalOcean
 
-Hacktoberfest is open to everyone. For the [official limited edition Hacktoberfest shirt](https://hacktoberfest.digitalocean.com/), _you must register and make four pull requests_ in the month of October - you can even contribute to this repository! You can sign up at https://hacktoberfest.digitalocean.com/.
+Hacktoberfest is open to everyone. For the [official limited edition Hacktoberfest shirt](https://hacktoberfest.digitalocean.com/), _you must register and make four pull requests_ in the month of October - you can even contribute to this repository! You can sign up at <https://hacktoberfest.digitalocean.com>.
 
 Hacktoberfest® encourages participation in the open source community.
 
