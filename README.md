@@ -1,4 +1,5 @@
-![Hacktoberfest](https://hacktoberfest.digitalocean.com/HF19_logo.png "Hacktoberfest")
+![Hacktoberfest](https://user-images.githubusercontent.com/81188/65630460-c6ed9d80-dfd5-11e9-9f6a-dcfcda4e6e74.png "Hacktoberfest")
+
 
 # Hacktoberfest 2019 Swag
 
@@ -23,6 +24,7 @@ In all of the hacktoberfest excitement, many companies want to join the celebrat
 | Who / Sponsors | What | How | Additional Details |
 | :---: | :---: | :---: | --- |
 | **DigitalOcean + DEV** | **![Shirt](icons/tshirt-greyscale.png) ![Stickers](icons/stickers-greyscale.png)** | **Four pull requests to any public repo on GitHub.** | **<https://hacktoberfest.digitalocean.com/>** (Verified 2019) |
+| Appwrite | ![Swag](icons/swag-greyscale.png) | Create at least one or more merged pull requests on any of Appwrite repos. | <https://medium.com/appwrite-io/hacktoberfest-2019-is-almost-here-lets-celebrate-it-together-24b311236dd> (Verified 2019) |
 | Ada Programmers | ![Mug](icons/mug-greyscale.png) | "to the first 10 people reaching the 5 pull-requests goal with at least one Ada/SPARK pull-request" | <https://twitter.com/adaprogrammers/status/1046736295052095489/> (Verified 2018) |
 | Aras Labs | ![Shirt](icons/tshirt-greyscale.png) ![Stickers](icons/stickers-greyscale.png) | 1 PR: Sticker pack from Aras, 5 PRs: Exclusive t-shirt from Aras, new Aras Community Project: Sticker pack from Aras and Exclusive t-shirt from Aras | <http://community.aras.com/en/join-aras-labs-hacktoberfest-2018/> (Verified 2018) |
 | Auth0 | ![Shirt](icons/tshirt-greyscale.png) ![Stickers](icons/stickers-greyscale.png) | Contribute to an [Auth0 Project](https://github.com/auth0) or [Community](https://github.com/auth0-community). | <https://auth0.com/blog/celebrate-hacktoberfest-with-auth0/> (Verified 2018) |
