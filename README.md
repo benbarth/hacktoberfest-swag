@@ -1,5 +1,4 @@
-![Hacktoberfest](https://user-images.githubusercontent.com/81188/65630460-c6ed9d80-dfd5-11e9-9f6a-dcfcda4e6e74.png "Hacktoberfest")
-
+![Hacktoberfest](https://hacktoberfest.digitalocean.com/assets/logo-hf19-header-8245176fe235ab5d942c7580778a914110fa06a23c3d55bf40e2d061809d8785.svg "Hacktoberfest")
 
 # Hacktoberfest 2019 Swag
 
