@@ -39,6 +39,7 @@ In all of the hacktoberfest excitement, many companies want to join the celebrat
 | Source{d} | ![Swag](icons/swag-greyscale.png) ![Stickers](icons/stickers-greyscale.png) | Contribute to any [github repo](https://github.com/src-d) and get limited edition swag + stickers. Complete this [form](https://go.sourced.tech/hacktoberfest) to make sure we take your participation into account. | <https://medium.com/sourcedtech/celebrating-open-source-with-hacktoberfest-2018-7283cfc6666b> (Verified 2018) |
 | Sylabs | ![Laptop](icons/laptop-greyscale.png) | DELL XPS 13” laptop "to the top Singularity OSS contributor" | <https://www.sylabs.io/2018/09/singularity-hacktoberfest-2018/> (Verified 2018) |
 | Typeform | ![Swag](icons/swag-greyscale.png) | "We will have special Typeform swag to celebrate your contributions to Typeform projects during Hacktoberfest 😉" | <https://medium.com/typeforms-engineering-blog/get-involved-in-open-source-participate-to-hacktoberfest-with-typeform-278b4fa4cf19> (Verified 2018) |
+
 <!-- Umbraco does not want to be on any swag lists. https://twitter.com/cultiv/status/1176901157429682177 (Verified 2019) -->
 
 [View some of this cool swag on Twitter.](https://twitter.com/search?q=%23hacktoberfest%20%23swag)
