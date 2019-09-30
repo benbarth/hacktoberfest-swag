@@ -1,4 +1,9 @@
-language: ruby
-rvm: 2.4.1
-before_script: gem install awesome_bot
-script: awesome_bot README.md --allow-redirect --white-list https://hacktoberfest.digitalocean.com/,https://github.com/search
+matrix:
+  include:
+    - language: ruby
+      rvm: 2.4.1
+      before_script: gem install awesome_bot
+      script: awesome_bot README.md --allow-redirect --white-list https://hacktoberfest.digitalocean.com/,https://github.com/search
+    - language: python
+      rvm: 3.7
+      script: python validate-alphabetical.py README.md
