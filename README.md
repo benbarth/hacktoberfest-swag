@@ -40,7 +40,7 @@ In all of the hacktoberfest excitement, many companies want to join the celebrat
 | Sylabs | ![Laptop](icons/laptop-greyscale.png) | DELL XPS 13” laptop "to the top Singularity OSS contributor" | <https://www.sylabs.io/2018/09/singularity-hacktoberfest-2018/> (Verified 2018) |
 | Typeform | ![Swag](icons/swag-greyscale.png) | "We will have special Typeform swag to celebrate your contributions to Typeform projects during Hacktoberfest 😉" | <https://medium.com/typeforms-engineering-blog/get-involved-in-open-source-participate-to-hacktoberfest-with-typeform-278b4fa4cf19> (Verified 2018) |
 | Uno | ![Shirt](icons/tshirt-greyscale.png) | "anyone who contributes a pull request to the Uno Platform on GitHub between October 1 and October 31 will receive a Uno Platform T-shirt plus some limited edition swag." | <https://platform.uno/uno-is-joining-hacktoberfest-2019/> (Verified 2019) |
-| Opsdroid | ![Swag](icons/swag-greyscale.png) | "anyone who contributes a pull request to the Uno Platform on GitHub between October 1 and October 31 will receive Stickers, Limited-Edition Stickers" | <https://medium.com/opsdroid/contributor-sticker-packs-738058ceda59/> (Verified 2019) |
+| Opsdroid | ![Swag](icons/swag-greyscale.png) | "Once you’ve made your contribution fill in the claim form with your information. Then your contributor sticker pack will be sent out in the next batch (usually with each release)" | <https://medium.com/opsdroid/contributor-sticker-packs-738058ceda59/> (Verified 2019) |
 
 <!-- Umbraco does not want to be on any swag lists. https://twitter.com/cultiv/status/1176901157429682177 (Verified 2019) -->
 
