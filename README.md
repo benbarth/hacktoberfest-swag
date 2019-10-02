@@ -36,8 +36,8 @@ In all of the hacktoberfest excitement, many companies want to join the celebrat
 | Opsdroid | ![Stickers](icons/stickers-greyscale.png) | "Solve issues or improve documentation. 5–10 contributions is probably sticker worthy" | <https://medium.com/opsdroid/contributor-sticker-packs-738058ceda59> (Verified 2019) |
 | Parity | ![Gym Bag](icons/swag-greyscale.png) | anyone who makes a significant contribution is eligible for a limited edition gym bag | <https://www.parity.io/hacktoberfest-2019-parity/> (Verified 2019) |
 | Uno | ![Shirt](icons/tshirt-greyscale.png) ![Swag](icons/swag-greyscale.png) | "anyone who contributes a pull request to the Uno Platform on GitHub between October 1 and October 31 will receive a Uno Platform T-shirt plus some limited edition swag." | <https://platform.uno/uno-is-joining-hacktoberfest-2019/> (Verified 2019) |
-| Umbarco | ![Stickers](icons/stickers-greyscale.png) ![Swag](icons/swag-greyscale.png) | 1 PR: pen and sticker. 3 PRs: notepad or wooden phone stand. 5 PRs: pen, sticker, notepad, and a wooden phone stand. | <https://valor-software.com/articles/hacktoberfest-2019-is-coming-and-ngx-bootstrap-strives-for-your-attention.html> (Verified 2019) |
-| Valor | ![Stickers](icons/stickers-greyscale.png) ![Swag](icons/shirt-greyscale.png) | In order to get some of this swag, you’ll need to have at least 1 PR approved on any Umbraco repository. | <https://umbraco.com/blog/hacktoberfest-2019/> (Verified 2019) |
+| Umbarco | ![Stickers](icons/stickers-greyscale.png) ![Swag](icons/tshirt-greyscale.png) | In order to get some of this swag, you’ll need to have at least 1 PR approved on any Umbraco repository. | <https://umbraco.com/blog/hacktoberfest-2019/> (Verified 2019) |
+| Valor | ![Stickers](icons/stickers-greyscale.png) ![Swag](icons/swag-greyscale.png) | 1 PR: pen and sticker. 3 PRs: notepad or wooden phone stand. 5 PRs: pen, sticker, notepad, and a wooden phone stand. | <https://valor-software.com/articles/hacktoberfest-2019-is-coming-and-ngx-bootstrap-strives-for-your-attention.html> (Verified 2019) |
 
 [View some of this cool swag on Twitter.](https://twitter.com/search?q=%23hacktoberfest%20%23swag)
 
