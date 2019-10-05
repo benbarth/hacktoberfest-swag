@@ -28,7 +28,7 @@ def validateAlphabetical(markdownFilePath):
                     values.append(firstColumn)
             tableRow += 1
     
-    if values != sorted(values):
+    if values != sorted(values, key=str.casefold):
         print ("Error: The first column of the table is not alphabetical.")
 
         for value in values:
