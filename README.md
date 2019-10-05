@@ -24,27 +24,30 @@ In all of the hacktoberfest excitement, many companies want to join the celebrat
 | :---: | :---: | :---: | --- |
 | **DigitalOcean + DEV** | **![Shirt](icons/tshirt-greyscale.png) ![Stickers](icons/stickers-greyscale.png)** | **Four pull requests to any public repo on GitHub.** | **<https://hacktoberfest.digitalocean.com/>** (Verified 2019) |
 | Accord | ![Shirt](icons/tshirt-greyscale.png) ![Stickers](icons/stickers-greyscale.png) | Create one or more merged pull requests to Accord Project. | <https://www.accordproject.org/events/hacktoberfest-2019/> (Verified 2019) |
-| Ada Programmers | ![Mug](icons/mug-greyscale.png) | "to the first 10 people reaching the 5 pull-requests goal with at least one Ada/SPARK pull-request" | <https://twitter.com/adaprogrammers/status/1046736295052095489/> (Verified 2018) |
 | Appwrite | ![Swag](icons/swag-greyscale.png) | Create one or more merged pull requests to any Appwrite repository. | <https://medium.com/appwrite-io/hacktoberfest-2019-is-almost-here-lets-celebrate-it-together-24b311236dd> (Verified 2019) |
 | Aras Labs | ![Shirt](icons/tshirt-greyscale.png) ![Stickers](icons/stickers-greyscale.png) | 1 PR: Sticker pack from Aras, 5 PRs: Exclusive t-shirt from Aras, new Aras Community Project: Sticker pack from Aras and Exclusive t-shirt from Aras | <http://community.aras.com/en/join-aras-labs-hacktoberfest-2018/> (Verified 2018) |
 | Circle CI | ![Shirt](icons/tshirt-greyscale.png) ![Stickers](icons/stickers-greyscale.png) | 1 to 3 pull requests: Limited-Edition Sticker. 4+ pull requests: Limited-Edition T-shirt | <https://circleci-public.github.io/hacktoberfest/#/> (Verified 2019) |
-| Hasura | ![Shirt](icons/tshirt-greyscale.png) ![Stickers](icons/stickers-greyscale.png) | "PRs merged into the [GraphQL Engine repo](https://github.com/hasura/graphql-engine)" | <https://blog.hasura.io/announcing-hacktoberfest-2018-with-hasura-621045dc9560> (Verified 2018) |
+| Devfolio | ![Shirt](icons/tshirt-greyscale.png) ![Stickers](icons/stickers-greyscale.png) | 4 or more pull requests: Limited-Edition Sticker, If your PRs turn out to be exceptional: Limited-Edition T-shirt | <https://devfolio.co/blog/hacktoberfest-2019-devfolio/> (Verified 2019) |
+| Hasura | ![Shirt](icons/tshirt-greyscale.png) ![Stickers](icons/stickers-greyscale.png) | "Make a PR to [The Hasura GraphQL Engine](https://github.com/hasura/graphql-engine) or [The GraphQL Tutorial Series](https://github.com/hasura/learn-graphql). 2 hacktoberfest PRs for a 👕." | <https://blog.hasura.io/hasura-joins-hacktoberfest-2019/> (Verified 2019) |
+| JabRef | ![Shirt](icons/tshirt-greyscale.png) ![Stickers](icons/stickers-greyscale.png) | 1 merged pull request: sticker, 5 merged pull requests: 👕. Any repo on <https://github.com/jabref/>. | <https://www.jabref.org/hacktoberfest/2019.html> (Verified 2019) |
 | Kong | ![Shirt](icons/tshirt-greyscale.png) | "everyone who gets a PR accepted to a Kong repo can also get a sweet Kong Contributor T-shirt!" | <https://discuss.konghq.com/t/contribute-to-kong-for-hacktoberfest/2029> (Verified 2018) |
+
 | LadybugTools | ![Stickers](icons/stickers-greyscale.png) | 1 or more Pull Requests: Stickers. | <https://discourse.ladybug.tools/t/celebrate-hacktoberfest-2019-with-ladybug-tools/7314> (Verified 2019) |
 | LBRY | ![Shirt](icons/tshirt-greyscale.png) | "A sweet T-shirt for anyone who submits 3 PRs." | <https://lbry.io/news/hacktoberfest> (Verified 2018) |
 | Magento | ![Shirt](icons/tshirt-greyscale.png) | "if you submit 5 or more pull requests or validate 10 or more issues in the month of October, you will receive one of our #SQUASHTOBERFEST t-shirts" | <https://github.com/magento/magento2/wiki/SQUASHTOBERFEST-2018#what-can-i-get> (Verified 2018) |
+| MayaData | ![Shirt](icons/tshirt-greyscale.png) ![Stickers](icons/stickers-greyscale.png) ![Laptop](icons/laptop-greyscale.png) | "anyone who submits a pull request to one of our [github repos](https://github.com/openebs)" gets a 👕, BEST PR gets a 💻 | <https://blog.mayadata.io/mayadata-celebrates-hacktoberfest-2019> (Verified 2019) |
 | Microsoft | ![Shirt](icons/tshirt-greyscale.png) | "anyone who submits a pull request to one of our [open source projects](https://opensource.microsoft.com/)" | <https://aka.ms/hacktoberfest> (Verified 2018) |
 | OpenBazaar | ![Shirt](icons/tshirt-greyscale.png) ![Swag](icons/swag-greyscale.png) | Contribute to OpenBazaar. Also accepts contributions outside of GitHub. (See blog post for details) | <https://openbazaar.org/blog/Hacktoberfest-with-OpenBazaar-Help-Make-Trade-Free-Get-Rewards> (Verified 2018) |
 | OpenEBS | ![Shirt](icons/tshirt-greyscale.png) ![Stickers](icons/stickers-greyscale.png) ![Laptop](icons/laptop-greyscale.png) | "anyone who submits a pull request to one of our [github repos](https://github.com/openebs)" gets a 👕, BEST PR Gets 💻 | <https://openebs.io/hackfests/hacktoberfest-2018> (Verified 2018) |
 | Operation Code | ![Shirt](icons/tshirt-greyscale.png) ![Stickers](icons/stickers-greyscale.png) | "Resolve 3 issues and receive a white or black t-shirt! Merge 2 pull requests and receive stickers!" | <https://github.com/OperationCode/START_HERE> (Verified 2019) |
 | Opsdroid | ![Stickers](icons/stickers-greyscale.png)| "Solve issues or improve documentation. 5–10 contributions is probably sticker worthy" | <https://medium.com/opsdroid/contributor-sticker-packs-738058ceda59> (Verified 2019) |
 | Parity | ![Gym Bag](icons/swag.png) | anyone who makes a significant contribution is eligible for a limited edition gym bag | <https://www.parity.io/hacktoberfest-2019-parity/> (Verified 2019) |
+| QMK | ![Shirt](icons/tshirt-greyscale.png) | Interact 4 times with a [QMK repo](https://github.com/qmk) | <https://hacktoberfest.qmk.fm/> (Verified 2019)
 | Source{d} | ![Swag](icons/swag-greyscale.png) ![Stickers](icons/stickers-greyscale.png) | Contribute to any [github repo](https://github.com/src-d) and get limited edition swag + stickers. Complete this [form](https://go.sourced.tech/hacktoberfest) to make sure we take your participation into account. | <https://medium.com/sourcedtech/celebrating-open-source-with-hacktoberfest-2018-7283cfc6666b> (Verified 2018) |
 | Sylabs | ![Laptop](icons/laptop-greyscale.png) | DELL XPS 13” laptop "to the top Singularity OSS contributor" | <https://www.sylabs.io/2018/09/singularity-hacktoberfest-2018/> (Verified 2018) |
 | Typeform | ![Swag](icons/swag-greyscale.png) | "We will have special Typeform swag to celebrate your contributions to Typeform projects during Hacktoberfest 😉" | <https://medium.com/typeforms-engineering-blog/get-involved-in-open-source-participate-to-hacktoberfest-with-typeform-278b4fa4cf19> (Verified 2018) |
 | Uno | ![Shirt](icons/tshirt-greyscale.png) | "anyone who contributes a pull request to the Uno Platform on GitHub between October 1 and October 31 will receive a Uno Platform T-shirt plus some limited edition swag." | <https://platform.uno/uno-is-joining-hacktoberfest-2019/> (Verified 2019) |
-
-<!-- Umbraco does not want to be on any swag lists. https://twitter.com/cultiv/status/1176901157429682177 (Verified 2019) -->
+| Valor | ![Stickers](icons/stickers-greyscale.png) ![Swag](icons/swag-greyscale.png) | 1 PR: pen and sticker. 3 PRs: notepad or wooden phone stand. 5 PRs: pen, sticker, notepad, and a wooden phone stand. | <https://valor-software.com/articles/hacktoberfest-2019-is-coming-and-ngx-bootstrap-strives-for-your-attention.html> (Verified 2019) |
 
 [View some of this cool swag on Twitter.](https://twitter.com/search?q=%23hacktoberfest%20%23swag)
 
@@ -58,4 +61,4 @@ Looking for a Hacktoberfest issue? 👉 <https://github.com/search?utf8=✓&q=la
 
 Looking for a good first issue? 👉 <https://github.com/search?utf8=✓&q=label%3A"good+first+issue"&type=Issues> or go to [Up For Grabs](https://up-for-grabs.net/#/).
 
-Know of another hacktoberfast swag opportunity? Send a [pull request](https://github.com/benbarth/hacktoberfest-swag/pulls)!
+Know of another hacktoberfest swag opportunity? Send a [pull request](https://github.com/benbarth/hacktoberfest-swag/pulls)!
