@@ -31,8 +31,8 @@ In all of the hacktoberfest excitement, many companies want to join the celebrat
 | Hasura | ![Shirt](icons/tshirt-greyscale.png) ![Stickers](icons/stickers-greyscale.png) | "Make a PR to [The Hasura GraphQL Engine](https://github.com/hasura/graphql-engine) or [The GraphQL Tutorial Series](https://github.com/hasura/learn-graphql). 2 hacktoberfest PRs for a 👕." | <https://blog.hasura.io/hasura-joins-hacktoberfest-2019/> (Verified 2019) |
 | JabRef | ![Shirt](icons/tshirt-greyscale.png) ![Stickers](icons/stickers-greyscale.png) | 1 merged pull request: sticker, 5 merged pull requests: 👕. Any repo on <https://github.com/jabref/>. | <https://www.jabref.org/hacktoberfest/2019.html> (Verified 2019) |
 | Kong | ![Shirt](icons/tshirt-greyscale.png) | "everyone who gets a PR accepted to a Kong repo can also get a sweet Kong Contributor T-shirt!" | <https://discuss.konghq.com/t/contribute-to-kong-for-hacktoberfest/2029> (Verified 2018) |
-| LadybugTools | ![Stickers](icons/stickers-greyscale.png) | 1 or more pull request | <https://discourse.ladybug.tools/t/celebrate-hacktoberfest-2019-with-ladybug-tools/7314> (Verified 2019) |
 | LBRY | ![Shirt](icons/tshirt-greyscale.png) | "A sweet T-shirt for anyone who submits 3 PRs." | <https://lbry.io/news/hacktoberfest> (Verified 2018) |
+| LadybugTools | ![Stickers](icons/stickers-greyscale.png) | 1 or more pull request | <https://discourse.ladybug.tools/t/celebrate-hacktoberfest-2019-with-ladybug-tools/7314> (Verified 2019) |
 | Magento | ![Shirt](icons/tshirt-greyscale.png) | "submit 5 pull requests to either <https://github.com/magento> or <https://github.com/adobe>" | <https://community.magento.com/t5/Magento-DevBlog/Squashtoberfest-2019/ba-p/143694> (Verified 2019) |
 | MayaData | ![Shirt](icons/tshirt-greyscale.png) ![Stickers](icons/stickers-greyscale.png) ![Laptop](icons/laptop-greyscale.png) | "anyone who submits a pull request to one of our [github repos](https://github.com/openebs)" gets a 👕, BEST PR gets a 💻 | <https://blog.mayadata.io/mayadata-celebrates-hacktoberfest-2019> (Verified 2019) |
 | Operation Code | ![Shirt](icons/tshirt-greyscale.png) ![Stickers](icons/stickers-greyscale.png) | "Resolve 3 issues and receive a white or black t-shirt! Merge 2 pull requests and receive stickers!" | <https://github.com/OperationCode/START_HERE> (Verified 2019) |
@@ -42,7 +42,6 @@ In all of the hacktoberfest excitement, many companies want to join the celebrat
 | Umbraco | ![Swag](icons/swag-greyscale.png) | "you’ll need to have at least 1 PR approved on any Umbraco repository" | <https://umbraco.com/blog/hacktoberfest-2019/> (Verified 2019) |
 | Uno | ![Shirt](icons/tshirt-greyscale.png) ![Swag](icons/swag-greyscale.png) | "anyone who contributes a pull request to the Uno Platform on GitHub between October 1 and October 31 will receive a Uno Platform T-shirt plus some limited edition swag." | <https://platform.uno/uno-is-joining-hacktoberfest-2019/> (Verified 2019) |
 | Valor | ![Stickers](icons/stickers-greyscale.png) ![Swag](icons/swag-greyscale.png) | 1 PR: pen and sticker. 3 PRs: notepad or wooden phone stand. 5 PRs: pen, sticker, notepad, and a wooden phone stand. | <https://valor-software.com/articles/hacktoberfest-2019-is-coming-and-ngx-bootstrap-strives-for-your-attention.html> (Verified 2019) |
-
 
 [View some of this cool swag on Twitter.](https://twitter.com/search?q=%23hacktoberfest%20%23swag)
 
