@@ -27,6 +27,7 @@ In all of the hacktoberfest excitement, many companies want to join the celebrat
 | Appwrite | ![Swag](icons/swag-greyscale.png) | Create one or more merged pull requests to any Appwrite repository. | <https://medium.com/appwrite-io/hacktoberfest-2019-is-almost-here-lets-celebrate-it-together-24b311236dd> (Verified 2019) |
 | Circle CI | ![Shirt](icons/tshirt-greyscale.png) ![Stickers](icons/stickers-greyscale.png) | 1 to 3 pull requests: Limited-Edition Sticker. 4+ pull requests: Limited-Edition T-shirt | <https://circleci-public.github.io/hacktoberfest/#/> (Verified 2019) |
 | Devfolio | ![Shirt](icons/tshirt-greyscale.png) ![Stickers](icons/stickers-greyscale.png) | 4 or more pull requests: Limited-Edition Sticker, If your PRs turn out to be exceptional: Limited-Edition T-shirt | <https://devfolio.co/blog/hacktoberfest-2019-devfolio/> (Verified 2019) |
+| Gatsby | ![Swag](icons/swag-greyscale.png) | "Swag: T-shirt, Stickers, Socks, Hats, Pants, Hoodies Requirements: 1 merged pull requests: Level 1 swag ; 5 merged pull requests: Level 2 swag" | <https://github.com/gatsbyjs/store.gatsbyjs.org> |
 | Hasura | ![Shirt](icons/tshirt-greyscale.png) ![Stickers](icons/stickers-greyscale.png) | "Make a PR to [The Hasura GraphQL Engine](https://github.com/hasura/graphql-engine) or [The GraphQL Tutorial Series](https://github.com/hasura/learn-graphql). 2 hacktoberfest PRs for a 👕." | <https://blog.hasura.io/hasura-joins-hacktoberfest-2019/> (Verified 2019) |
 | JabRef | ![Shirt](icons/tshirt-greyscale.png) ![Stickers](icons/stickers-greyscale.png) | 1 merged pull request: sticker, 5 merged pull requests: 👕. Any repo on <https://github.com/jabref/>. | <https://www.jabref.org/hacktoberfest/2019.html> (Verified 2019) |
 | Kong | ![Shirt](icons/tshirt-greyscale.png) | "If your Pull Request to Kong/kong was accepted, and it fixes a bug, adds functionality, or makes it significantly easier to use or understand Kong, congratulations! You are eligible to receive the very special Contributor T-shirt! Go ahead and fill out the Contributors Submissions form." | <https://github.com/Kong/kong/blob/master/CONTRIBUTING.md#contributor-t-shirt> (Verified 2019) |
@@ -43,10 +44,6 @@ In all of the hacktoberfest excitement, many companies want to join the celebrat
 | Umbraco | ![Swag](icons/swag-greyscale.png) | "you’ll need to have at least 1 PR approved on any Umbraco repository" | <https://umbraco.com/blog/hacktoberfest-2019/> (Verified 2019) |
 | Uno | ![Shirt](icons/tshirt-greyscale.png) ![Swag](icons/swag-greyscale.png) | "anyone who contributes a pull request to the Uno Platform on GitHub between October 1 and October 31 will receive a Uno Platform T-shirt plus some limited edition swag." | <https://platform.uno/uno-is-joining-hacktoberfest-2019/> (Verified 2019) |
 | Valor | ![Stickers](icons/stickers-greyscale.png) ![Swag](icons/swag-greyscale.png) | 1 PR: pen and sticker. 3 PRs: notepad or wooden phone stand. 5 PRs: pen, sticker, notepad, and a wooden phone stand. | <https://valor-software.com/articles/hacktoberfest-2019-is-coming-and-ngx-bootstrap-strives-for-your-attention.html> (Verified 2019) |
-| Gatsby | ![Swag](icons/swag-greyscale.png) | "Swag: T-shirt, Stickers, Socks, Hats, Pants, Hoodies 
-Requirements: 
-    1 merged pull requests: Level 1 swag
-    5 merged pull requests: Level 2 swag" | <https://github.com/gatsbyjs/store.gatsbyjs.org> |
 
 [View some of this cool swag on Twitter.](https://twitter.com/search?q=%23hacktoberfest%20%23swag)
 
