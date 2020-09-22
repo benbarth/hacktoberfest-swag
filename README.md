@@ -20,6 +20,8 @@ Hacktoberfest® encourages participation in the open source community.
 
 In all of the hacktoberfest excitement, many companies want to join the celebration by rewarding their contributors with even more swag! That's why we're here!
 
+**Quantity is fun, quality is key. Participating in Hacktoberfest leads to personal growth, professional opportunities, and community building. However, it all begins with meaningful contributions to open source software.**
+
 | Who / Sponsors | What | How | Additional Details |
 | :---: | :---: | :---: | --- |
 | **DigitalOcean + Sponsors** | **![Shirt](icons/tshirt-greyscale.png) ![Stickers](icons/stickers-greyscale.png)** | **Four pull requests to any public repo on GitHub.** | **[hacktoberfest.com](http://hacktoberfest.com/)** (Verified 2020) |
