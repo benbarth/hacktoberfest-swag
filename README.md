@@ -68,4 +68,4 @@ Looking for a Hacktoberfest issue? 👉 <https://github.com/search?utf8=✓&q=la
 
 Looking for a good first issue? 👉 <https://github.com/search?utf8=✓&q=label%3A"good+first+issue"&type=Issues> or go to [Up For Grabs](https://up-for-grabs.net/#/).
 
-Know of another hacktoberfest swag opportunity? Send a [pull request](https://github.com/benbarth/hacktoberfest-swag/pulls)!
+Know of another hacktoberfest swag opportunity? Send a [pull request](https://github.com/benbarth/hacktoberfest-swag/pulls)! (Don't forget to review our [contribution guidelines](contributing.md).)
