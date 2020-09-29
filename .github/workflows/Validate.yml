@@ -1,0 +1,31 @@
+---
+name: Validate
+
+on: [ push, pull_request ]
+
+jobs:
+  Validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+          architecture: x64
+          
+      - name: Set up Ruby 2.6
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.6.x
+      
+      - name: Validate Links
+        run: |
+          gem install awesome_bot
+          awesome_bot README.md --allow-redirect --white-list http://hacktoberfest.com/,https://hacktoberfest.com/,https://hacktoberfest.digitalocean.com/,https://github.com/search
+
+      - name: Validate Order
+        run: python validate-alphabetical.py README.md
