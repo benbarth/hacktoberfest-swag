@@ -2,11 +2,10 @@
 
 # Hacktoberfest 2020 Swag
 
-[![GitHub](https://img.shields.io/badge/-GitHub%20Project-brightgreen.svg?logo=github)](https://github.com/benbarth/hacktoberfest-swag)
-[![Web Version](https://img.shields.io/badge/-Web%20Version-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyBhcmlhLWxhYmVsbGVkYnk9InNpbXBsZWljb25zLWdvb2dsZWNocm9tZS1pY29uIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGUgaWQ9InNpbXBsZWljb25zLWdvb2dsZWNocm9tZS1pY29uIj5Hb29nbGUgQ2hyb21lIGljb248L3RpdGxlPjxwYXRoIGQ9Ik0xNi4yMTQgOC42OWw2LjcxNS0xLjY3OUExMi4wMjcgMTIuMDI3IDAgMCAxIDI0IDExLjk3MkMyNCAxOC41NyAxOC41NjkgMjQgMTEuOTY4IDI0Yy0uMzAyIDAtLjYwNS0uMDExLS45MDctLjAzNGw0LjkwNS04LjM0N2MuMzU2LS4zNzYuNjU1LS44MDMuODgxLTEuMjcxYTUuNDUxIDUuNDUxIDAgMCAwLS4wNDMtNC43NDggNS4xNTYgNS4xNTYgMCAwIDAtLjU5LS45MXptLTMuMjQgOC41NzVsLTIuMTIxIDYuNjgyQzQuNzM4IDIzLjM0NSAwIDE4LjE0IDAgMTEuOTc3IDAgOS41OTIuNzA5IDcuMjYgMi4wMzggNS4yNzlsNC44MzQgOC4zNzdjLjE4LjUzOSAxLjExOSAyLjU4MSAzLjA2NyAzLjMyNy45OTguMzgyIDIuMDQxLjQ4MSAzLjAzNS4yODJ6TTExLjk3MyA3LjYyYy0yLjAwNi4wMTktMy44NzggMS41NDQtNC4yODEgMy41MTJhNC40NzggNC40NzggMCAwIDAgMS4yMzcgNC4wMzJjMS4yMTQgMS4xODYgMy4xNCAxLjU3OCA0LjczNC45MjcgMS40MDgtLjU3NiAyLjQ3LTEuOTI3IDIuNjkxLTMuNDMxLjI3Mi0xLjg1Ni0uNzg4LTMuODMyLTIuNDk1LTQuNjI5YTQuNDEzIDQuNDEzIDAgMCAwLTEuODg2LS40MTF6TTcuMDQ2IDkuOTYyTDIuMjU5IDQuOTYzQTEyLjA0MyAxMi4wNDMgMCAwIDEgMTEuOTk3IDBjNC41NiAwIDguNzQ0IDIuNTkyIDEwLjc3NCA2LjY3NUgxMi41NThjLTEuODExLS4xMjUtMy4yODguNTItNC4yNjUgMS40NTNhNS4zNDUgNS4zNDUgMCAwIDAtMS4yNDcgMS44MzR6Ii8+PC9zdmc+)](https://benbarth.github.io/hacktoberfest-swag/)
-[![Actions Status](https://github.com/benbarth/hacktoberfest-swag/workflows/Validate/badge.svg)](https://github.com/benbarth/hacktoberfest-swag/actions)
-[![GitHub forks](https://img.shields.io/github/forks/benbarth/hacktoberfest-swag.svg?style=social&label=Fork)](https://github.com/benbarth/hacktoberfest-swag/fork)
-[![GitHub stars](https://img.shields.io/github/stars/benbarth/hacktoberfest-swag.svg?style=social&label=Stars)](https://github.com/benbarth/hacktoberfest-swag)
+[![Website](https://img.shields.io/badge/Website-visit-2a8?style=for-the-badge&logo=google-chrome&logoColor=white)](https://benbarth.github.io/hacktoberfest-swag/)
+[![Validation](https://img.shields.io/github/workflow/status/benbarth/hacktoberfest-swag/Validate/master?label=Validation&logo=github&style=for-the-badge)](https://github.com/benbarth/hacktoberfest-swag/actions?query=workflow%3AValidate)
+[![GitHub Forks](https://img.shields.io/github/forks/benbarth/hacktoberfest-swag.svg?style=for-the-badge&label=Forks)](https://github.com/benbarth/hacktoberfest-swag/fork)
+[![GitHub Stars](https://img.shields.io/github/stars/benbarth/hacktoberfest-swag.svg?style=for-the-badge&label=Stars)](https://github.com/benbarth/hacktoberfest-swag)
 
 
 Looking for hacktoberfest swag? You've come to the right place.
