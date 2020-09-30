@@ -1,0 +1,7 @@
+---
+Name: Webiny
+Website: https://www.webiny.com
+Swag:
+  - swag
+Description: "Find out about Webiny's hacktoberfest issues at our GitHub [project board](https://github.com/webiny/webiny-js/projects/12) to keep track of the hacks of October at Webiny Open Source projects 🥳\n\nGo through the `hacktoberfest` labeled issues on the Webiny Open Source projects [here](https://github.com/search?q=org%3Awebiny+label%3Ahacktoberfest).\n\nOr, you can grab one of the ideas from the notes in the [project board](https://github.com/webiny/webiny-js/projects/12) and open a new issue for it. Make sure to tag the newly created issue with the `hacktoberfest` label."
+Details: https://dev.to/webiny/webiny-hacktoberfest-2020-49h4

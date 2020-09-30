@@ -1,0 +1,7 @@
+---
+Name: SAP
+Website: https://www.sap.com
+Swag:
+  - swag
+Description: "A book from sap press for the user who create more pull requests in the ABAP Projects"
+Details: https://blogs.sap.com/2019/10/04/lets-code-share-and-learn.-calling-abapers-to-next-edition-of-hacktoberfest

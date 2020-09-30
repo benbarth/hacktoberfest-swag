@@ -1,0 +1,7 @@
+---
+Name: JetBrains
+Website: https://www.jetbrains.com
+Swag:
+  - swag
+Description: "If you complete Hacktoberfest (you’ve submitted four or more valid pull requests on GitHub), we will send you a coupon code covering 3 months of your new All Products Pack subscription at the end of the Hacktoberfest event. When that expires, you will also get 20% off an annual subscription. If you already have a personal license for a JetBrains tool, the same coupon code you get upon the Hacktoberfest completion will add 3 months to your existing subscription (any JetBrains IDE, .NET tool, or the All Products Pack)."
+Details: https://www.jetbrains.com/lp/hacktoberfest-2020

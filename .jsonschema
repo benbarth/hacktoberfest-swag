@@ -1,0 +1,90 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://json-schema.org/draft-07/schema#",
+    "description": "The root schema comprises the entire JSON document.",
+    "examples": [
+        {
+            "Name": "Acme Corporation",
+            "Website": "https://acme.corp",
+            "Swag": [
+                "stickers",
+                "shirt"
+            ],
+            "Description": "Create one or more merged pull requests.",
+            "Details": "https://acme.corp/blog/acme-hacktoberfest-2020/"
+        }
+    ],
+    "required": [
+        "Name",
+        "Website",
+        "Swag",
+        "Description",
+        "Details"
+    ],
+    "title": "The root schema",
+    "properties": {
+        "Name": {
+            "examples": [
+                "Acme Corporation"
+            ],
+            "title": "The Name schema"
+        },
+        "Website": {
+            "examples": [
+                "https://www.acme.corp"
+            ],
+            "title": "The Website schema",
+            "pattern": "^https?://"
+        },
+        "Swag": {
+            "examples": [
+                [
+                    "shirt",
+                    "swag"
+                ]
+            ],
+            "title": "The Swag schema",
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "additionalItems": false,
+            "items": {
+                "enum": [
+                    "glasses",
+                    "laptop",
+                    "mug",
+                    "shirt",
+                    "socks",
+                    "stickers",
+                    "swag"
+                ],
+                "anyOf": [
+                    {
+                        "$id": "#/properties/Swag/items/anyOf/0",
+                        "type": "string",
+                        "title": "The first anyOf schema",
+                        "examples": [
+                            "stickers",
+                            "shirt"
+                        ]
+                    }
+                ]
+            }
+        },
+        "Description": {
+            "examples": [
+                "Create one or more merged pull requests."
+            ],
+            "title": "The Description schema",
+            "minLength": 25
+        },
+        "Details": {
+            "examples": [
+                "https://acme.corp/blog/acme-hacktoberfest-2020/"
+            ],
+            "title": "The Details schema",
+            "pattern": "^https?://"
+        }
+    },
+    "additionalProperties": false
+}
