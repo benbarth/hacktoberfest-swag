@@ -4,8 +4,8 @@
 
 [![Website](https://img.shields.io/badge/Website-visit-2a8?style=for-the-badge&logo=google-chrome&logoColor=white)](https://benbarth.github.io/hacktoberfest-swag/)
 [![Validation](https://img.shields.io/github/workflow/status/benbarth/hacktoberfest-swag/Validate/master?label=Validation&logo=github&style=for-the-badge)](https://github.com/benbarth/hacktoberfest-swag/actions?query=workflow%3AValidate)
-[![GitHub Forks](https://img.shields.io/github/forks/benbarth/hacktoberfest-swag.svg?style=for-the-badge&label=Forks)](https://github.com/benbarth/hacktoberfest-swag/fork)
-[![GitHub Stars](https://img.shields.io/github/stars/benbarth/hacktoberfest-swag.svg?style=for-the-badge&label=Stars)](https://github.com/benbarth/hacktoberfest-swag)
+[![GitHub Fork](https://img.shields.io/github/forks/benbarth/hacktoberfest-swag.svg?style=for-the-badge&label=Fork)](https://github.com/benbarth/hacktoberfest-swag/fork)
+[![GitHub Stars](https://img.shields.io/github/stars/benbarth/hacktoberfest-swag.svg?style=for-the-badge&label=Stars)](https://github.com/benbarth/hacktoberfest-swag/stargazers)
 
 
 Looking for hacktoberfest swag? You've come to the right place.
