@@ -9,15 +9,15 @@
 [![GitHub Fork](https://img.shields.io/github/forks/benbarth/hacktoberfest-swag.svg?style=for-the-badge&label=Fork)](https://github.com/benbarth/hacktoberfest-swag/fork)
 [![GitHub Stars](https://img.shields.io/github/stars/benbarth/hacktoberfest-swag.svg?style=for-the-badge&label=Stars)](https://github.com/benbarth/hacktoberfest-swag/stargazers)
 
-
 Looking for Hacktoberfest swag? You've come to the right place.
 
 </div>
 
 ## What is Hacktoberfest?
+
 "Hacktoberfest is a month-long celebration of open source software." - _DigitalOcean_
 
-Hacktoberfest is open to everyone. For the [official limited edition Hacktoberfest shirt](https://hacktoberfest.digitalocean.com), _you must register and make four pull requests_ in the month of October - you can even contribute to this repository! You can sign up at [hacktoberfest.digitalocean.com](~~https://hacktoberfest.digitalocean.com~~).
+Hacktoberfest is open to everyone. For the [official limited edition Hacktoberfest shirt](https://hacktoberfest.digitalocean.com), _you must register and make four pull requests_ in the month of October - you can even contribute to this repository! You can sign up at [hacktoberfest.digitalocean.com](https://hacktoberfest.digitalocean.com).
 
 Hacktoberfest® encourages participation in the open source community.
 
@@ -30,8 +30,8 @@ In all of the hacktoberfest excitement, many companies want to join the celebrat
 | Who / Sponsors | What | How | Additional Details |
 | :---: | :---: | :---: | --- |
 | **[DigitalOcean + Sponsors](https://www.digitalocean.com)** | **![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png)** | **Four pull requests to any public repo on GitHub.** | **[Details](https://hacktoberfest.digitalocean.com)** |
-| [Appwrite](https://appwrite.io) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | Create one or more merged pull requests to any Appwrite repository (https://github.com/appwrite). _Stickers, Magnets, Buttons, and T-shirts_ | [Details](https://medium.com/appwrite-io/celebrate-hacktoberfest-20-with-appwrite-1356337e2159) |
-| [Camunda](https://camunda.com) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) | 2+ pull requests in any Camunda BPM, Zeebe, bpmn.io, etc, repository	 | [Details](https://camunda.com/hacktoberfest2020) |
+| [Appwrite](https://appwrite.io) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | Create one or more merged pull requests to any Appwrite repository <https://github.com/appwrite>. _Stickers, Magnets, Buttons, and T-shirts_ | [Details](https://medium.com/appwrite-io/celebrate-hacktoberfest-20-with-appwrite-1356337e2159) |
+| [Camunda](https://camunda.com) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) | 2+ pull requests in any Camunda BPM, Zeebe, bpmn.io, etc, repository | [Details](https://camunda.com/hacktoberfest2020) |
 | [Circle CI](https://circleci.com) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) | 1 to 3 pull requests: Limited-Edition Sticker. 4+ pull requests: Stickers + Limited-Edition T-shirt | [Details](https://hacktoberfest.circleci.com/) |
 | [Globo](https://opensource.globo.com) | ![Shirt](icons/shirt.png) | 1 merged PR: 👕. Any repo on [Globo.com](https://github.com/globocom) | [Details](https://opensource.globo.com/hacktoberfest/) |
 | [Hasura](https://hasura.io) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) | Submit a PR for one of our issues with the label hacktoberfest: For all valid PRs attempting to close an issue labelled hacktoberfest, we’ll send out some amazing Hasura - Hacktoberfest swag | [Details](https://hasura.io/blog/hasura-joins-hacktoberfest-3rd-year-in-a-row/) |
@@ -54,7 +54,7 @@ In all of the hacktoberfest excitement, many companies want to join the celebrat
 | [Aqua Security](https://www.aquasec.com) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | 1 Contribution: OSS superhero sticker pack, 3 Contributions: OSS superhero sticker pack and a special edition Aqua Hacktoberfest t-shirt, 5 Contributions: all of the above and the "Kubernetes Security" book, co-authored by Liz Rice, VP Open Source Engineering | [Details](https://blog.aquasec.com/aqua-open-source-security-hacktoberfest) |
 | [Coding Blocks](https://codingblocks.com) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) | 1 to 3 merged pull requests: Limited-Edition T-shirt . 5+ merged pull requests: Limited-Edition BAG | [Details](https://blog.codingblocks.com/2019/cb-hacktoberfest-2019) |
 | [Devfolio](https://devfolio.co) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) | 4 or more pull requests: Limited-Edition Sticker, If your PRs turn out to be exceptional: Limited-Edition T-shirt | [Details](https://devfolio.co/blog/hacktoberfest-2019-devfolio) |
-| [Flutterwave](https://flutterwave.com) | ![Shirt](icons/shirt.png) | 2 or more pull requests to any of the projects from https://developer.flutterwave.com/docs/plugins : Limited-Edition T-shirt | [Details](https://twitter.com/Ace_KYD/status/1183738026511519745) |
+| [Flutterwave](https://flutterwave.com) | ![Shirt](icons/shirt.png) | 2 or more pull requests to any of the projects from <https://developer.flutterwave.com/docs/plugins> : Limited-Edition T-shirt | [Details](https://twitter.com/Ace_KYD/status/1183738026511519745) |
 | [Gatsby](https://www.gatsbyjs.com) | ![Swag](icons/swag.png) | 1 PR: Level 1 swag; 5 PRs: Level 2 swag | [Details](https://www.gatsbyjs.com/contributing/contributor-swag/) |
 | [JabRef](https://www.jabref.org) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) | 1 merged pull request: sticker, 5 merged pull requests: 👕. Any repo on <https://github.com/jabref/> | [Details](https://www.jabref.org/hacktoberfest/2019.html) |
 | [Jenkins](https://jenkins.io) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | PR to any repositories under featured repositories. The PR must be at least raised in October 2019 and you should not be inactive for seven days or more during code review. Guaranteed Swag for Top 20 contributors, and rest is to be decided. Check the announcement on the blog | [Details](https://jenkins.io/events/hacktoberfest) |
@@ -63,7 +63,7 @@ In all of the hacktoberfest excitement, many companies want to join the celebrat
 | [Les-Tilleuls.coop](https://les-tilleuls.coop) | ![Shirt](icons/shirt.png) | To win a t-shirt, make 3 pull requests on API Platform's GitHub repositories by October 31st, and [then fill in this form](https://cooptilleuls.typeform.com/to/CG0pLd) | [Details](https://les-tilleuls.coop/fr/blog/article/celebrate-hacktoberfest-with-api-platform) |
 | [Operation Code](https://operationcode.org) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) | Resolve 3 issues and receive a white or black t-shirt! Merge 2 pull requests and receive stickers! | [Details](https://github.com/OperationCode/START_HERE) |
 | [Opsdroid](http://opsdroid.github.io) | ![Stickers](icons/stickers.png) | Solve issues or improve documentation. 5–10 contributions is probably sticker worthy | [Details](https://medium.com/opsdroid/contributor-sticker-packs-738058ceda59) |
-| [Parity](https://www.parity.io) | ![Swag](icons/swag.png) | Anyone who makes a significant contribution is eligible for a limited edition gym bag	 | [Details](https://www.parity.io/hacktoberfest-2019-parity/) |
+| [Parity](https://www.parity.io) | ![Swag](icons/swag.png) | Anyone who makes a significant contribution is eligible for a limited edition gym bag | [Details](https://www.parity.io/hacktoberfest-2019-parity/) |
 | [QMK](https://qmk.fm) | ![Shirt](icons/shirt.png) | Interact 4 times with a [QMK repo](https://github.com/qmk) OR donate $15 to [cKeys](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8UQUNVFE9H6QY&source=hacktoberfest) | [Details](https://hacktoberfest.qmk.fm) |
 | [SAP](https://www.sap.com) | ![Swag](icons/swag.png) | A book from sap press for the user who create more pull requests in the ABAP Projects | [Details](https://blogs.sap.com/2019/10/04/lets-code-share-and-learn.-calling-abapers-to-next-edition-of-hacktoberfest) |
 | [Sense/Net](https://www.sensenet.com) | ![Shirt](icons/shirt.png) | The first 100 participants who make a pull request | [Details](https://community.sensenet.com/blog/2019/10/01/hacktoberfest-is-here) |
@@ -74,12 +74,9 @@ In all of the hacktoberfest excitement, many companies want to join the celebrat
 | [Xamarin / Microsoft](https://dotnet.microsoft.com/apps/xamarin) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | 1 pull request for the stickers, 4 pull requests for a T-shirt, 10 pull requests to be eligible to win a trophy | [Details](https://devblogs.microsoft.com/xamarin/hacktoberfest-2019-xamarin-edition) |
 <!-- unverified end -->
 
-
 [View some of this cool swag on Twitter.](https://twitter.com/search?q=%23hacktoberfest%20%23swag)
 
-
 Open source is changing the world – one pull request at a time.
-
 
 ## Contribute
 
