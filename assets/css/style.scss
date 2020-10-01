@@ -1,0 +1,22 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.container {
+  max-width: 100%;
+}
+
+table {
+  th {
+    white-space: nowrap;
+  }
+
+  tbody tr > td {
+    text-align: left;
+
+    &:last-child {
+      text-align: right;
+    }
+  }
+}
