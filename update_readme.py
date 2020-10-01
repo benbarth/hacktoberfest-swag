@@ -1,5 +1,6 @@
 import datetime
 import glob
+import os
 import pathlib
 import re
 from os import path
@@ -32,26 +33,34 @@ SOFTWARE.
 __author__ = "Sascha Greuel"
 __copyright__ = "Copyright 2020, Sascha Greuel"
 __license__ = "MIT"
-__version__ = "1.0.0"
 __maintainer__ = "Sascha Greuel"
 __email__ = "hello@1-2.dev"
 __status__ = "Production"
 
 root = pathlib.Path(__file__).parent.resolve()
-currentYear = datetime.datetime.now().strftime("%Y")
+current_year = datetime.datetime.now().strftime("%Y")
 
 
 def get_participants():
+    last_year = str((int(current_year) - 1))
     ret = []
 
     for file in sorted(glob.glob("participants" + path.sep + "**" + path.sep + "*.yml")):
         with open(file, 'r') as stream:
             try:
                 # We assume, that all files in participants/CURRENT_YEAR are "verified"
-                if file.startswith("participants" + path.sep + currentYear + path.sep):
+                if file.startswith("participants" + path.sep + current_year + path.sep):
                     ret.append({'verified': yaml.safe_load(stream)})
+
+                    # Remove participant from the list of unverified / past participants
+                    old_file = "participants" + path.sep + last_year + path.sep + path.basename(file)
+
+                    # Delete PARTICIPANT.yml from the LAST_YEAR directory, if it exists
+                    if path.isfile(old_file):
+                        os.remove(old_file)
+
                 # Mark all participants from the previous year as "unverified", ignore older files
-                elif file.startswith("participants" + path.sep + str((int(currentYear) - 1)) + path.sep):
+                elif file.startswith("participants" + path.sep + last_year + path.sep):
                     ret.append({'unverified': yaml.safe_load(stream)})
             except yaml.YAMLError as exc:
                 msg = 'An error occurred during YAML parsing.'
@@ -135,7 +144,7 @@ if __name__ == '__main__':
         re.DOTALL,
     )
 
-    year = "<!-- current year start -->{}<!-- current year end -->".format(currentYear)
+    year = "<!-- current year start -->{}<!-- current year end -->".format(current_year)
     readme_contents = r.sub(year, readme_contents)
 
     # Update README
