@@ -1,14 +1,12 @@
 # Contributing
 
-When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
+When contributing to this repository, please first discuss the change you wish to make via issue before submitting a pull request.
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
 ## Pull Request Process
 
-TBA
-
---
+The contents of the README.md are generated automatically. To add or update participants, please refer to the participants directory.
 
 Every participant file (`.yml`) will be automatically validated in two steps upon your PR:
 
