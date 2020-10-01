@@ -4,5 +4,5 @@ Website: https://circleci.com
 Swag:
   - stickers
   - shirt
-Description: "1 to 3 pull requests: Limited-Edition Sticker. 4+ pull requests: Stickers + Limited-Edition T-shirt."
+Description: "*Challenge 1* - 1 to 3 merged pull requests to include orb usage on an existing CircleCI config: Limited-Edition Sticker. 4+ pull requests: Stickers + Limited-Edition T-shirt; *Challenge 2* - Develop and publish an orb using the Orb Development Kit: limited edition orb magic pin."
 Details: https://hacktoberfest.circleci.com/
