@@ -48,9 +48,14 @@ def get_participants():
     for file in sorted(glob.glob("participants" + path.sep + "**" + path.sep + "*.yml")):
         with open(file, 'r') as stream:
             try:
+                data = yaml.safe_load(stream)
+
                 # We assume, that all files in participants/CURRENT_YEAR are "verified"
                 if file.startswith("participants" + path.sep + current_year + path.sep):
-                    ret.append({'verified': yaml.safe_load(stream)})
+                    if 'IsSponsor' in data and data['IsSponsor'] is True:
+                        ret.append({'sponsor': data})
+                    else:
+                        ret.append({'verified': data})
 
                     # Remove participant from the list of unverified / past participants
                     old_file = "participants" + path.sep + last_year + path.sep + path.basename(file)
@@ -61,7 +66,7 @@ def get_participants():
 
                 # Mark all participants from the previous year as "unverified", ignore older files
                 elif file.startswith("participants" + path.sep + last_year + path.sep):
-                    ret.append({'unverified': yaml.safe_load(stream)})
+                    ret.append({'unverified': data})
             except yaml.YAMLError as exc:
                 msg = 'An error occurred during YAML parsing.'
 
@@ -74,51 +79,49 @@ def get_participants():
     return ret
 
 
+def build_row(data):
+    row = "| [" + data['Name'] + "](" + data['Website'] + ") | "
+
+    for swag_item in sorted(data['Swag']):
+        swag_item = swag_item.lower()
+
+        if path.exists("icons/" + swag_item + ".png"):
+            row += "![" + swag_item.capitalize() + "](icons/" + swag_item + ".png) "
+
+    row += "| "
+    row += data['Description'].rstrip('.').replace("\n", " ").replace("\r", " ").replace("|", "") + " | "
+    row += "[Details](" + data['Details'] + ") |\n"
+
+    return row
+
+
 if __name__ == '__main__':
     readme_path = root / 'README.md'
     readme = readme_path.open().read()
     participants = get_participants()
 
-    replacement_v = "| Who / Sponsors | What | How | Additional Details |\n"
-    replacement_v += "| :---: | :---: | :---: | --- |\n"
-    replacement_v += "| **[DigitalOcean + Sponsors](https://www.digitalocean.com)** | **![Shirt](" \
+    # Sponsors & Verified participants
+    replacement_v = ""
+    replacement_s = "| Who / Sponsors | What | How | Additional Details |\n"
+    replacement_s += "| :---: | :---: | :---: | --- |\n"
+    replacement_s += "| **[DigitalOcean + Sponsors](https://www.digitalocean.com)** | **![Shirt](" \
                      "icons/shirt.png) ![Stickers](icons/stickers.png)** | **Four pull requests to any public " \
                      "repo on GitHub.** | **[Details](https://hacktoberfest.digitalocean.com)** |\n"
 
+    # Unverified / Past participants
     replacement_uv = "| Who / Sponsors | What | How | Additional Details |\n"
     replacement_uv += "| :---: | :---: | :---: | --- |\n"
 
     for participant in participants:
-        if 'verified' in participant:
-            participant = participant['verified']
-
-            replacement_v += "| [" + participant['Name'] + "](" + participant['Website'] + ") | "
-
-            for swagItem in sorted(participant['Swag']):
-                swagItem = swagItem.lower()
-
-                if path.exists("icons/" + swagItem + ".png"):
-                    replacement_v += "![" + swagItem.capitalize() + "](icons/" + swagItem + ".png) "
-
-            replacement_v += "| "
-            replacement_v += participant['Description'] \
-                                 .rstrip('.').replace("\n", " ").replace("\r", " ").replace("|", "") + " | "
-            replacement_v += "[Details](" + participant['Details'] + ") |\n"
+        if 'sponsor' in participant:
+            replacement_s += build_row(participant['sponsor'])
+        elif 'verified' in participant:
+            replacement_v += build_row(participant['verified'])
         elif 'unverified' in participant:
-            participant = participant['unverified']
+            replacement_uv += build_row(participant['unverified'])
 
-            replacement_uv += "| [" + participant['Name'] + "](" + participant['Website'] + ") | "
-
-            for swagItem in sorted(participant['Swag']):
-                swagItem = swagItem.lower()
-
-                if path.exists("icons/" + swagItem + ".png"):
-                    replacement_uv += "![" + swagItem.capitalize() + "](icons/" + swagItem + ".png) "
-
-            replacement_uv += "| "
-            replacement_uv += participant['Description'] \
-                                  .rstrip('.').replace("\n", " ").replace("\r", " ").replace("|", "") + " | "
-            replacement_uv += "[Details](" + participant['Details'] + ") |\n"
+    # Sponsors = Verified (but on top of the list)
+    replacement_v = replacement_s + replacement_v
 
     # Inject verified participants into README
     r = re.compile(

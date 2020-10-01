@@ -38,4 +38,7 @@ __Example File__
 > 
 > # URL of a details page
 > Details: https://blog.acme.corp/hacktoberfest/
+>
+> # Optional flag for sponsors
+> IsSponsor: False
 > ```

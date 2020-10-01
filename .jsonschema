@@ -11,7 +11,8 @@
                 "shirt"
             ],
             "Description": "Create one or more merged pull requests.",
-            "Details": "https://acme.corp/blog/acme-hacktoberfest-2020/"
+            "Details": "https://acme.corp/blog/acme-hacktoberfest-2020/",
+          	"IsSponsor": false
         }
     ],
     "required": [
@@ -84,6 +85,10 @@
             ],
             "title": "The Details schema",
             "pattern": "^https?://"
+        },
+        "IsSponsor": {
+            "title": "The IsSponsor schema",
+            "type": "boolean"
         }
     },
     "additionalProperties": false
