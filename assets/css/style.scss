@@ -20,3 +20,12 @@ table {
     }
   }
 }
+
+td, p {
+  code {
+    background: rgba(0, 0, 0, .9);
+    border: 1px solid rgba(255, 255, 255, .15);
+    color: #d0d0d0;
+    padding: 4px;
+  }
+}
