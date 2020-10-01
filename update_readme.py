@@ -1,8 +1,8 @@
 import datetime
 import glob
 import os
-import pathlib
 import re
+import shutil
 from os import path
 
 import yaml
@@ -37,25 +37,67 @@ __maintainer__ = "Sascha Greuel"
 __email__ = "hello@1-2.dev"
 __status__ = "Production"
 
-root = pathlib.Path(__file__).parent.resolve()
+root = os.getcwd() + path.sep
 current_year = datetime.datetime.now().strftime("%Y")
 
 
+def init():
+    workdir = root + "participants" + path.sep
+
+    # Create participants directory for the current year, if it doesn't exist
+    if not path.exists(workdir + current_year):
+        os.mkdir(workdir + current_year)
+        open(workdir + current_year + path.sep + ".gitkeep", "a").close()
+
+    # Remove obsolete directories and files
+    for directory in glob.glob(workdir + "*"):
+        if int(path.basename(directory)) < (int(current_year) - 1):
+            shutil.rmtree(directory)
+
+
+def read_blocklist():
+    entries = []
+
+    with open(root + ".gitignore") as blocklist:
+        add_entry = False
+
+        for line in blocklist:
+            if line.strip() == "# Blocklist start":
+                add_entry = True
+                continue
+            elif line.strip() == "# Blocklist end":
+                add_entry = False
+                continue
+            elif add_entry:
+                entries.append(line.strip().replace("*", "").lower())
+
+    return entries
+
+
 def get_participants():
+    blocklist = read_blocklist()
     last_year = str((int(current_year) - 1))
     ret = []
 
-    for file in sorted(glob.glob("participants" + path.sep + "**" + path.sep + "*.yml")):
-        with open(file, 'r') as stream:
+    for file in sorted(glob.glob(root + "participants" + path.sep + "**" + path.sep + "*.yml")):
+        with open(file, "r") as stream:
             try:
                 data = yaml.safe_load(stream)
 
+                # Do not add blocked participants
+                if path.basename(file).lower() in blocklist or data["Name"].replace(" ", "").lower() in blocklist:
+                    # Delete PARTICIPANT.yml, because it"s blocked in /.gitignore
+                    if path.isfile(file):
+                        os.remove(file)
+
+                    continue
+
                 # We assume, that all files in participants/CURRENT_YEAR are "verified"
-                if file.startswith("participants" + path.sep + current_year + path.sep):
-                    if 'IsSponsor' in data and data['IsSponsor'] is True:
-                        ret.append({'sponsor': data})
+                if file.startswith(root + "participants" + path.sep + current_year + path.sep):
+                    if "IsSponsor" in data and data["IsSponsor"] is True:
+                        ret.append({"sponsor": data})
                     else:
-                        ret.append({'verified': data})
+                        ret.append({"verified": data})
 
                     # Remove participant from the list of unverified / past participants
                     old_file = "participants" + path.sep + last_year + path.sep + path.basename(file)
@@ -65,13 +107,13 @@ def get_participants():
                         os.remove(old_file)
 
                 # Mark all participants from the previous year as "unverified", ignore older files
-                elif file.startswith("participants" + path.sep + last_year + path.sep):
-                    ret.append({'unverified': data})
+                elif file.startswith(root + "participants" + path.sep + last_year + path.sep):
+                    ret.append({"unverified": data})
             except yaml.YAMLError as exc:
-                msg = 'An error occurred during YAML parsing.'
+                msg = "An error occurred during YAML parsing."
 
-                if hasattr(exc, 'problem_mark'):
-                    msg += ' Error position: (%s:%s)' % (exc.problem_mark.line + 1,
+                if hasattr(exc, "problem_mark"):
+                    msg += " Error position: (%s:%s)" % (exc.problem_mark.line + 1,
                                                          exc.problem_mark.column + 1)
 
                 raise ValueError(msg)
@@ -80,24 +122,26 @@ def get_participants():
 
 
 def build_row(data):
-    row = "| [" + data['Name'] + "](" + data['Website'] + ") | "
+    row = "| [" + data["Name"] + "](" + data["Website"] + ") | "
 
-    for swag_item in sorted(data['Swag']):
+    for swag_item in sorted(data["Swag"]):
         swag_item = swag_item.lower()
 
-        if path.exists("icons/" + swag_item + ".png"):
+        if path.exists(root + "icons" + path.sep + swag_item + ".png"):
             row += "![" + swag_item.capitalize() + "](icons/" + swag_item + ".png) "
 
     row += "| "
-    row += data['Description'].rstrip('.').replace("\n", " ").replace("\r", " ").replace("|", "") + " | "
-    row += "[Details](" + data['Details'] + ") |\n"
+    row += data["Description"].rstrip(".").replace("\n", " ").replace("\r", " ").replace("|", "") + " | "
+    row += "[Details](" + data["Details"] + ") |\n"
 
     return row
 
 
-if __name__ == '__main__':
-    readme_path = root / 'README.md'
-    readme = readme_path.open().read()
+if __name__ == "__main__":
+    init()
+
+    readme_path = root + "README.md"
+    readme = open(readme_path, "r").read()
     participants = get_participants()
 
     # Sponsors & Verified participants
@@ -113,12 +157,12 @@ if __name__ == '__main__':
     replacement_uv += "| :---: | :---: | :---: | --- |\n"
 
     for participant in participants:
-        if 'sponsor' in participant:
-            replacement_s += build_row(participant['sponsor'])
-        elif 'verified' in participant:
-            replacement_v += build_row(participant['verified'])
-        elif 'unverified' in participant:
-            replacement_uv += build_row(participant['unverified'])
+        if "sponsor" in participant:
+            replacement_s += build_row(participant["sponsor"])
+        elif "verified" in participant:
+            replacement_v += build_row(participant["verified"])
+        elif "unverified" in participant:
+            replacement_uv += build_row(participant["unverified"])
 
     # Sponsors = Verified (but on top of the list)
     replacement_v = replacement_s + replacement_v
@@ -150,5 +194,8 @@ if __name__ == '__main__':
     year = "<!-- current year start -->{}<!-- current year end -->".format(current_year)
     readme_contents = r.sub(year, readme_contents)
 
+    # Normalize line breaks in README
+    readme_contents = readme_contents.replace("\r\n", "\n").replace("\r", "\n")
+
     # Update README
-    readme_path.open('w').write(readme_contents)
+    open(readme_path, "w").write(readme_contents)
