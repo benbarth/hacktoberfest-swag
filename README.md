@@ -85,3 +85,10 @@ Looking for a Hacktoberfest issue? 👉 <https://github.com/search?utf8=✓&q=la
 Looking for a good first issue? 👉 <https://github.com/search?utf8=✓&q=label%3A"good+first+issue"&type=Issues> or go to [Up For Grabs](https://up-for-grabs.net/#/).
 
 Know of another hacktoberfest swag opportunity? Send a [pull request](https://github.com/benbarth/hacktoberfest-swag/pulls)! (Don't forget to review our [contribution guidelines](CONTRIBUTING.md).)
+
+## How to contribute in a repository
+ 1. Fork the Project
+ 2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
+ 3. Commit your Changes (git commit -m 'Add some AmazingFeature')
+ 4. Push to the Branch (git push origin feature/AmazingFeature)
+ 5. Open a Pull Request
