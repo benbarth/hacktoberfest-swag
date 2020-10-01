@@ -6,7 +6,31 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 ## Pull Request Process
 
-The contents of the README.md are generated automatically. To add or update participants, please refer to the participants directory.
+Most parts of the README.md are generated automatically. To add or update participants, please refer to the participants directory.
+
+### Making changes
+
+#### Adding a new participant
+
+Adding a new participant for the current year's Hacktoberfest event is easy as 1-2-3.
+
+Simply create a file named after the participant (e.g. `digitalocean.yml`) and put it in `/participants/CURRENT_YEAR/` and provide all required information as explained [here](#participant-file).
+
+Before creating a new file, you may check first, if it doesn't already exist the directory `/participants/LAST_YEAR/`. If it does, please move it to `/participants/LAST_YEAR/` and edit it instead.
+
+Please refrain from editing the file README.md directly, in order to add new participants, as your changes would be overwritten during the next automatic update.
+
+### Publishing your changes
+
+To publish your changes, [create a pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request). If all tests pass and the PR gets merged, your changes will be live for everyone to see.
+
+If your changes affect the README in any way, they will be automatically deployed to <https://benbarth.github.io/hacktoberfest-swag>
+
+Every legit pull request made between Oct 01 and Oct 31 also counts towards your contributions goal at <https://hacktoberfest.digitalocean.com/profile>, and may reward you with a ![Shirt](icons/shirt.png) and some ![Stickers](icons/stickers.png). 
+
+---
+
+#### Participant file
 
 Every participant file (`.yml`) will be automatically validated in two steps upon your PR:
 
