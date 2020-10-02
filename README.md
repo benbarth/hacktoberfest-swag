@@ -2,7 +2,7 @@
 
 ![Hacktoberfest](assets/hacktoberfest-logo.png "Hacktoberfest")
 
-# Hacktoberfest <!-- current year start -->2020<!-- current year end --> Swag
+# Hacktoberfest Swag <!-- current year start -->2020<!-- current year end -->
 
 [![Website](https://img.shields.io/badge/Website-visit-2a8?style=for-the-badge&logo=google-chrome&logoColor=white)](https://benbarth.github.io/hacktoberfest-swag/)
 [![Validation](https://img.shields.io/github/workflow/status/benbarth/hacktoberfest-swag/Update%20README/master?logo=github&style=for-the-badge)](https://github.com/benbarth/hacktoberfest-swag/actions?query=workflow%3A"Update+README")
