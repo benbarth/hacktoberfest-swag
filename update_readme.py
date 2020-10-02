@@ -131,7 +131,7 @@ def build_row(data):
             row += "![" + swag_item.capitalize() + "](icons/" + swag_item + ".png) "
 
     row += "| "
-    row += data["Description"].rstrip(".").replace("\n", " ").replace("\r", " ").replace("|", "") + " | "
+    row += data["Description"].replace("\n", " ").replace("\r", " ").replace("|", "") + " | "
     row += "[Details](" + data["Details"] + ") |\n"
 
     return row
