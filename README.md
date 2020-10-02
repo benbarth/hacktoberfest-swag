@@ -23,7 +23,7 @@ Hacktoberfest® encourages participation in the open source community.
 
 In all of the hacktoberfest excitement, many companies want to join the celebration by rewarding their contributors with even more swag! That's why we're here!
 
-**Quantity is fun, quality is key. Participating in Hacktoberfest leads to personal growth, professional opportunities, and community building. However, it all begins with meaningful contributions to open source software.**
+### The purpose of this list is to incentivise meaningful contributions. If you intend to make low-value changes -- just for swag. *Don't.*
 
 ## Verified participants <!-- current year start -->2020<!-- current year end -->
 <!-- verified start -->
