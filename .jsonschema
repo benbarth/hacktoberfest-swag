@@ -55,8 +55,13 @@
                     "laptop",
                     "mug",
                     "shirt",
+                    "tshirt",
+                    "t-shirt",
+                    "tee-shirt",
+                    "teeshirt",
                     "socks",
                     "stickers",
+                    "sticker",
                     "swag"
                 ],
                 "anyOf": [

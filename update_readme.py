@@ -135,6 +135,12 @@ def build_row(data: Dict) -> str:
     for swag_item in sorted(data["Swag"]):
         swag_item = swag_item.casefold()
 
+        # convert synonyms
+        if swag_item == "tshirt" or swag_item == "t-shirt" or swag_item == "teeshirt" or swag_item == "tee-shirt":
+            swag_item = "shirt"
+        elif swag_item == "sticker":
+            swag_item = "stickers"
+
         if path.exists(root + "icons" + path.sep + swag_item + ".png"):
             row += "![" + swag_item.capitalize() + "](icons/" + swag_item + ".png) "
 
