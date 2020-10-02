@@ -51,7 +51,7 @@ def init():
 
     # Remove obsolete directories and files
     for directory in glob.glob(workdir + "*"):
-        if int(path.basename(directory)) < (int(current_year) - 1):
+        if path.isdir(directory) and int(path.basename(directory)) < (int(current_year) - 1):
             shutil.rmtree(directory)
 
 
@@ -78,6 +78,10 @@ def get_participants():
     blocklist = read_blocklist()
     last_year = str((int(current_year) - 1))
     ret = []
+
+    # Treat hacktoberfest.yml in the participants directory separately
+    with open(root + "participants" + path.sep + "hacktoberfest.yml", "r") as stream:
+        ret.append({"sponsor": yaml.safe_load(stream)})
 
     for file in sorted(glob.glob(root + "participants" + path.sep + "**" + path.sep + "*.yml")):
         with open(file, "r") as stream:
