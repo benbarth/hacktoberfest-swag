@@ -25,7 +25,6 @@ import glob
 import os
 import re
 import shutil
-from os import path
 from typing import Dict, List
 
 import yaml
@@ -37,22 +36,22 @@ __maintainer__ = "Sascha Greuel"
 __email__ = "hello@1-2.dev"
 __status__ = "Production"
 
-root = os.getcwd() + path.sep
+root = os.getcwd() + os.path.sep
 current_year = datetime.datetime.now().strftime("%Y")
 
 
 def init() -> None:
     """ Performs some cleanup tasks on execution """
-    work_dir = root + "participants" + path.sep
+    work_dir = root + "participants" + os.path.sep
 
     # Create participants directory for the current year, if it doesn't exist
-    if not path.exists(work_dir + current_year):
+    if not os.path.exists(work_dir + current_year):
         os.mkdir(work_dir + current_year)
-        open(work_dir + current_year + path.sep + ".gitkeep", "a").close()
+        open(work_dir + current_year + os.path.sep + ".gitkeep", "a").close()
 
     # Remove obsolete directories and files
     for directory in glob.glob(work_dir + "*"):
-        if path.isdir(directory) and int(path.basename(directory)) < (int(current_year) - 1):
+        if os.path.isdir(directory) and int(os.path.basename(directory)) < (int(current_year) - 1):
             shutil.rmtree(directory)
 
 
@@ -77,7 +76,7 @@ def read_blocklist() -> List:
 
 def get_participants() -> List[Dict]:
     """ Returns a sorted list of verified and unverified participants and sponsors """
-    work_dir = root + "participants" + path.sep
+    work_dir = root + "participants" + os.path.sep
     blocklist = read_blocklist()
     last_year = str((int(current_year) - 1))
     ret = []
@@ -86,36 +85,36 @@ def get_participants() -> List[Dict]:
     with open(work_dir + "hacktoberfest.yml", "r") as stream:
         ret.append({"sponsor": yaml.safe_load(stream)})
 
-    for file in sorted(glob.glob(work_dir + "**" + path.sep + "*.yml")):
+    for file in sorted(glob.glob(work_dir + "**" + os.path.sep + "*.yml")):
         with open(file, "r") as stream:
             try:
                 data = yaml.safe_load(stream)
-                basename = path.basename(file)
+                basename = os.path.basename(file)
 
                 # Do not add blocked participants
                 if basename.casefold() in blocklist:
                     # Delete PARTICIPANT.yml, because it"s blocked in /.gitignore
-                    if path.isfile(file):
+                    if os.path.isfile(file):
                         os.remove(file)
 
                     continue
 
                 # We assume, that all files in participants/CURRENT_YEAR are "verified"
-                if file.startswith(work_dir + current_year + path.sep):
+                if file.startswith(work_dir + current_year + os.path.sep):
                     if "IsSponsor" in data and data["IsSponsor"] is True:
                         ret.append({"sponsor": data})
                     else:
                         ret.append({"verified": data})
 
                     # Remove participant from the list of unverified / past participants
-                    old_file = work_dir + last_year + path.sep + basename
+                    old_file = work_dir + last_year + os.path.sep + basename
 
                     # Delete PARTICIPANT.yml from the LAST_YEAR directory, if it exists
-                    if path.isfile(old_file):
+                    if os.path.isfile(old_file):
                         os.remove(old_file)
 
                 # Mark all participants from the previous year as "unverified", ignore older files
-                elif file.startswith(work_dir + last_year + path.sep):
+                elif file.startswith(work_dir + last_year + os.path.sep):
                     ret.append({"unverified": data})
             except yaml.MarkedYAMLError as exc:
                 msg = "An error occurred during YAML parsing."
@@ -141,7 +140,7 @@ def build_row(data: Dict) -> str:
         elif swag_item == "sticker":
             swag_item = "stickers"
 
-        if path.exists(root + "icons" + path.sep + swag_item + ".png"):
+        if os.path.exists(root + "icons" + os.path.sep + swag_item + ".png"):
             row += "![" + swag_item.capitalize() + "](icons/" + swag_item + ".png) "
 
     row += "| "
