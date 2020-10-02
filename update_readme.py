@@ -1,14 +1,4 @@
-import datetime
-import glob
-import os
-import re
-import shutil
-from os import path
-
-import yaml
-
-""" MIT License
-
+"""
 Copyright (c) 2020 1-2.dev
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -30,6 +20,16 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
 
+import datetime
+import glob
+import os
+import re
+import shutil
+from os import path
+from typing import Dict, List
+
+import yaml
+
 __author__ = "Sascha Greuel"
 __copyright__ = "Copyright 2020, Sascha Greuel"
 __license__ = "MIT"
@@ -41,21 +41,23 @@ root = os.getcwd() + path.sep
 current_year = datetime.datetime.now().strftime("%Y")
 
 
-def init():
-    workdir = root + "participants" + path.sep
+def init() -> None:
+    """ Performs some cleanup tasks on execution """
+    work_dir = root + "participants" + path.sep
 
     # Create participants directory for the current year, if it doesn't exist
-    if not path.exists(workdir + current_year):
-        os.mkdir(workdir + current_year)
-        open(workdir + current_year + path.sep + ".gitkeep", "a").close()
+    if not path.exists(work_dir + current_year):
+        os.mkdir(work_dir + current_year)
+        open(work_dir + current_year + path.sep + ".gitkeep", "a").close()
 
     # Remove obsolete directories and files
-    for directory in glob.glob(workdir + "*"):
+    for directory in glob.glob(work_dir + "*"):
         if path.isdir(directory) and int(path.basename(directory)) < (int(current_year) - 1):
             shutil.rmtree(directory)
 
 
-def read_blocklist():
+def read_blocklist() -> List:
+    """ Returns a list of blocked participants """
     entries = []
 
     with open(root + ".gitignore") as blocklist:
@@ -64,32 +66,34 @@ def read_blocklist():
         for line in blocklist:
             if line.strip() == "# Blocklist start":
                 add_entry = True
-                continue
             elif line.strip() == "# Blocklist end":
                 add_entry = False
                 continue
             elif add_entry:
-                entries.append(line.strip().replace("*", "").lower())
+                entries.append(line.strip().replace("*", "").casefold())
 
     return entries
 
 
-def get_participants():
+def get_participants() -> List[Dict]:
+    """ Returns a sorted list of verified and unverified participants and sponsors """
+    work_dir = root + "participants" + path.sep
     blocklist = read_blocklist()
     last_year = str((int(current_year) - 1))
     ret = []
 
     # Treat hacktoberfest.yml in the participants directory separately
-    with open(root + "participants" + path.sep + "hacktoberfest.yml", "r") as stream:
+    with open(work_dir + "hacktoberfest.yml", "r") as stream:
         ret.append({"sponsor": yaml.safe_load(stream)})
 
-    for file in sorted(glob.glob(root + "participants" + path.sep + "**" + path.sep + "*.yml")):
+    for file in sorted(glob.glob(work_dir + "**" + path.sep + "*.yml")):
         with open(file, "r") as stream:
             try:
                 data = yaml.safe_load(stream)
+                basename = path.basename(file)
 
                 # Do not add blocked participants
-                if path.basename(file).lower() in blocklist or data["Name"].replace(" ", "").lower() in blocklist:
+                if basename.casefold() in blocklist:
                     # Delete PARTICIPANT.yml, because it"s blocked in /.gitignore
                     if path.isfile(file):
                         os.remove(file)
@@ -97,39 +101,39 @@ def get_participants():
                     continue
 
                 # We assume, that all files in participants/CURRENT_YEAR are "verified"
-                if file.startswith(root + "participants" + path.sep + current_year + path.sep):
+                if file.startswith(work_dir + current_year + path.sep):
                     if "IsSponsor" in data and data["IsSponsor"] is True:
                         ret.append({"sponsor": data})
                     else:
                         ret.append({"verified": data})
 
                     # Remove participant from the list of unverified / past participants
-                    old_file = "participants" + path.sep + last_year + path.sep + path.basename(file)
+                    old_file = work_dir + last_year + path.sep + basename
 
                     # Delete PARTICIPANT.yml from the LAST_YEAR directory, if it exists
                     if path.isfile(old_file):
                         os.remove(old_file)
 
                 # Mark all participants from the previous year as "unverified", ignore older files
-                elif file.startswith(root + "participants" + path.sep + last_year + path.sep):
+                elif file.startswith(work_dir + last_year + path.sep):
                     ret.append({"unverified": data})
-            except yaml.YAMLError as exc:
+            except yaml.MarkedYAMLError as exc:
                 msg = "An error occurred during YAML parsing."
 
                 if hasattr(exc, "problem_mark"):
-                    msg += " Error position: (%s:%s)" % (exc.problem_mark.line + 1,
-                                                         exc.problem_mark.column + 1)
+                    msg += " Error position: (%s:%s)" % (exc.problem_mark.line + 1, exc.problem_mark.column + 1)
 
-                raise ValueError(msg)
+                raise ValueError(msg) from exc
 
     return ret
 
 
-def build_row(data):
+def build_row(data: Dict) -> str:
+    """ Returns a markdown formatted table row for a given participant """
     row = "| [" + data["Name"] + "](" + data["Website"] + ") | "
 
     for swag_item in sorted(data["Swag"]):
-        swag_item = swag_item.lower()
+        swag_item = swag_item.casefold()
 
         if path.exists(root + "icons" + path.sep + swag_item + ".png"):
             row += "![" + swag_item.capitalize() + "](icons/" + swag_item + ".png) "
@@ -150,6 +154,7 @@ if __name__ == "__main__":
 
     # Sponsors & Verified participants
     replacement_v = ""
+
     replacement_s = "| Who / Sponsors | What | How | Additional Details |\n"
     replacement_s += "| :---: | :---: | :---: | --- |\n"
 
@@ -188,12 +193,12 @@ if __name__ == "__main__":
 
     # Inject current year into README
     r = re.compile(
-        r"<!-- current year start -->(202[0-9])?<!-- current year end -->".format(),
+        r"<!-- current year start -->([0-9]+)?<!-- current year end -->".format(),
         re.DOTALL,
     )
 
-    year = "<!-- current year start -->{}<!-- current year end -->".format(current_year)
-    readme_contents = r.sub(year, readme_contents)
+    replacement_y = "<!-- current year start -->{}<!-- current year end -->".format(current_year)
+    readme_contents = r.sub(replacement_y, readme_contents)
 
     # Normalize line breaks in README
     readme_contents = readme_contents.replace("\r\n", "\n").replace("\r", "\n")
