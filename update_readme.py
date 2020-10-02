@@ -148,9 +148,6 @@ if __name__ == "__main__":
     replacement_v = ""
     replacement_s = "| Who / Sponsors | What | How | Additional Details |\n"
     replacement_s += "| :---: | :---: | :---: | --- |\n"
-    replacement_s += "| **[DigitalOcean + Sponsors](https://www.digitalocean.com)** | **![Shirt](" \
-                     "icons/shirt.png) ![Stickers](icons/stickers.png)** | **Four pull requests to any public " \
-                     "repo on GitHub.** | **[Details](https://hacktoberfest.digitalocean.com)** |\n"
 
     # Unverified / Past participants
     replacement_uv = "| Who / Sponsors | What | How | Additional Details |\n"
