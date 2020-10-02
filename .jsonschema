@@ -52,6 +52,9 @@
             "items": {
                 "enum": [
                     "mask",
+                    "facemask",
+                    "face-mask",
+                    "facemask",
                     "glasses",
                     "laptop",
                     "mug",

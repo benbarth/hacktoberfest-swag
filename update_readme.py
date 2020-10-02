@@ -139,6 +139,8 @@ def build_row(data: Dict) -> str:
             swag_item = "shirt"
         elif swag_item == "sticker":
             swag_item = "stickers"
+        elif swag_item == "face-mask" or swag_item == "face mask" or swag_item == "facemask":
+            swag_item = "mask"
 
         if os.path.exists(root + "icons" + os.path.sep + swag_item + ".png"):
             row += "![" + swag_item.capitalize() + "](icons/" + swag_item + ".png) "
