@@ -51,6 +51,7 @@
             "additionalItems": false,
             "items": {
                 "enum": [
+                    "mask",
                     "glasses",
                     "laptop",
                     "mug",
