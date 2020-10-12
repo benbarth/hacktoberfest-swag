@@ -1,0 +1,9 @@
+---
+Name: Acme Corporation
+Website: https://acme.corp
+Swag:
+  - stickers
+  - shirt
+Description: Create one or more merged pull requests.
+Details: https://blog.acme.corp/hacktoberfest/
+IsSponsor: False
