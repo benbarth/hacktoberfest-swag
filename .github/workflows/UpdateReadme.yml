@@ -3,6 +3,9 @@ name: Update README
 
 on:
   push:
+    branches:
+      - main
+      - master
     paths:
       - 'participants/**/*.yml'
   schedule:
