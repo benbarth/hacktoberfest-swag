@@ -13,8 +13,18 @@ on:
   workflow_dispatch:
 
 jobs:
+  ValidateBranch:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main'
+    
+    - name: Mark as failed
+      run: |
+        echo "You are not allowed to directly push into $(echo ${GITHUB_REF##*/}). Please create a feature branch and update your PR accordingly."
+        exit 1
+        
   ValidateYAML:
     runs-on: ubuntu-latest
+    needs: [ValidateBranch]
 
     steps:
       - name: Git checkout
