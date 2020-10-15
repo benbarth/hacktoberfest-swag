@@ -285,6 +285,13 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
         </a>
     </td>
     <td align="center">
+        <a href=https://github.com/ashish8947>
+            <img src=https://avatars2.githubusercontent.com/u/57180502?v=4 width="100;" alt=Ashish Sharma/>
+            <br />
+            <sub style="font-size:14px"><b>Ashish Sharma</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href=https://github.com/B3v3>
             <img src=https://avatars3.githubusercontent.com/u/34847525?v=4 width="100;" alt=Dawid Boksa/>
             <br />
@@ -312,6 +319,8 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Justin Haupt</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center">
         <a href=https://github.com/Pittyolo>
             <img src=https://avatars1.githubusercontent.com/u/25435148?v=4 width="100;" alt=Pittyolo/>
@@ -319,8 +328,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Pittyolo</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center">
         <a href=https://github.com/PiyushB001>
             <img src=https://avatars0.githubusercontent.com/u/40162129?v=4 width="100;" alt=PiyushB001/>
@@ -356,6 +363,8 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Ryan Jones</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center">
         <a href=https://github.com/tilda>
             <img src=https://avatars3.githubusercontent.com/u/8301262?v=4 width="100;" alt=tilda/>
@@ -363,8 +372,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>tilda</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center">
         <a href=https://github.com/tddschn>
             <img src=https://avatars2.githubusercontent.com/u/45612704?v=4 width="100;" alt=Ted/>
