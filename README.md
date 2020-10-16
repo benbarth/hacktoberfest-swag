@@ -16,6 +16,7 @@ Looking for Hacktoberfest swag? You've come to the right place.
 ## What is Hacktoberfest?
 
 "Hacktoberfest is a month-long celebration of open source software." - _DigitalOcean_
+Hacktoberfest is a month-long celebration of open source software run by DigitalOcean in partnership with GitHub and Twilio. Hacktoberfest is open to everyone in our global community!
 
 Hacktoberfest is open to everyone. For the [official limited edition Hacktoberfest shirt](https://hacktoberfest.digitalocean.com), _you must register and make four pull requests_ in the month of October (to a repository with the _hacktoberfest_ label) - you can even contribute to this repository! You can sign up at [hacktoberfest.digitalocean.com](https://hacktoberfest.digitalocean.com).
 
