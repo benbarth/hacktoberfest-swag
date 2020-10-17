@@ -392,7 +392,7 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <br />
             <sub style="font-size:14px"><b>Minh Chau</b></sub>
         </a>
-    </td>
+    </td> 
     <td align="center">
         <a href=https://github.com/fer22f>
             <img src=https://avatars1.githubusercontent.com/u/3057302?v=4 width="100;" alt=Fernando K/>
