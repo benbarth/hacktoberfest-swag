@@ -1,0 +1,23 @@
+---
+
+# Name of the participant
+Name: CrioDO
+
+# Website URL of the participant
+Website: https://www.crio.do/
+
+# List of obtainable swag. Allowed values are
+# glasses, laptop, mug, shirt, socks, stickers, swag
+Swag:
+  - stickers
+  - shirt
+  - swag
+
+# Description of the participation (aka "How to get swag?")
+Description: For getting Swags the person should be registered and should be in Top 50 contributors . 
+
+# URL of a details page
+Details: https://www.crio.do/ibelieveindoing
+
+# Optional flag for sponsors
+IsSponsor: False
