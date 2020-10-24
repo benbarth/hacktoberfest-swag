@@ -374,6 +374,13 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
         </a>
     </td>
     <td align="center">
+        <a href=https://github.com/sudhanshutiwari264>
+            <img src=https://avatars2.githubusercontent.com/u/62458868?v=4 width="100;" alt=Sudhanshu tiwari/>
+            <br />
+            <sub style="font-size:14px"><b>Sudhanshu tiwari</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href=https://github.com/tddschn>
             <img src=https://avatars2.githubusercontent.com/u/45612704?v=4 width="100;" alt=Ted/>
             <br />
@@ -401,6 +408,8 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Fernando K</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center">
         <a href=https://github.com/mofolactic>
             <img src=https://avatars2.githubusercontent.com/u/69076841?v=4 width="100;" alt=mofolactic/>
