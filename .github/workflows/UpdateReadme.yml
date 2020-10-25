@@ -8,6 +8,7 @@ on:
       - master
     paths:
       - 'participants/**/*.yml'
+      - 'update_readme.py'
   schedule:
     - cron: '0 0 1 1 *'
   workflow_dispatch:
