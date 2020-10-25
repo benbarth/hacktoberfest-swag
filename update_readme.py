@@ -160,7 +160,7 @@ if __name__ == "__main__":
     participants = get_participants()
 
     # Sponsors & Verified participants
-    replacement_v = "| | | | |"
+    replacement_v = "| | | | |\n"
 
     replacement_s = "| Who / Sponsors | What | How | Additional Details |\n"
     replacement_s += "| :---: | :---: | :---: | --- |\n"
