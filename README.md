@@ -2,7 +2,7 @@
 
 ![Hacktoberfest](assets/hacktoberfest-logo.png "Hacktoberfest")
 
-# Hacktoberfest Swag <!-- current year start -->2020<!-- current year end -->
+# Hacktoberfest Swag <!-- current year start -->2021<!-- current year end -->
 
 [![Website](https://img.shields.io/badge/Website-visit-2a8?style=for-the-badge&logo=google-chrome&logoColor=white)](https://benbarth.github.io/hacktoberfest-swag/)
 [![Validation](https://img.shields.io/github/workflow/status/benbarth/hacktoberfest-swag/Update%20README/master?logo=github&style=for-the-badge)](https://github.com/benbarth/hacktoberfest-swag/actions?query=workflow%3A"Update+README")
@@ -27,13 +27,18 @@ Study about the updated rules and guidelines for the hacktoberfest [here](https:
 
 ### The purpose of this list is to incentivise meaningful contributions. If you intend to make low-value changes -- just for swag. *Don't.*
 
-## Verified participants <!-- current year start -->2020<!-- current year end -->
+## Verified participants <!-- current year start -->2021<!-- current year end -->
 <!-- verified start -->
 | Who / Sponsors | What | How | Additional Details |
 | :---: | :---: | :---: | --- |
 | [DigitalOcean + Sponsors](https://www.digitalocean.com) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) | Four pull requests to any participating public repo on GitHub. Support open source and pick a limited edition T-shirt or plant a tree.  To reduce spam DigitalOcean introduced new measures on October, 3rd: PRs count only if: **Submitted in a repo with the hacktoberfest topic AND during the month of October AND (The PR is merged OR The PR is labelled as hacktoberfest-accepted by a maintainer OR The PR has been approved)** | [Details](https://hacktoberfest.digitalocean.com/hacktoberfest-update) |
-| [JetBrains](https://www.jetbrains.com) | ![Swag](icons/swag.png) | If you complete Hacktoberfest (you’ve submitted four or more valid pull requests on GitHub), we will send you a coupon code covering 3 months of your new All Products Pack subscription at the end of the Hacktoberfest event. When that expires, you will also get 20% off an annual subscription. If you already have a personal license for a JetBrains tool, the same coupon code you get upon the Hacktoberfest completion will add 3 months to your existing subscription (any JetBrains IDE, .NET tool, or the All Products Pack). | [Details](https://www.jetbrains.com/lp/hacktoberfest-2020) |
 | | | | |
+<!-- verified end -->
+
+## Unverified / Past participants
+<!-- unverified start -->
+| Who / Sponsors | What | How | Additional Details |
+| :---: | :---: | :---: | --- |
 | [Activeloop](https://www.activeloop.ai) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | We've created a [GitHub project board](https://github.com/activeloopai/Hub/projects/2) to keep track of what's happening and can enjoy collaborating and hacking together! Regardless of what issue you will be resolving, any contribution will be rewarded with Activeloop swag! | [Details](https://www.activeloop.ai/hacktoberfest/) |
 | [Appsmith](https://www.appsmith.com) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) | You'll receive Appsmith stickers if you contributed a valid PR to [Appsmith](https://github.com/appsmithorg/appsmith). You'll receive stickers+ a t-shirt if you contributed 3 valid PRs to [Appsmith](https://github.com/appsmithorg/appsmith). | [Details](https://github.com/appsmithorg/appsmith/discussions/863) |
 | [Appwrite](https://appwrite.io) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | Create one or more merged pull requests to any Appwrite repository <https://github.com/appwrite>. _Stickers, Magnets, Buttons, and T-shirts_ | [Details](https://medium.com/appwrite-io/celebrate-hacktoberfest-20-with-appwrite-1356337e2159) |
@@ -51,6 +56,7 @@ Study about the updated rules and guidelines for the hacktoberfest [here](https:
 | [Indeed](https://www.indeed.com/) | ![Shirt](icons/shirt.png) | Complete two or more pull requests in one of the repos maintained by Indeed employees to be eligible. Find open issues marked with the Hacktoberfest tag. An Indeed Open Source sweatshirt will be shipped to the US only. | [Details](https://engineering.indeedblog.com/indeed-hacktoberfest-2020) |
 | [InfraCloud](https://www.infracloud.io) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) | Make a PR or more on InfraCloud’s open-source projects – Fission or Botkube. To deliver the swags, we will reach out to you once PR(s) gets merged. A person with maximum merged PRs will also get a Kindle from our side. | [Details](https://twitter.com/infracloudio/status/1310980826541092865) |
 | [Jenkins](https://jenkins.io) | ![Swag](icons/swag.png) | Jenkins project may also distribute some swag to top contributors, depending on the budget and contributions. | [Details](https://www.jenkins.io/events/hacktoberfest) |
+| [JetBrains](https://www.jetbrains.com) | ![Swag](icons/swag.png) | If you complete Hacktoberfest (you’ve submitted four or more valid pull requests on GitHub), we will send you a coupon code covering 3 months of your new All Products Pack subscription at the end of the Hacktoberfest event. When that expires, you will also get 20% off an annual subscription. If you already have a personal license for a JetBrains tool, the same coupon code you get upon the Hacktoberfest completion will add 3 months to your existing subscription (any JetBrains IDE, .NET tool, or the All Products Pack). | [Details](https://www.jetbrains.com/lp/hacktoberfest-2020) |
 | [Kong](https://konghq.com) | ![Shirt](icons/shirt.png) | If your Pull Request to Kong/kong was accepted, and it fixes a bug, adds functionality, or makes it significantly easier to use or understand Kong, congratulations! You are eligible to receive the very special Contributor T-shirt! Go ahead and fill out the Contributors Submissions form. | [Details](https://github.com/Kong/kong/blob/master/CONTRIBUTING.md#contributor-t-shirt) |
 | [LoginRadius](https://www.loginradius.com) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) | Make one successful pull request in October 2020 to any open source [LoginRadius repository](https://github.com/LoginRadius) and earn a T-shirt and Swags! | [Details](https://www.loginradius.com/engineering/blog/loginradius-supports-hacktoberfest-2020) |
 | [Mattermost](https://mattermost.com/) | ![Mug](icons/mug.png) |  If you contribute to Mattermost and it’s your first time contributing, you’ll also earn some swag from us! | [Details](https://mattermost.com/blog/hacktoberfest-2020/) |
@@ -66,27 +72,6 @@ Study about the updated rules and guidelines for the hacktoberfest [here](https:
 | [Webiny](https://www.webiny.com) | ![Swag](icons/swag.png) | Find out about Webiny's hacktoberfest issues at our GitHub [project board](https://github.com/webiny/webiny-js/projects/12) to keep track of the hacks of October at Webiny Open Source projects 🥳  Go through the `hacktoberfest` labeled issues on the Webiny Open Source projects [here](https://github.com/search?q=org%3Awebiny+label%3Ahacktoberfest).  Or, you can grab one of the ideas from the notes in the [project board](https://github.com/webiny/webiny-js/projects/12) and open a new issue for it. Make sure to tag the newly created issue with the `hacktoberfest` label. | [Details](https://dev.to/webiny/webiny-hacktoberfest-2020-49h4) |
 | [Xamarin / Microsoft](https://dotnet.microsoft.com/apps/xamarin) | ![Swag](icons/swag.png) | We will offer some swag whenever you decide to contribute [to Xamarin Community Toolkit]. | [Details](https://devblogs.microsoft.com/xamarin/hacktoberfest-xamarin-community-toolkit/) |
 | [Zup](https://www.zup.com.br/) | ![Swag](icons/swag.png) | Create 2+ pull request on any [ZupIT repo](https://github.com/ZupIT). The first 200 contributors from Brasil will receive a T-shirt. | [Details](https://insights.zup.com.br/hacktoberfest) |
-<!-- verified end -->
-
-## Unverified / Past participants
-<!-- unverified start -->
-| Who / Sponsors | What | How | Additional Details |
-| :---: | :---: | :---: | --- |
-| [Accord](https://accordproject.org) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) | Create one or more merged pull requests to Accord Project. | [Details](https://accordproject.org/events/hacktoberfest-2019) |
-| [Adobe / Magento](https://opensource.adobe.com) | ![Shirt](icons/shirt.png) | Submit 5 pull requests to <https://github.com/adobe> or <https://github.com/magento> | [Details](https://opensource.adobe.com/squashtoberfest) |
-| [Coding Blocks](https://codingblocks.com) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) | 1 to 3 merged pull requests: Limited-Edition T-shirt . 5+ merged pull requests: Limited-Edition BAG | [Details](https://blog.codingblocks.com/2019/cb-hacktoberfest-2019) |
-| [Flutterwave](https://flutterwave.com) | ![Shirt](icons/shirt.png) | 2 or more pull requests to any of the projects from <https://developer.flutterwave.com/docs/plugins> : Limited-Edition T-shirt | [Details](https://twitter.com/Ace_KYD/status/1183738026511519745) |
-| [Gatsby](https://www.gatsbyjs.com) | ![Swag](icons/swag.png) | 1 PR: Level 1 swag; 5 PRs: Level 2 swag | [Details](https://www.gatsbyjs.com/contributing/contributor-swag/) |
-| [JabRef](https://www.jabref.org) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) | 1 merged pull request: sticker, 5 merged pull requests: 👕. Any repo on <https://github.com/jabref/>. | [Details](https://www.jabref.org/hacktoberfest/2019.html) |
-| [Ladybug Tools](https://www.ladybug.tools) | ![Stickers](icons/stickers.png) | 1 to 3 merged pull requests: Limited-Edition T-shirt . 5+ merged pull requests: Limited-Edition BAG | [Details](https://discourse.ladybug.tools/t/celebrate-hacktoberfest-2019-with-ladybug-tools/7314) |
-| [LBRY](https://lbry.com) | ![Shirt](icons/shirt.png) | A sweet LBRY sticker for 1 PR, T-shirt for a Good PR and 10,000 LBC for first PR of this month. | [Details](https://lbry.com/news/hacktoberfest-2019) |
-| [Les-Tilleuls.coop](https://les-tilleuls.coop) | ![Shirt](icons/shirt.png) | To win a t-shirt, make 3 pull requests on API Platform's GitHub repositories by October 31st, and [then fill in this form](https://cooptilleuls.typeform.com/to/CG0pLd). | [Details](https://les-tilleuls.coop/fr/blog/article/celebrate-hacktoberfest-with-api-platform) |
-| [Opsdroid](http://opsdroid.github.io) | ![Stickers](icons/stickers.png) | Solve issues or improve documentation. 5–10 contributions is probably sticker worthy. | [Details](https://medium.com/opsdroid/contributor-sticker-packs-738058ceda59) |
-| [Parity](https://www.parity.io) | ![Swag](icons/swag.png) | Anyone who makes a significant contribution is eligible for a limited edition gym bag	 | [Details](https://www.parity.io/hacktoberfest-2019-parity/) |
-| [QMK](https://qmk.fm) | ![Shirt](icons/shirt.png) | Interact 4 times with a [QMK repo](https://github.com/qmk) OR donate $15 to [cKeys](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8UQUNVFE9H6QY&source=hacktoberfest) | [Details](https://hacktoberfest.qmk.fm) |
-| [SAP](https://www.sap.com) | ![Swag](icons/swag.png) | A book from sap press for the user who create more pull requests in the ABAP Projects | [Details](https://blogs.sap.com/2019/10/04/lets-code-share-and-learn.-calling-abapers-to-next-edition-of-hacktoberfest) |
-| [Twilio](https://www.twilio.com) | ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | One PR gets you a collection of stickers, 2 or more gets stickers and a pair of Twilio socks. | [Details](https://www.twilio.com/blog/ahoy-hacktoberfest-2019) |
-| [Valor](https://valor-software.com) | ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | 1 PR: pen and sticker. 3 PRs: notepad or wooden phone stand. 5 PRs: pen, sticker, notepad, and a wooden phone stand. | [Details](https://valor-software.com/articles/hacktoberfest-2019-is-coming-and-ngx-bootstrap-strives-for-your-attention.html) |
 <!-- unverified end -->
 
 [View some of this cool swag on Twitter.](https://twitter.com/search?q=%23hacktoberfest%20%23swag)
