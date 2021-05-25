@@ -23,8 +23,6 @@ Hacktoberfest® encourages participation in the open source community.
 
 In all of the hacktoberfest excitement, many companies want to join the celebration by rewarding their contributors with even more swag! That's why we're here!
 
-Study about the updated rules and guidelines for the hacktoberfest [here](https://hacktoberfest.digitalocean.com/hacktoberfest-update).
-
 ### The purpose of this list is to incentivise meaningful contributions. If you intend to make low-value changes -- just for swag. *Don't.*
 
 ## Verified participants <!-- current year start -->2021<!-- current year end -->
