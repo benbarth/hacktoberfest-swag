@@ -64,7 +64,7 @@ jobs:
             echo "Nothing to do."
           fi
 
-  Update:
+  Main:
     runs-on: ubuntu-latest
     needs: [ValidateYAML, ValidateLinks]
 
@@ -92,3 +92,17 @@ jobs:
           git config --global user.name "README Bot"
           git commit -m "Updated README" -a || echo "No changes to commit"
           git push
+
+  UpdateContributors:
+    runs-on: ubuntu-latest
+    needs: [ValidateYAML, ValidateLinks, Main]
+
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+      
+      - uses: BobAnkh/add-contributors@master
+        with:
+          REPO_NAME: 'benbarth/hacktoberfest-swag'
+          CONTRIBUTOR: '## Contributors ✨'
+          ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
