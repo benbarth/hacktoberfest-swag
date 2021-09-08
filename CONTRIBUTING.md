@@ -16,7 +16,7 @@ Adding a new participant for the current year's Hacktoberfest event is easy as 1
 
 Simply create a file named after the participant (e.g. `digitalocean.yml`) and put it in `/participants/CURRENT_YEAR/` and provide all required information as explained [here](#participant-file).
 
-Before creating a new file, you may check first, if it doesn't already exist the directory `/participants/LAST_YEAR/`. If it does, please move it to `/participants/LAST_YEAR/` and edit it instead.
+Before creating a new file, you may check first, if it doesn't already exist the directory `/participants/LAST_YEAR/`. If it does, please move it to `/participants/CURRENT_YEAR/` and edit it instead.
 
 Please refrain from editing the file README.md directly, in order to add new participants, as your changes would be overwritten during the next automatic update.
 
