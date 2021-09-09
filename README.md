@@ -31,6 +31,7 @@ In all of the hacktoberfest excitement, many companies want to join the celebrat
 | :---: | :---: | :---: | --- |
 | [DigitalOcean + Sponsors](https://www.digitalocean.com) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) | Four pull requests to any participating public repo on GitHub. Support open source and pick a limited edition T-shirt or plant a tree.  To reduce spam DigitalOcean introduced new measures on October, 3rd: PRs count only if: **Submitted in a repo with the hacktoberfest topic AND during the month of October AND (The PR is merged OR The PR is labelled as hacktoberfest-accepted by a maintainer OR The PR has been approved)** | [Details](https://hacktoberfest.digitalocean.com/faq) |
 | | | | |
+| [Camunda](https://camunda.com) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) | Participants who complete the Camunda challenge from October 1-31 will earn a limited edition Camunda x Hacktoberfest 2021 t-shirt as well as nifty stickers. | [Details](https://camunda.com/hacktoberfest2021/) |
 <!-- verified end -->
 
 ## Unverified / Past participants
@@ -42,7 +43,6 @@ In all of the hacktoberfest excitement, many companies want to join the celebrat
 | [Appwrite](https://appwrite.io) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | Create one or more merged pull requests to any Appwrite repository <https://github.com/appwrite>. _Stickers, Magnets, Buttons, and T-shirts_ | [Details](https://medium.com/appwrite-io/celebrate-hacktoberfest-20-with-appwrite-1356337e2159) |
 | [Aqua Security](https://www.aquasec.com) | ![Mask](icons/mask.png) ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) | We are looking for meaningful contributions to our open source products. It can be adding new features, fixing bugs, improving documentation, integrating with other software, or just creating content in other places that educates about our technology. By getting involved, you get a unique opportunity to apply your skills at the forefront of the cloud native security. | [Details](https://blog.aquasec.com/hacktoberfest-2020-aqua-open-source) |
 | [ArchivesSpace](https://archivesspace.org/) | ![Swag](icons/swag.png) | Be the most active contributor in ArchivesSpace repositories during October | [Details](https://archivesspace.org/archives/6563) |
-| [Camunda](https://camunda.com) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) | 2+ pull requests in any Camunda BPM, Zeebe, bpmn.io, etc, repository	 | [Details](https://camunda.com/hacktoberfest2020) |
 | [Circle CI](https://circleci.com) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) | *Challenge 1* - 1 to 3 merged pull requests to include orb usage on an existing CircleCI config: Limited-Edition Sticker. 4+ pull requests: Stickers + Limited-Edition T-shirt; *Challenge 2* - Develop and publish an orb using the Orb Development Kit: limited edition orb magic pin. | [Details](https://hacktoberfest.circleci.com/) |
 | [Commerce.js](https://commercejs.com/) | ![Swag](icons/swag.png) | Submit one pull request to Commerce.js to win more cool swag! | [Details](https://commercejs.com/docs/hacktoberfest/) |
 | [CrioDO](https://www.crio.do/) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | For getting Swags the person should be registered and should be in Top 50 contributors . | [Details](https://www.crio.do/ibelieveindoing) |
@@ -137,6 +137,13 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
 </tr>
 <tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/donno2048>
+            <img src=https://avatars.githubusercontent.com/u/61805754?v=4 width="100;"  alt=Elisha Hollander/>
+            <br />
+            <sub style="font-size:14px"><b>Elisha Hollander</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/mzuehlke>
             <img src=https://avatars.githubusercontent.com/u/204523?v=4 width="100;"  alt=Marco Zühlke/>
             <br />
@@ -171,6 +178,8 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Aman Mehta</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/arshadkazmi42>
             <img src=https://avatars.githubusercontent.com/u/4654382?v=4 width="100;"  alt=Arshad Kazmi/>
@@ -178,20 +187,11 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Arshad Kazmi</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/duncanmcclean>
             <img src=https://avatars.githubusercontent.com/u/19637309?v=4 width="100;"  alt=Duncan McClean/>
             <br />
             <sub style="font-size:14px"><b>Duncan McClean</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/donno2048>
-            <img src=https://avatars.githubusercontent.com/u/61805754?v=4 width="100;"  alt=Elisha Hollander/>
-            <br />
-            <sub style="font-size:14px"><b>Elisha Hollander</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
