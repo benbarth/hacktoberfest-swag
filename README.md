@@ -35,6 +35,7 @@ In all of the hacktoberfest excitement, many companies want to join the celebrat
 | [Globo](https://opensource.globo.com) | ![Shirt](icons/shirt.png) | 2 PR + min. 1 merged PR: 👕. Any repo on [Globo.com](https://github.com/globocom). Please note, that delivery might be limited to Brazil! | [Details](https://opensource.globo.com/hacktoberfest/) |
 | [Jenkins](https://jenkins.io) | ![Swag](icons/swag.png) | During this event everyone can support open-source by contributing changes, and then earn a limited edition swag. | [Details](https://www.jenkins.io/events/hacktoberfest/) |
 | [Kong](https://konghq.com) | ![Shirt](icons/shirt.png) | If your Pull Request to Kong/kong was accepted, and it fixes a bug, adds functionality, or makes it significantly easier to use or understand Kong, congratulations! You are eligible to receive the very special Contributor T-shirt! Go ahead and fill out the Contributors Submissions form. | [Details](https://github.com/Kong/kong/blob/master/CONTRIBUTING.md#contributor-t-shirt) |
+| [Milvus](https://milvus.io/) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | By contributing to the Milvus project between October 1 and October 31 you’ll also earn some additional swag and prizes sponsord by Zilliz | [Details](https://milvus.io/hacktoberfest-2021/) |
 <!-- verified end -->
 
 ## Unverified / Past participants
