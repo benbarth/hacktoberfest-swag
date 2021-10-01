@@ -1,0 +1,8 @@
+---
+Name: DeepSource
+Website: https://deepsource.io/
+Swag:
+  - swag
+Description: "DigitalOcean will send DeepSource swag to all participants who create at least 4 pull requests during Hacktoberfest. Apart from this, if you're a maintainer participating in Hacktoberfest with DeepSource Discover with at least 20 contributions, we'll send special swag to you. Expect an e-mail from us in the second week of November '21."
+Details: https://deepsource.io/hacktoberfest/
+IsSponsor: True
