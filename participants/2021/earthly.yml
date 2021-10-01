@@ -1,0 +1,7 @@
+---
+Name: Earthly
+Website: https://www.earthly.dev
+Swag:
+  - stickers
+Description: "The first 40 participants who submit at least one pull request that is accepted Earthly’s GitHub Repository between October 1, 2021 and November 1, 2021, will get an earthly sticker.  We have labeled many issues hacktoberfest to get you started. You can also qualify for the sticker by adding a working Earthfile file to another open-source project, including your own personal project."
+Details: https://earthly.dev/blog/hacktoberfest-2021/
