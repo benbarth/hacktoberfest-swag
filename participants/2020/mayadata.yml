@@ -1,8 +1,0 @@
----
-Name: MayaData
-Website: https://mayadata.io
-Swag:
-  - stickers
-  - shirt
-Description: "When your PR to any of the repositories ([OpenEBS](https://github.com/openebs/openebs) / [LitmusChaos](https://github.com/litmuschaos/litmus)) is merged, we will contact you to fill out a form to send a special edition swags designed for Hacktoberfest. BEST PR wins a grand prize. Remember, no contribution is too small, and everyone was a rookie at some point in time. From documentation updates to bug fixes or small feature improvements, every pull request has value and helps make the world a better place."
-Details: https://blog.mayadata.io/celebrate-hacktoberfest-2020-open-source-with-mayadata
