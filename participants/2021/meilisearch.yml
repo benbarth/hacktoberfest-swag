@@ -3,6 +3,5 @@ Name: MeiliSearch
 Website: https://www.meilisearch.com
 Swag:
   - swag
-  - stickers
 Description: "MeiliSearch will send reusable insulated water bottles to all those who successfully participated in Hacktoberfest and contributed to the open-source projects of MeiliSearch (look for the repositories with the hacktoberfest topic)."
 Details: https://blog.meilisearch.com/contribute-hacktoberfest-2021/
