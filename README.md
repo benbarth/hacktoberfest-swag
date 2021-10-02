@@ -84,9 +84,11 @@ In all of the hacktoberfest excitement, many companies want to join the celebrat
 
 Open source is changing the world – one pull request at a time.
 
-## Contribute
+## Support open source
 
-Looking for a Hacktoberfest issue? 👉 <https://github.com/search?utf8=✓&q=label%3AHacktoberfest&type=Issues>
+Support your favorite project with a [donation](https://hacktoberfest.digitalocean.com/giving).
+
+Contribute by resolving a Hacktoberfest issue! 👉 <https://github.com/search?utf8=✓&q=label%3AHacktoberfest&type=Issues>
 
 Looking for a good first issue? 👉 <https://github.com/search?utf8=✓&q=label%3A"good+first+issue"&type=Issues> or go to [Up For Grabs](https://up-for-grabs.net/#/).
 
