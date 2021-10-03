@@ -16,4 +16,4 @@
 
 ### Updating the README.md
 
-- [ ] I have discussed and received approval from a moderator (@benbarth, @SoftCreatR, or @crweiner)
+- [ ] I have discussed and received approval from a maintainer (@benbarth, @SoftCreatR, or @crweiner)
