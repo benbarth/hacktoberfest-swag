@@ -1,0 +1,14 @@
+---
+Name: Native Script
+Website: https://nativescript.org/
+Swag:
+  - shirt
+  - socks
+  - swag
+Description: "Contribution can be in any of these forms:
+  - Create a repo of anything you find fun or neat about NativeScript (small or large).
+  - Create a video showing off your NativeScript skills.
+  - Post a PR for an issue in any [NativeScript Repository](https://github.com/search?q=topic%3Ahacktoberfest+org%3ANativeScript&type=Repositories).
+  - Share a gist of neat NativeScript code you find useful.
+  - Create a NativeScript plugin."
+Details: https://blog.nativescript.org/hacktoberfest-2021/index.html
