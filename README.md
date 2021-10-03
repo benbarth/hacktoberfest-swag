@@ -1,6 +1,6 @@
 <div align=center>
 
-![Hacktoberfest](assets/hacktoberfest-logo.svg "Hacktoberfest")
+![Hacktoberfest](assets/hacktoberfest-logo.png "Hacktoberfest")
 
 # Hacktoberfest Swag <!-- current year start -->2021<!-- current year end -->
 
