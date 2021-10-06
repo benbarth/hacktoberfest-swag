@@ -480,6 +480,13 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>mofolactic</b></sub>
         </a>
     </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/nabokovas>
+            <img src=https://avatars.githubusercontent.com/u/27001193?v=4 width="100;"  alt=nabokovas/>
+            <br />
+            <sub style="font-size:14px"><b>nabokovas</b></sub>
+        </a>
+    </td>
 </tr>
 </table>
 
