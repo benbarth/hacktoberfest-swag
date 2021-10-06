@@ -459,6 +459,13 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
 </tr>
 <tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/favuur>
+            <img src=https://avatars.githubusercontent.com/u/83845045?v=4 width="100;"  alt=favuur/>
+            <br />
+            <sub style="font-size:14px"><b>favuur</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/fer22f>
             <img src=https://avatars.githubusercontent.com/u/3057302?v=4 width="100;"  alt=Fernando K/>
             <br />
