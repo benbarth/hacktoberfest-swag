@@ -180,6 +180,13 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/nabokovas>
+            <img src=https://avatars.githubusercontent.com/u/27001193?v=4 width="100;"  alt=nabokovas/>
+            <br />
+            <sub style="font-size:14px"><b>nabokovas</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/crweiner>
             <img src=https://avatars.githubusercontent.com/u/23106097?v=4 width="100;"  alt=Chandler Weiner/>
             <br />
@@ -193,6 +200,8 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Aman Mehta</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/arshadkazmi42>
             <img src=https://avatars.githubusercontent.com/u/4654382?v=4 width="100;"  alt=Arshad Kazmi/>
@@ -200,8 +209,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Arshad Kazmi</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/duncanmcclean>
             <img src=https://avatars.githubusercontent.com/u/19637309?v=4 width="100;"  alt=Duncan McClean/>
@@ -237,6 +244,8 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Nityananda Gohain</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/koppor>
             <img src=https://avatars.githubusercontent.com/u/1366654?v=4 width="100;"  alt=Oliver Kopp/>
@@ -244,8 +253,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Oliver Kopp</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/susw12>
             <img src=https://avatars.githubusercontent.com/u/22733718?v=4 width="100;"  alt=Sujay Swain/>
@@ -272,13 +279,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <img src=https://avatars.githubusercontent.com/u/22341442?v=4 width="100;"  alt=ishan-sriv/>
             <br />
             <sub style="font-size:14px"><b>ishan-sriv</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/nabokovas>
-            <img src=https://avatars.githubusercontent.com/u/27001193?v=4 width="100;"  alt=nabokovas/>
-            <br />
-            <sub style="font-size:14px"><b>nabokovas</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
