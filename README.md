@@ -496,6 +496,13 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>mofolactic</b></sub>
         </a>
     </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/prokan468>
+            <img src=https://avatars.githubusercontent.com/u/61049742?v=4 width="100;"  alt=prokan468/>
+            <br />
+            <sub style="font-size:14px"><b>prokan468</b></sub>
+        </a>
+    </td>
 </tr>
 </table>
 
