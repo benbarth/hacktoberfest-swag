@@ -8,10 +8,11 @@
             "Website": "https://acme.corp",
             "Swag": [
                 "stickers",
-                "shirt"
+                "shirt",
+                "plant trees"
             ],
             "Description": "Create one or more merged pull requests.",
-            "Details": "https://acme.corp/blog/acme-hacktoberfest-2020/",
+            "Details": "https://acme.corp/blog/acme-hacktoberfest/",
           	"IsSponsor": false
         }
     ],
@@ -54,7 +55,7 @@
                     "mask",
                     "facemask",
                     "face-mask",
-                    "facemask",
+                    "face mask",
                     "glasses",
                     "laptop",
                     "mug",
@@ -66,7 +67,11 @@
                     "socks",
                     "stickers",
                     "sticker",
-                    "swag"
+                    "swag",
+                    "tree",
+                    "trees",
+                    "plant tree",
+                    "plant trees"
                 ],
                 "anyOf": [
                     {
@@ -75,7 +80,8 @@
                         "title": "The first anyOf schema",
                         "examples": [
                             "stickers",
-                            "shirt"
+                            "shirt",
+                            "plant trees"
                         ]
                     }
                 ]
@@ -90,7 +96,7 @@
         },
         "Details": {
             "examples": [
-                "https://acme.corp/blog/acme-hacktoberfest-2020/"
+                "https://acme.corp/blog/acme-hacktoberfest/"
             ],
             "title": "The Details schema",
             "pattern": "^https?://"
