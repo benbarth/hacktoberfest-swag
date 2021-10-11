@@ -52,7 +52,7 @@ __Example File__
 > Website: https://acme.corp
 > 
 > # List of obtainable swag. Allowed values are
-> # glasses, laptop, mug, shirt, socks, stickers, swag
+> # glasses, laptop, mug, shirt, socks, stickers, swag, trees
 > Swag:
 >   - stickers
 >   - shirt
