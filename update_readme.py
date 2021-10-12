@@ -142,7 +142,7 @@ def build_row(data: Dict) -> str:
         elif swag_item == "face-mask" or swag_item == "face mask" or swag_item == "facemask":
             swag_item = "mask"
         elif swag_item == "tree" or swag_item == "trees" or swag_item == "plant tree" or swag_item == "plant trees":
-            swag_item = "leaf"
+            swag_item = "plant"
 
         if os.path.exists(root + "icons" + os.path.sep + swag_item + ".png"):
             row += "![" + swag_item.capitalize() + "](icons/" + swag_item + ".png) "
