@@ -41,10 +41,12 @@ In all of the hacktoberfest excitement, many companies want to join the celebrat
 | [Bitrise](https://www.bitrise.io) | ![Socks](icons/socks.png) ![Swag](icons/swag.png) | Contribute with four or more pull requests to any of our open issues labeled Hacktoberfest and fill out our form after that. | [Details](https://www.bitrise.io/hacktoberfest-2021) |
 | [Bridgecrew](https://bridgecrew.io/event/2021-hacktoberfest/) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) | Submit one contribution and you’ll receive a super ghoul sticker pack. Submit two or more contributions and you’ll receive a swag pack complete with stickers and a wicked t-shirt. | [Details](https://bridgecrew.io/event/2021-hacktoberfest/) |
 | [Camunda](https://camunda.com) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) | Participants who complete the Camunda challenge from October 1-31 will earn a limited edition Camunda x Hacktoberfest t-shirt as well as nifty stickers. | [Details](https://camunda.com/hacktoberfest2021/) |
+| [codedamn](https://codedamn.com/) | ![Shirt](icons/shirt.png) | Complete a single project, submit it on their GitHub repository, and win a t-shirt for free! | [Details](https://codedamn.com/projects) |
 | [CodeSee](https://www.codesee.io) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | After completing OSS Port x Hacktoberfest Challenges fill out the form located below challenges rules. | [Details](https://www.oss-port.com/swag/) |
 | [Creative Tim](https://www.creative-tim.com) | ![Shirt](icons/shirt.png) | we are offering a special Creative Tim T-shirt for ten collaborators on our open-source | [Details](https://www.creative-tim.com/blog/creative-tim/open-source-projects-for-hacktoberfest/) |
 | [DagsHub](https://dagshub.com) | ![Swag](icons/swag.png) | DagsHub will send swag to all participants who create at least 2 pull requests during Hacktoberfest. If you make more than 10 pull requests, we'll send special swag your way! | [Details](https://dagshub.com/blog/hacktoberfest-x-dagshub-2) |
 | [Datenanfragen.de e. V.](https://www.datarequests.org) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) | The first 100 participants who submit a pull request or a patch that is accepted by us to one of the qualifying repositories between October 1, and November 1, will get a free sticker set. In addition, we are awarding 10 t-shirts for the best contributions. Our board will select those winners after the event is over. | [Details](https://www.datarequests.org/blog/hacktoberfest-2021/) |
+| [devICT](https://www.devict.org/) | ![Stickers](icons/stickers.png) | After two pull requests to any qualifying repository, you are eligible to receive a fun set of stickers! | [Details](https://devict-hacktoberfest.herokuapp.com/) |
 | [Earthly](https://www.earthly.dev) | ![Stickers](icons/stickers.png) | The first 40 participants who submit at least one pull request that is accepted Earthly’s GitHub Repository between October 1, 2021 and November 1, 2021, will get an earthly sticker.  We have labeled many issues hacktoberfest to get you started. You can also qualify for the sticker by adding a working Earthfile file to another open-source project, including your own personal project. | [Details](https://earthly.dev/blog/hacktoberfest-2021/) |
 | [Flyte](https://flyte.org/) | ![Mug](icons/mug.png) ![Shirt](icons/shirt.png) ![Swag](icons/swag.png) | Create 2 or more merged pull requests to any of the flyte github repositories. The first 15 contributors will get a mug irrespective of the number of merged pull requests. | [Details](https://blog.flyte.org/meet-flyte-at-hacktoberfest-2021) |
 | [Globo](https://opensource.globo.com) | ![Shirt](icons/shirt.png) | 2 PR + min. 1 merged PR: 👕. Any repo on [Globo.com](https://github.com/globocom). Please note, that delivery might be limited to Brazil! | [Details](https://opensource.globo.com/hacktoberfest/) |
@@ -230,6 +232,13 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/Kriti021999>
+            <img src=https://avatars.githubusercontent.com/u/39064533?v=4 width="100;"  alt=Kriti Mehta/>
+            <br />
+            <sub style="font-size:14px"><b>Kriti Mehta</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/lucasarvelo>
             <img src=https://avatars.githubusercontent.com/u/6098495?v=4 width="100;"  alt=Lucas Arvelo/>
             <br />
@@ -243,6 +252,8 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Maurice T. Meyer</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/berry120>
             <img src=https://avatars.githubusercontent.com/u/7595149?v=4 width="100;"  alt=Michael Berry/>
@@ -250,8 +261,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Michael Berry</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/nityanandagohain>
             <img src=https://avatars.githubusercontent.com/u/26831659?v=4 width="100;"  alt=Nityananda Gohain/>
@@ -287,6 +296,8 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Emre Cilesiz</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/ishan-sriv>
             <img src=https://avatars.githubusercontent.com/u/22341442?v=4 width="100;"  alt=ishan-sriv/>
@@ -294,8 +305,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>ishan-sriv</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/shohil-kishore>
             <img src=https://avatars.githubusercontent.com/u/33049612?v=4 width="100;"  alt=Shohil Kishore/>
@@ -331,6 +340,8 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Ankit Kumar Dwivedi</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/ashish8947>
             <img src=https://avatars.githubusercontent.com/u/57180502?v=4 width="100;"  alt=Ashish Sharma/>
@@ -338,8 +349,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Ashish Sharma</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/B3v3>
             <img src=https://avatars.githubusercontent.com/u/34847525?v=4 width="100;"  alt=Dawid Boksa/>
@@ -366,13 +375,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <img src=https://avatars.githubusercontent.com/u/15842740?v=4 width="100;"  alt=Justin Haupt/>
             <br />
             <sub style="font-size:14px"><b>Justin Haupt</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/Kriti021999>
-            <img src=https://avatars.githubusercontent.com/u/39064533?v=4 width="100;"  alt=Kriti Mehta/>
-            <br />
-            <sub style="font-size:14px"><b>Kriti Mehta</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
