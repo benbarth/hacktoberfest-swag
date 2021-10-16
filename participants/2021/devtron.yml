@@ -2,9 +2,7 @@ Name: Devtron
 Website: https://devtron.ai/
 Swag:
   - stickers
-  - T-shirt
-  - Diary
-  - Coaster 
-  - Electronic Gadgets
+  - shirt
+  - swag
 Description: We do accept [documentation fixes](http://docs.devtron.ai/) and [content creation](https://github.com/devtron-labs/devtron/blob/main/COMMUNITY_CONTRIBUTIONS.md) PRs for Devtron. Join our [Discord Community](https://discord.com/invite/9MrMwGDR) and send the PR link in Contrib channel with **hacktoberfest** tag.
 Details: https://github.com/devtron-labs/hacktoberfest2021
