@@ -1,0 +1,57 @@
+---
+name: "[UPD] Update existing Swag Opportunity"
+description: >-
+  Raise an issue with information about an updated opportunity
+title: "[UPD] Update existing Swag Opportunity"
+labels:
+  - enhancement
+  - help wanted
+body:
+  - type: input
+    id: org
+    attributes:
+      label: Organization
+      description: Name of the organization giving this swag
+      placeholder: Acme Corporation
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Organization Website
+      description: Website URL of the organization
+      placeholder: https://acme.corp
+    validations:
+      required: true
+  - type: input
+    id: announcement
+    attributes:
+      label: Announcement URL
+      description: >-
+        Link to the place where the company has announced their Hacktoberfest
+        participation (e.g. blog post, GitHub issue, Medium Article, etc.)
+      placeholder: https://blog.acme.corp/hacktoberfest/
+  - type: textarea
+    id: desc
+    attributes:
+      label: Description / Summary
+      description: >-
+        A concise description of the swag and what has to be done in order to
+        get it
+      placeholder: Create one or more merged pull requests.
+    validations:
+      required: true
+  - type: checkboxes
+    id: swaglist
+    attributes:
+      label: Swag Items
+      description: The list of swag items being offered
+      options:
+        - label: Glasses
+        - label: Laptop
+        - label: Mug
+        - label: Shirt
+        - label: Socks
+        - label: Stickers
+        - label: Trees
+        - label: Other

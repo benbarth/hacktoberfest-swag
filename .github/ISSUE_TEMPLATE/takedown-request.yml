@@ -1,0 +1,45 @@
+---
+name: '[BLA] Takedown request'
+description: Raise an issue with information about a takedown request
+title: '[BLA] Takedown request'
+assignees:
+  - SoftCreatR
+  - benbarth
+  - crweiner
+labels:
+  - takedown
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Sad to see you go, but we accept your decision and help you to get
+        removed from our list as soon as possible. Please fill out the following
+        form, and we'll get back to you shortly.
+
+
+        __Please note, that takedown requests are only accepted by authorized
+        representatives. Requests without valid proof will be closed without
+        further notice.__
+  - type: input
+    id: org
+    attributes:
+      label: Organization
+      description: Name of the organization you represent
+      placeholder: Acme Corporation
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+      description: Why do you want this swag listing to be taken down?
+      placeholder: Because I can.
+  - type: textarea
+    id: proof
+    attributes:
+      label: Proof Of Ownership
+      description: A proof showing that you represent this company
+      placeholder: >-
+        ![authorized-representative](https://user-images.githubusercontent.com/81188/138868923-c66aca01-43de-4f2b-a676-208b92229af5.jpg)
+    validations:
+      required: true
