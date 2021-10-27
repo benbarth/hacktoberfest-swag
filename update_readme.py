@@ -51,7 +51,8 @@ def init() -> None:
 
     # Remove obsolete directories and files
     for directory in glob.glob(work_dir + "*"):
-        if os.path.isdir(directory) and int(os.path.basename(directory)) < (int(current_year) - 1):
+        # if os.path.isdir(directory) and int(os.path.basename(directory)) < (int(current_year) - 1):
+        if os.path.isdir(directory) and int(os.path.basename(directory)) < (int(current_year)):
             shutil.rmtree(directory)
 
 
