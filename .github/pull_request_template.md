@@ -18,7 +18,6 @@
 - [ ] I have checked to ensure the participant is not participating this year
 - [ ] I have provided evidence that the participant is not participating this year
 
-
 ### Updating the README.md
 
 - [ ] I have discussed the proposed changes and received approval from a maintainer (@benbarth, @SoftCreatR, or @crweiner)
