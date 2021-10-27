@@ -127,10 +127,17 @@ Looking for a good first issue? 👉 <https://github.com/search?utf8=✓&q=label
 
 Know of another Hacktoberfest swag opportunity? Learn how to contribute to this repository by reading our [contribution guidelines](CONTRIBUTING.md).
 
-## Contributors ✨
+## Maintainers 🛠️
 
 <table>
 <tr>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/benbarth>
+            <img src=https://avatars.githubusercontent.com/u/1040797?v=4 width="100;"  alt=Ben Barth/>
+            <br />
+            <sub style="font-size:14px"><b>Ben Barth</b></sub>
+        </a>
+    </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/SoftCreatR>
             <img src=https://avatars.githubusercontent.com/u/81188?v=4 width="100;"  alt=Sascha Greuel/>
@@ -138,6 +145,20 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Sascha Greuel</b></sub>
         </a>
     </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/crweiner>
+            <img src=https://avatars.githubusercontent.com/u/23106097?v=4 width="100;"  alt=Chandler Weiner/>
+            <br />
+            <sub style="font-size:14px"><b>Chandler Weiner</b></sub>
+        </a>
+    </td>
+</tr>
+</table>
+
+## Contributors ✨
+
+<table>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/StrikerRUS>
             <img src=https://avatars.githubusercontent.com/u/25141164?v=4 width="100;"  alt=Nikita Titov/>
@@ -231,13 +252,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <img src=https://avatars.githubusercontent.com/u/16793430?v=4 width="100;"  alt=devTayls/>
             <br />
             <sub style="font-size:14px"><b>devTayls</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/crweiner>
-            <img src=https://avatars.githubusercontent.com/u/23106097?v=4 width="100;"  alt=Chandler Weiner/>
-            <br />
-            <sub style="font-size:14px"><b>Chandler Weiner</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
