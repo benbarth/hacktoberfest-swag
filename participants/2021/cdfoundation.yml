@@ -1,7 +1,0 @@
----
-Name: CD.Foundation
-Website: https://cd.foundation/
-Swag:
-  - swag
-Description: "At the end of Hacktoberfest, the top 3 contributors of each of the 5 CDF projects (Jenkins, Jenkins X, Ortelius, Screwdriver, and Tekton) will be chosen and recognized."
-Details: https://cd.foundation/hacktoberfest/

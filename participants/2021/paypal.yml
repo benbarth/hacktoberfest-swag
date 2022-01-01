@@ -1,7 +1,0 @@
----
-Name: PayPal
-Website: https://www.paypal.com/
-Swag:
-  - swag
-Description: "In addition to [Hacktoberfest](https://hacktoberfest.digitalocean.com/)'s official T-shirts, the first 20 contributors will receive swag from PayPal! We welcome your contributions and are excited to see your pull requests! As a bonus, a randomly selected contributor will receive a TimBuk2 Parkside Backpack!"
-Details: https://github.com/paypal/hacktoberfest
