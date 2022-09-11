@@ -31,6 +31,7 @@ In all of the hacktoberfest excitement, many companies want to join the celebrat
 | :---: | :---: | :---: | --- |
 | [DigitalOcean + Sponsors](https://hacktoberfest.com/) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) ![Plant](icons/plant.png) | Four pull requests to any participating public repo on GitHub or GitLab. Support open source and pick a limited edition T-shirt or plant a tree.  To reduce spam DigitalOcean introduced new measures on 2020: PRs count only if: **Submitted in a repo with the hacktoberfest topic AND during the month of October AND (The PR is merged OR The PR is labelled as hacktoberfest-accepted by a maintainer OR The PR has been approved)** | [Details](https://hacktoberfest.com/participation/) |
 | | | | |
+| [Camunda](https://camunda.com) | ![Shirt](icons/shirt.png) ![Plant](icons/plant.png) | Submit four (4) quality pull requests (PRs) to any [Camunda repo](https://github.com/orgs/camunda/repositories) including participating [Camunda Community Hub repos](https://github.com/orgs/camunda-community-hub/repositories). Check for the hacktoberfest label to find participating repos. | [Details](https://camunda.com/hacktoberfest2022/) |
 <!-- verified end -->
 
 [View some of this cool swag on Twitter.](https://twitter.com/search?q=%23hacktoberfest%20%23swag)
