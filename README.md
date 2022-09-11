@@ -169,9 +169,9 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
 <tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/devtayls>
-            <img src=https://avatars.githubusercontent.com/u/16793430?v=4 width="100;"  alt=devTayls/>
+            <img src=https://avatars.githubusercontent.com/u/16793430?v=4 width="100;"  alt=tayls/>
             <br />
-            <sub style="font-size:14px"><b>devTayls</b></sub>
+            <sub style="font-size:14px"><b>tayls</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
@@ -424,9 +424,9 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/tddschn>
-            <img src=https://avatars.githubusercontent.com/u/45612704?v=4 width="100;"  alt=Ted/>
+            <img src=https://avatars.githubusercontent.com/u/45612704?v=4 width="100;"  alt=Teddy Xinyuan Chen/>
             <br />
-            <sub style="font-size:14px"><b>Ted</b></sub>
+            <sub style="font-size:14px"><b>Teddy Xinyuan Chen</b></sub>
         </a>
     </td>
 </tr>
