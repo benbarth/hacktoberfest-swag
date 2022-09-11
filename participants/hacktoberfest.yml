@@ -1,10 +1,10 @@
 ---
 Name: DigitalOcean + Sponsors
-Website: https://www.digitalocean.com
+Website: https://hacktoberfest.com/
 Swag:
   - stickers
   - shirt
   - trees
 Description: "Four pull requests to any participating public repo on GitHub or GitLab. Support open source and pick a limited edition T-shirt or plant a tree.  To reduce spam DigitalOcean introduced new measures on 2020: PRs count only if: **Submitted in a repo with the hacktoberfest topic AND during the month of October AND (The PR is merged OR The PR is labelled as hacktoberfest-accepted by a maintainer OR The PR has been approved)**"
-Details: https://hacktoberfest.digitalocean.com/resources/participation
+Details: https://hacktoberfest.com/participation/
 IsSponsor: True
