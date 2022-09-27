@@ -270,9 +270,9 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/ishan-sriv>
-            <img src=https://avatars.githubusercontent.com/u/22341442?v=4 width="100;"  alt=ishan-sriv/>
+            <img src=https://avatars.githubusercontent.com/u/22341442?v=4 width="100;"  alt=Ishan Srivastava />
             <br />
-            <sub style="font-size:14px"><b>ishan-sriv</b></sub>
+            <sub style="font-size:14px"><b>Ishan Srivastava </b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
