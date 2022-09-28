@@ -7,3 +7,4 @@ Swag:
   - socks
 Description: "Create one or more merged pull requests to any Appwrite repository <https://github.com/appwrite>. _Stickers, Socks, and T-shirts_"
 Details: https://hacktoberfest.appwrite.io/
+IsSponsor: True
