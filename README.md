@@ -40,6 +40,7 @@ In all of the Hacktoberfest excitement, many companies want to join the celebrat
 | [Novu](https://novu.co/) | ![Shirt](icons/shirt.png) | Create 3 merged pull requests to the Novu repository at https://github.com/novuhq/novu | [Details](https://github.com/novuhq/novu) |
 | [Percona](https://www.percona.com) | ![Shirt](icons/shirt.png) ![Swag](icons/swag.png) | Submit four (4) quality pull requests (PRs) to hacktoberfest labelled [Percona repositories](https://github.com/search?q=org%3Apercona+topic%3Ahacktoberfest) | [Details](https://www.percona.com/blog/contribute-to-open-source-with-percona-and-hacktoberfest/) |
 | [ShastraOS](https://shastraos.co/) | ![Swag](icons/swag.png) | At this time, no specific information is known regarding the receipt of Swags/Perks. Registration is required: https://uimhaxwrrxg.typeform.com/to/JOY3FzvW | [Details](https://shastraos.co/opensource) |
+| [UnionML](https://unionml.readthedocs.io/en/stable/) | ![Shirt](icons/shirt.png) | Submit 2/3 pull requests to receive a voucher or Union tumbler and 3+ pull requests to receive a Union hoodie. Check out https://github.com/unionai-oss/unionml/issues/171 for the available hacktoberfest-labeled issues and fill out [this form](https://tally.so/r/nWO7qQ) after the PR gets accepted/merged. | [Details](https://blog.flyte.org/meet-flyte-and-unionml-at-hacktoberfest-2022) |
 <!-- verified end -->
 
 [View some of this cool swag on Twitter.](https://twitter.com/search?q=%23hacktoberfest%20%23swag)
