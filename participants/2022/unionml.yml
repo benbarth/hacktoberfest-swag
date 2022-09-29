@@ -1,0 +1,7 @@
+---
+Name: UnionML
+Website: https://unionml.readthedocs.io/en/stable/
+Swag:
+  - shirt
+Description: "Submit 2/3 pull requests to receive a voucher or Union tumbler and 3+ pull requests to receive a Union hoodie. Check out https://github.com/unionai-oss/unionml/issues/171 for the available hacktoberfest-labeled issues and fill out [this form](https://tally.so/r/nWO7qQ) after the PR gets accepted/merged."
+Details: https://blog.flyte.org/meet-flyte-and-unionml-at-hacktoberfest-2022
