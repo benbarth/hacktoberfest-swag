@@ -1,15 +1,10 @@
 ---
-
-Name: INVERTASE
-
-Website: https://invertase.io/
-
+Name: Invertase
+Website: https://invertase.io
 Swag:
   - stickers
   - shirt
   - mug
   - swag
-
 Description: Create one or more merged pull requests.
-
 Details: https://invertase.io/community/hacktoberfest
