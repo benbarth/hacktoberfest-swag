@@ -38,6 +38,7 @@ In all of the Hacktoberfest excitement, many companies want to join the celebrat
 | [HackSquad](https://hacksquad.dev/) | ![Shirt](icons/shirt.png) ![Swag](icons/swag.png) | Register to the HackSquad using your GitHub, Join a squad or get assigned to a random squad. The top 60 teams with the highest score (1PR = 1 POINT) will win awesome swag. Contributions are being counted between 1st October - 31st October | [Details](https://dev.to/novu/hacksquad-2022-contribute-meet-participate-and-win-swag-3b18) |
 | [Invertase](https://invertase.io) | ![Mug](icons/mug.png) ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | Create one or more merged pull requests. | [Details](https://invertase.io/community/hacktoberfest) |
 | [Medusa](https://medusajs.com) | ![Shirt](icons/shirt.png) ![Swag](icons/swag.png) | Participate on the Medusa Hackathon. Pre-register before Saturday, Oct 1st at 08:00 am CET. All pre-registered participants will get a shout-out on Twitter in October and extra swag upon completion. | [Details](https://medusajs.com/blog/medusa-hackathon-warming-up-for-hacktoberfest/) |
+| [MindsDB](https://mindsdb.com/) | ![Laptop](icons/laptop.png) ![Shirt](icons/shirt.png) ![Swag](icons/swag.png) | Several categories of open issues that are ideal for first-time developers, low-code, and no-code contributors such as documentation, social media posts, report and/or fix bugs, QA/UX tests, tutorials, UX designs, video tutorials, data-source/ML framework integrations etc. | [Details](https://mindsdb.com/hacktoberfest/) |
 | [Novu](https://novu.co/) | ![Shirt](icons/shirt.png) | Create 3 merged pull requests to the Novu repository at https://github.com/novuhq/novu | [Details](https://github.com/novuhq/novu) |
 | [Percona](https://www.percona.com) | ![Shirt](icons/shirt.png) ![Swag](icons/swag.png) | Submit four (4) quality pull requests (PRs) to hacktoberfest labelled [Percona repositories](https://github.com/search?q=org%3Apercona+topic%3Ahacktoberfest) | [Details](https://www.percona.com/blog/contribute-to-open-source-with-percona-and-hacktoberfest/) |
 | [Pusher](https://pusher.com/) | ![Swag](icons/swag.png) | Submit 1 merged PR to receive one item from the Pusher Hacktoberfest Swag Pack, 2 merged PRs for two items, and 3+ merged PRs to get the entire swag pack. | [Details](https://github.com/pusher/hacktoberfest/blob/main/README.md) |
@@ -209,12 +210,21 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/Bharat123rox>
+            <img src=https://avatars.githubusercontent.com/u/13381361?v=4 width="100;"  alt=Bharat Raghunathan/>
+            <br />
+            <sub style="font-size:14px"><b>Bharat Raghunathan</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/duncanmcclean>
             <img src=https://avatars.githubusercontent.com/u/19637309?v=4 width="100;"  alt=Duncan McClean/>
             <br />
             <sub style="font-size:14px"><b>Duncan McClean</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/lucasarvelo>
             <img src=https://avatars.githubusercontent.com/u/6098495?v=4 width="100;"  alt=Lucas Arvelo/>
@@ -222,8 +232,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Lucas Arvelo</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/mauricetmeyer>
             <img src=https://avatars.githubusercontent.com/u/17762773?v=4 width="100;"  alt=Maurice T. Meyer/>
@@ -259,6 +267,8 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Oliver Kopp</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/susw12>
             <img src=https://avatars.githubusercontent.com/u/22733718?v=4 width="100;"  alt=Sujay Swain/>
@@ -266,8 +276,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Sujay Swain</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/YaelRiv>
             <img src=https://avatars.githubusercontent.com/u/67264175?v=4 width="100;"  alt=YaelRiv/>
@@ -303,6 +311,8 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>yusrilia</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/Cool-Runningz>
             <img src=https://avatars.githubusercontent.com/u/6391149?v=4 width="100;"  alt=Alyssa Holland/>
@@ -310,8 +320,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Alyssa Holland</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/Aniket-508>
             <img src=https://avatars.githubusercontent.com/u/71957423?v=4 width="100;"  alt=Aniket Pawar/>
@@ -338,13 +346,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <img src=https://avatars.githubusercontent.com/u/34847525?v=4 width="100;"  alt=Dawid Boksa/>
             <br />
             <sub style="font-size:14px"><b>Dawid Boksa</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/Bharat123rox>
-            <img src=https://avatars.githubusercontent.com/u/13381361?v=4 width="100;"  alt=Bharat Raghunathan/>
-            <br />
-            <sub style="font-size:14px"><b>Bharat Raghunathan</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
