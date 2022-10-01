@@ -1,21 +1,15 @@
 ---
 
-# Name of the participant
 Name: INVERTASE
 
-# Website URL of the participant
 Website: https://invertase.io/
 
-# List of obtainable swag. Allowed values are
-# glasses, laptop, mug, shirt, socks, stickers, swag, trees
 Swag:
   - stickers
   - shirt
   - mug
-  -swag
+  - swag
 
-# Description of the participation (aka "How to get swag?")
 Description: Create one or more merged pull requests.
 
-# URL of a details page
 Details: https://invertase.io/community/hacktoberfest
