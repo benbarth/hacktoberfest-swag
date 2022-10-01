@@ -1,20 +1,8 @@
-# Name of the participant
+---
 Name: Hasura
-
-# Website URL of the participant
 Website: https://hasura.io
-
-# List of obtainable swag. Allowed values are
-# glasses, laptop, mug, shirt, socks, stickers, swag, trees
 Swag:
   - stickers
   - shirt
-
-# Description of the participation (aka "How to get swag?")
 Description: Submit a PR to solve one or more issues in [Hasura GraphQL Engine](https://github.com/hasura/graphql-engine) repo.
-
-# URL of a details page
 Details: https://hasura.io/blog/with-hasura-celebrate-open-source-in-style-with-hacktoberfest/
-
-# Optional flag for sponsors
-IsSponsor: False
