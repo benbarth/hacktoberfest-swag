@@ -1,0 +1,7 @@
+---
+Name: Jenkins
+Website: https://www.jenkins.io/
+Swag:
+  - swag
+Description: Jenkins project may distribute some swag to top contributors, depending on the budget and contributions.
+Details: https://www.jenkins.io/events/hacktoberfest/
