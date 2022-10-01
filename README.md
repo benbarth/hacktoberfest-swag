@@ -206,6 +206,13 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/appledora>
+            <img src=https://avatars.githubusercontent.com/u/27975232?v=4 width="100;"  alt=Appledora/>
+            <br />
+            <sub style="font-size:14px"><b>Appledora</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/arshadkazmi42>
             <img src=https://avatars.githubusercontent.com/u/4654382?v=4 width="100;"  alt=Arshad Kazmi/>
             <br />
@@ -219,6 +226,8 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Bharat Raghunathan</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/duncanmcclean>
             <img src=https://avatars.githubusercontent.com/u/19637309?v=4 width="100;"  alt=Duncan McClean/>
@@ -226,8 +235,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Duncan McClean</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/lucasarvelo>
             <img src=https://avatars.githubusercontent.com/u/6098495?v=4 width="100;"  alt=Lucas Arvelo/>
@@ -263,6 +270,8 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Nityananda Gohain</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/koppor>
             <img src=https://avatars.githubusercontent.com/u/1366654?v=4 width="100;"  alt=Oliver Kopp/>
@@ -270,8 +279,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Oliver Kopp</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/rahulsunil2>
             <img src=https://avatars.githubusercontent.com/u/22911414?v=4 width="100;"  alt=Rahul Sunil/>
@@ -307,6 +314,8 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Ishan Srivastava </b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/shohil-kishore>
             <img src=https://avatars.githubusercontent.com/u/33049612?v=4 width="100;"  alt=Shohil Kishore/>
@@ -314,8 +323,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Shohil Kishore</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/yusrilia>
             <img src=https://avatars.githubusercontent.com/u/22024041?v=4 width="100;"  alt=yusrilia/>
@@ -342,13 +349,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <img src=https://avatars.githubusercontent.com/u/37617951?v=4 width="100;"  alt=Ankit Kumar Dwivedi/>
             <br />
             <sub style="font-size:14px"><b>Ankit Kumar Dwivedi</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/appledora>
-            <img src=https://avatars.githubusercontent.com/u/27975232?v=4 width="100;"  alt=Appledora/>
-            <br />
-            <sub style="font-size:14px"><b>Appledora</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
