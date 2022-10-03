@@ -1,0 +1,22 @@
+---
+
+# Name of the participant
+Name: Steampipe
+
+# Website URL of the participant
+Website: https://steampipe.io
+
+# List of obtainable swag. Allowed values are
+# glasses, laptop, mug, shirt, socks, stickers, swag, trees
+Swag:
+  - stickers
+  - shirt
+
+# Description of the participation (aka "How to get swag?")
+Description: We welcome any no-code to high-code contributions to the Steampipe community! From helping us with documentation, participating in a case study, to adding a new Dashboard to an existing mod, we welcome everyone to participate and earn unique Steampipe Hacktoberfest swag.
+
+# URL of a details page
+Details: https://steampipe.io/blog/hacktoberfest-2022
+
+# Optional flag for sponsors
+IsSponsor: False
