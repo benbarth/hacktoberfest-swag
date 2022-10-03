@@ -131,17 +131,17 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/Ishaan28malik>
-            <img src=https://avatars.githubusercontent.com/u/27343592?v=4 width="100;"  alt=Championrunner/>
-            <br />
-            <sub style="font-size:14px"><b>Championrunner</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/vimode>
             <img src=https://avatars.githubusercontent.com/u/39148877?v=4 width="100;"  alt=vimode/>
             <br />
             <sub style="font-size:14px"><b>vimode</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/Ishaan28malik>
+            <img src=https://avatars.githubusercontent.com/u/27343592?v=4 width="100;"  alt=Championrunner/>
+            <br />
+            <sub style="font-size:14px"><b>Championrunner</b></sub>
         </a>
     </td>
 </tr>
