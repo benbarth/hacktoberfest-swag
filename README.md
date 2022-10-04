@@ -68,7 +68,7 @@ Open source is changing the world – one pull request at a time.
 
 ## Support open source
 
-Support your favorite project with a [donation](https://hacktoberfest.digitalocean.com/giving).
+Support your favorite project with a [donation](https://hacktoberfest.com/donate).
 
 Contribute by resolving a Hacktoberfest issue! 👉 <https://github.com/search?q=label%3AHacktoberfest&state=open&type=Issues>
 
