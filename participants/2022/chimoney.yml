@@ -1,0 +1,24 @@
+---
+
+# Name of the participant
+Name: Chimoney
+
+# Website URL of the participant
+Website: https://chimoney.io
+
+# List of obtainable swag. Allowed values are
+# glasses, laptop, mug, shirt, socks, stickers, swag, trees
+Swag:
+  - stickers
+  - shirt
+
+# Description of the participation (aka "How to get swag?")
+Description: 
+  🎃 Each merged PR gets $25 👻 Each contributor can get this gift up to four times ( 25 * 4 ) = $100
+  🔮 Bonus! A contributor completing 4 merged PRs gets a T-shirt.
+
+# URL of a details page
+Details: https://github.com/Chimoney/chimoney-community-projects
+
+# Optional flag for sponsors
+IsSponsor: False
