@@ -71,6 +71,7 @@ In all of the Hacktoberfest excitement, many companies want to join the celebrat
 | [UnionML](https://unionml.readthedocs.io/en/stable/) | ![Shirt](icons/shirt.png) | Submit 2/3 pull requests to receive a voucher or Union tumbler and 3+ pull requests to receive a Union hoodie. Check out https://github.com/unionai-oss/unionml/issues/171 for the available hacktoberfest-labeled issues and fill out [this form](https://tally.so/r/nWO7qQ) after the PR gets accepted/merged. | [Details](https://blog.flyte.org/meet-flyte-and-unionml-at-hacktoberfest-2022) |
 | [Uno Platform](https://platform.uno/) | ![Shirt](icons/shirt.png) ![Swag](icons/swag.png) | Submit 2 quality PRs to win a Getting Started with the Uno Platform and WinUI 3 ebook, 4 quality PRs to win a Uno Platform T-shirt and stickers and 10 Quality PR to win a Uno Platform sweater. Rewards are stackable so you can win them all. The contributions can be made to any of the [open issues](https://github.com/unoplatform/uno/issues) or to their documentation or do advocacy contribution with blog posts and help with translations. | [Details](https://platform.uno/blog/uno-platform-at-hacktoberfest-2022-prizes-and-how-to-participate/) |
 | [Webkul](https://webkul.com/) | ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | For every 4 accepted PRs you can get a plush Elephant and a swag bag which includes a t-shirt, stickers, pen and notebook. | [Details](https://webkul.com/meetups/hacktober-fest-bagisto-2022/) |
+| [SuiteCRM](https://suitecrm.com/) | ![Mug](icons/mug.png) ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | SuiteCRM are looking for contributions in their three open source repositories; SuiteCRM, SuiteDocs, and SuiteCRM-Core, valid contributions will be rewarded with exclusive swag, such as T-shirts, stickers, and possibly even a SuiteCRM-branded mug! | [Details](https://community.suitecrm.com/t/hacktoberfest-2022/86484) |
 <!-- verified end -->
 
 [View some of this cool swag on Twitter.](https://twitter.com/search?q=%23hacktoberfest%20%23swag)
@@ -127,10 +128,17 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/vimode>
+        <a href=https://github.com/shreyas-9>
             <img src=https://avatars.githubusercontent.com/u/39148877?v=4 width="100;"  alt=vimode/>
             <br />
             <sub style="font-size:14px"><b>vimode</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/vimode>
+            <img src=https://avatars.githubusercontent.com/u/60311883?v=4 width="100;"  alt=vimode/>
+            <br />
+            <sub style="font-size:14px"><b>Aila Shreyas</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
@@ -152,13 +160,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <img src=https://avatars.githubusercontent.com/u/4245618?v=4 width="100;"  alt=Tasawer Nawaz/>
             <br />
             <sub style="font-size:14px"><b>Tasawer Nawaz</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/Ishaan28malik>
-            <img src=https://avatars.githubusercontent.com/u/27343592?v=4 width="100;"  alt=Championrunner/>
-            <br />
-            <sub style="font-size:14px"><b>Championrunner</b></sub>
         </a>
     </td>
 </tr>
@@ -608,6 +609,13 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <img src=https://avatars.githubusercontent.com/u/61049742?v=4 width="100;"  alt=prokan468/>
             <br />
             <sub style="font-size:14px"><b>prokan468</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/Ishaan28malik>
+            <img src=https://avatars.githubusercontent.com/u/27343592?v=4 width="100;"  alt=Championrunner/>
+            <br />
+            <sub style="font-size:14px"><b>Championrunner</b></sub>
         </a>
     </td>
 </tr>
