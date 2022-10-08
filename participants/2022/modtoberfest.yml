@@ -1,0 +1,27 @@
+---
+
+# Name of the participant
+Name: Modtoberfest
+
+# Website URL of the participant
+Website: https://modtoberfest.com/
+
+# List of obtainable swag. Allowed values are
+# glasses, laptop, mug, shirt, socks, stickers, swag, trees
+Swag:
+  - stickers
+  - other
+
+# Description of the participation (aka "How to get swag?")
+Description: 
+  Modtoberfest is an annual celebration of open source projects in the Minecraft community.
+  By contributing valid PRs to four different projects, you are eligible to win a prize pack which includes stickers and pins.
+  You have to sign up on their website to start participating.
+  Not all repos are tagged hacktoberfest but many are.
+
+# URL of a details page
+Details: https://modtoberfest.com/
+
+# Optional flag for sponsors
+IsSponsor: False
+
