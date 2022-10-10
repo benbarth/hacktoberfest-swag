@@ -1,0 +1,21 @@
+---
+
+# Name of the participant
+Name: Neo4j
+
+# Website URL of the participant
+Website: https://neo4j.com/
+
+# List of obtainable swag. Allowed values are
+# glasses, laptop, mug, shirt, socks, stickers, swag, trees
+Swag:
+  - swag
+
+# Description of the participation (aka "How to get swag?")
+Description: Contribute by making improvements to their documentation (fix typos, clarify explanations, add code-examples), updating example projects, or fixing open issues in their [repos](https://github.com/search?l=&o=desc&q=neo4j&s=&type=Repositories). To be eligible for the special prize, a Pixoo display, tweet your pull requests at Neo4j with \#hacktoberfest \#neo4j and they will pick the winner in November. 
+
+# URL of a details page
+Details: https://medium.com/neo4j/hacktoberfest-at-neo4j-9991ccc98c33
+
+# Optional flag for sponsors
+IsSponsor: False
