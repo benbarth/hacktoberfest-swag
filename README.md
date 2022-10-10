@@ -95,21 +95,21 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
 
 <table>
 <tr>
-    <td align="left" style="word-wrap: break-word; width: 150.0; height: 150.0">
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/benbarth>
             <img src=https://avatars.githubusercontent.com/u/1040797?v=4 width="100;"  alt=Ben Barth/>
             <br />
             <sub style="font-size:14px"><b>Ben Barth</b></sub>
         </a>
     </td>
-    <td align="left" style="word-wrap: break-word; width: 150.0; height: 150.0">
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/SoftCreatR>
             <img src=https://avatars.githubusercontent.com/u/81188?v=4 width="100;"  alt=Sascha Greuel/>
             <br />
             <sub style="font-size:14px"><b>Sascha Greuel</b></sub>
         </a>
     </td>
-    <td align="left" style="word-wrap: break-word; width: 150.0; height: 150.0">
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/crweiner>
             <img src=https://avatars.githubusercontent.com/u/23106097?v=4 width="100;"  alt=Chandler Weiner/>
             <br />
