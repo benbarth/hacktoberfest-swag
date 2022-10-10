@@ -1,0 +1,25 @@
+---
+
+# Name of the participant
+Name: StepZen
+
+# Website URL of the participant
+Website: https://stepzen.com/
+
+# List of obtainable swag. Allowed values are
+# glasses, laptop, mug, shirt, socks, stickers, swag, trees
+Swag:
+  - glasses
+  - laptop
+  - mug
+  - shirt
+  - socks
+  - stickers
+  - trees
+  - other
+
+# Description of the participation (aka "How to get swag?")
+Description: Contribute by creating new integrations or improve existing integrations. All contributors will receive StepZen goodies
+
+# URL of a details page
+Details: https://stepzen.com/blog/stepzen-hacktoberfest-2022
