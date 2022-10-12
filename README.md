@@ -93,9 +93,9 @@ Open source is changing the world – one pull request at a time.
 
 Support your favorite project with a [donation](https://hacktoberfest.com/donate).
 
-Contribute by resolving a Hacktoberfest issue! 👉 <https://github.com/search?q=label%3AHacktoberfest&state=open&type=Issues>
+You can contribute by resolving a [Hacktoberfest issue on GitHub](https://github.com/search?q=label%3AHacktoberfest&state=open&type=Issues).
 
-Looking for a good first issue? 👉 <https://github.com/search?utf8=✓&q=label%3A"good+first+issue"&type=Issues> or go to [Up For Grabs](https://up-for-grabs.net/#/).
+New to contributing? You can look for [good first issues](https://github.com/search?utf8=✓&q=label%3A"good+first+issue"&type=Issues) or go to [Up For Grabs](https://up-for-grabs.net/#/).
 
 Know of another Hacktoberfest swag opportunity? Learn how to contribute to this repository by reading our [contribution guidelines](CONTRIBUTING.md).
 
