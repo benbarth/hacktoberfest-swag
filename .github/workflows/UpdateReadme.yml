@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Validate YAML files
-        uses: SoftCreatR/validate-yaml-schema@v2
+        uses: SoftCreatR/validate-yaml-schema@v2.0.0
 
   ValidateLinks:
     runs-on: ubuntu-latest
