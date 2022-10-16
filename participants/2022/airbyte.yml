@@ -3,5 +3,6 @@ Name: Airbyte
 Website: https://airbyte.com/connector-contest 
 Swag:
   - swag
+  - other
 Description: "Build or edit a connector with the new low-code CDK to the [Airbyte connector repo](https://github.com/airbytehq/connector-contest) to win prize money and swag. Each submission will receive $500 and Airbyte swag. Three other prizes from $1,500 to $750 and Airbyte swag pack."
 Details: https://airbyte.com/connector-contest/

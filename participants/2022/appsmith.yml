@@ -2,7 +2,6 @@
 Name: AppSmith
 Website: https://www.appsmith.com/
 Swag:
-  - swag
-  - shirt
+  - other
 Description: "Earn coins as points for contributing, which can be redeemed in their swag shop at the end of the Hacktoberfest."
 Details: https://www.appsmith.com/blog/hacktoberfest-2022-come-on-in-the-low-code-is-fine
