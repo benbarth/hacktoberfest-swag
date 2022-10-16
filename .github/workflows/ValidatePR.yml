@@ -12,10 +12,10 @@ jobs:
 
     steps:
       - name: Git checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Validate YAML files
-        uses: nwisbeta/validate-yaml-schema@v1.0.3
+        uses: SoftCreatR/validate-yaml-schema@v2
 
   ValidateLinks:
     runs-on: ubuntu-latest
@@ -23,7 +23,7 @@ jobs:
 
     steps:
       - name: Git checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Set up Ruby 2.6
         uses: ruby/setup-ruby@v1

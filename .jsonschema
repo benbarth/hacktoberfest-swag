@@ -71,7 +71,8 @@
                     "tree",
                     "trees",
                     "plant tree",
-                    "plant trees"
+                    "plant trees",
+                    "other"
                 ],
                 "anyOf": [
                     {
