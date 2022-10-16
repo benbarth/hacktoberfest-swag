@@ -6,5 +6,6 @@ Swag:
   - shirt
   - mug
   - swag
-Description: Create one or more merged pull requests.
+  - other
+Description: Create one or more merged pull requests. A list of eligible issues can be found [here](https://invertase.link/hf-issues). Each repository has its own contributing guide, named CONTRIBUTING.md, make sure to read it before you start.
 Details: https://invertase.io/community/hacktoberfest

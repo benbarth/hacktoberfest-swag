@@ -2,6 +2,6 @@
 Name: Meilisearch
 Website: https://www.meilisearch.com/ 
 Swag:
-  - swag
+  - other
 Description:  Submit one or more PRs to any of the [185 issues](https://github.com/search?q=org%3Ameilisearch+label%3Ahacktoberfest&state=open&type=Issues) from their [37 repos](https://github.com/search?q=org%3Ameilisearch+topic%3Ahacktoberfest&type=Repositories)
 Details: https://blog.meilisearch.com/contribute-hacktoberfest-2022/ 
