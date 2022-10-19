@@ -23,7 +23,7 @@ Hacktoberfest® encourages participation in the open source community.
 
 In all of the Hacktoberfest excitement, many companies want to join the celebration by rewarding their contributors with even more swag! That's why we're here!
 
-### The purpose of this list is to incentivise meaningful contributions. If you intend to make low-value changes -- just for swag. *Don't.*
+### The purpose of this list is to incentivize meaningful contributions. If you intend to make low-value changes -- just for swag. *Don't.*
 
 ## Verified participants <!-- current year start -->2022<!-- current year end -->
 <!-- verified start -->
