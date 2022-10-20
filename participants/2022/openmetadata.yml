@@ -1,0 +1,8 @@
+---
+Name: OpenMetadata
+Website: https://open-metadata.org
+Swag:
+  - other
+  - swag
+Description: "Submit a new connector with valid documentation by following their contribution guidelines. Each valid connector will receive $500 USD cash prize and swag."
+Details: https://blog.open-metadata.org/hacktoberfest-2022-connector-extravaganza-c2c88a5823b0
