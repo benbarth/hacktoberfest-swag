@@ -149,7 +149,7 @@ def build_row(data: Dict) -> str:
             row += "![" + swag_item.capitalize() + "](icons/" + swag_item + ".png) "
 
     row += "| "
-    row += data["Description"].replace("\n", " ").replace("\r", " ").replace("|", "") + " | "
+    row += "<details><summary>More Information</summary>" + data["Description"].replace("\n", " ").replace("\r", " ").replace("|", "") + "</details> | "
     row += "[Details](" + data["Details"] + ") |\n"
 
     return row
@@ -166,11 +166,11 @@ if __name__ == "__main__":
     replacement_v = "| | | | |\n"
 
     replacement_s = "| Who / Sponsors | What | How | Additional Details |\n"
-    replacement_s += "| :---: | :---: | :---: | --- |\n"
+    replacement_s += "| :---: | :---: | --- | --- |\n"
 
     # Unverified / Past participants
     replacement_uv = "| Who / Sponsors | What | How | Additional Details |\n"
-    replacement_uv += "| :---: | :---: | :---: | --- |\n"
+    replacement_uv += "| :---: | :---: | --- | --- |\n"
 
     for participant in participants:
         if "sponsor" in participant:
