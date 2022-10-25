@@ -4,5 +4,5 @@ Website: https://camunda.com
 Swag:
   - shirt
   - trees
-Description: "Submit four (4) quality pull requests (PRs) to any [Camunda repo](https://github.com/orgs/camunda/repositories) including participating [Camunda Community Hub repos](https://github.com/orgs/camunda-community-hub/repositories). Check for the hacktoberfest label to find participating repos."
+Description: "Submit four (4) quality pull requests (PRs) to any [Camunda repo](https://github.com/search?q=topic%3Ahacktoberfest+org%3Acamunda&type=Repositories) including participating [Camunda Community Hub repos](https://github.com/search?q=topic%3Ahacktoberfest+org%3Acamunda-community-hub&type=Repositories). For every Camunda challenge completion, we will make a donation to One Tree Planted which plants trees across the globe focusing on areas in need of habitat rehabilitation. If you complete the challenge you will also have the option of choosing to receive the limited edition Camunda x Hacktoberfest 2022 t-shirt. "
 Details: https://camunda.com/hacktoberfest2022/
