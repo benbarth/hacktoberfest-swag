@@ -150,7 +150,7 @@ def build_row(data: Dict) -> str:
 
     row += "| "
     row += "<details><summary>How to contribute?</summary>" + data["Description"].replace("\n", " ").replace("\r", " ").replace("|", "") + "</details> | "
-    row += "[Details](" + data["Details"] + ") |\n"
+    row += "[More Details here](" + data["Details"] + ") |\n"
 
     return row
 
