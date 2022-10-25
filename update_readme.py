@@ -149,7 +149,7 @@ def build_row(data: Dict) -> str:
             row += "![" + swag_item.capitalize() + "](icons/" + swag_item + ".png) "
 
     row += "| "
-    row += "<details><summary>Learn how to contribute, and earn swags</summary>" + data["Description"].replace("\n", " ").replace("\r", " ").replace("|", "") + "</details> | "
+    row += "<details><summary>How to contribute?</summary>" + data["Description"].replace("\n", " ").replace("\r", " ").replace("|", "") + "</details> | "
     row += "[Details](" + data["Details"] + ") |\n"
 
     return row
