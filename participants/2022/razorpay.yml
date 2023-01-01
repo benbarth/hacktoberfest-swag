@@ -1,8 +1,0 @@
----
-Name: Razorpay
-Website: https://razorpay.com/
-Swag:
-  - shirt
-  - stickers
-Description: "Make one or more contribution to open [issues](https://github.com/search?q=org%3Arazorpay+is%3Aissue+is%3Aopen) in the repositories with `hacktoberfest` label under the [Razorpay](https://github.com/razorpay) organisation to win stickers. Top conntributor will receive a custom Razorpay t-shirt."
-Details: https://github.com/razorpay/.github/blob/master/HACKTOBERFEST.md

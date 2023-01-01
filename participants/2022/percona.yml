@@ -1,8 +1,0 @@
----
-Name: Percona
-Website: https://www.percona.com
-Swag:
-  - shirt
-  - swag
-Description: "Submit four (4) quality pull requests (PRs) to hacktoberfest labelled [Percona repositories](https://github.com/search?q=org%3Apercona+topic%3Ahacktoberfest)"
-Details: https://www.percona.com/blog/contribute-to-open-source-with-percona-and-hacktoberfest/

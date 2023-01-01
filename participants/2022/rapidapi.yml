@@ -1,7 +1,0 @@
----
-Name: RapidAPI
-Website: https://rapidapi.com/
-Swag:
-  - swag
-Description: "Contribute by submitting a blog post or a tweet or a tweet thread or a youtube video or run a API development meetup to gain points. Submit all your contributions in [this form](https://docs.google.com/forms/d/e/1FAIpQLScBao9QuBPjAOgNK_2cCe2_8Y40dqvkS8f0DMpst-WopZOg8w/viewform?usp=sf_link). Top 50 participants at the end of the hacktoberfest will receive swag."
-Details: https://rapidapi.com/learn/hacktoberfest

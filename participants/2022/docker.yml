@@ -1,8 +1,0 @@
----
-Name: Docker
-Website: https://www.docker.com
-Swag:
-  - swag
-Description: "Submit a new Docker extension or contribute to already existing [Docker extensions](https://github.com/docker/hacktoberfest-2022#%EF%B8%8Flist-of-docker-extensions-for-hacktoberfest-2022) repos."
-Details: https://docker.github.io/hacktoberfest/
-IsSponsor: True

@@ -1,9 +1,0 @@
----
-Name: Flyte
-Website: https://flyte.org
-Swag:
-  - mug
-  - shirt
-  - other
-Description: "Submit 2 pull requests to receive a Flyte mug; 3 pull requests to receive a Flyte t-shirt; 3+ pull requests to receive The North Face® jacket; contribute a plugin to receive a voucher. Check out https://github.com/flyteorg/flyte/issues/2917 for the available hacktoberfest-labeled issues and fill out [this form](https://tally.so/r/nWO7qQ) after the PR gets accepted/merged."
-Details: https://blog.flyte.org/meet-flyte-and-unionml-at-hacktoberfest-2022
