@@ -1,7 +1,8 @@
----
 Name: DigitalOcean + Sponsors
 Website: https://hacktoberfest.com/
 Swag:
+  - trees
+  - other
 Description: "Starting 2023, Hacktoberfest will be moving away from the official t-shirt rewards to a digital reward kit in partnership with Holopin. Four pull requests to any participating public repo on GitHub or GitLab. To reduce spam DigitalOcean introduced new measures in 2020: PRs count only if: **Submitted in a repo with the hacktoberfest topic AND during the month of October AND (The PR is merged OR The PR is labelled as hacktoberfest-accepted by a maintainer OR The PR has been approved)**"
 Details: https://hacktoberfest.com/participation/
 IsSponsor: True
