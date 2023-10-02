@@ -609,6 +609,13 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
 </tr>
 <tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/ddedios96>
+            <img src=https://avatars.githubusercontent.com/u/146486122?v=4 width="100;"  alt=ddedios96/>
+            <br />
+            <sub style="font-size:14px"><b>ddedios96</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/favuur>
             <img src=https://avatars.githubusercontent.com/u/83845045?v=4 width="100;"  alt=favuur/>
             <br />
