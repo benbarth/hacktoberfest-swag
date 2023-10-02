@@ -1,0 +1,24 @@
+---
+
+# Name of the participant
+Name: Formbricks
+
+# Website URL of the participant
+Website: https://formtribe.com
+
+# List of obtainable swag. Allowed values are
+# glasses, laptop, mug, shirt, socks, stickers, swag, trees, other
+Swag:
+  - laptop
+  - shirt
+  - stickers
+  - other
+
+# Description of the participation (aka "How to get swag?")
+Description: Code, Documentation, Social Media, Design, contribute how you like it! Higher you are on the leaderboard, higher your chances! Just complete any 1 quest and get in the draw for the Apple Macbook. Top 50 in the leaderboard win guaranteed swag.
+
+# URL of a details page
+Details: https://formtribe.com
+
+# Optional flag for sponsors
+IsSponsor: False
