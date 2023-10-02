@@ -1,0 +1,23 @@
+---
+
+# Name of the participant
+Name: Flyte
+
+# Website URL of the participant
+Website: https://flyte.org
+
+# List of obtainable swag. Allowed values are
+# glasses, laptop, mug, shirt, socks, stickers, swag, trees, other
+Swag:
+  - stickers
+  - shirt
+  - other
+
+# Description of the participation (aka "How to get swag?")
+Description: Create two or more merged/accepted pull requests or plugin.
+
+# URL of a details page
+Details: https://flyte.org/blog/flyte-at-hacktoberfest-2023
+
+# Optional flag for sponsors
+IsSponsor: False
