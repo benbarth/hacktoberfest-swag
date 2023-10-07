@@ -5,7 +5,8 @@
 # Hacktoberfest Swag <!-- current year start -->2023<!-- current year end -->
 
 [![Website](https://img.shields.io/badge/Website-visit-2a8?style=for-the-badge&logo=google-chrome&logoColor=white)](https://benbarth.github.io/hacktoberfest-swag/)
-[![Validation](https://img.shields.io/github/workflow/status/benbarth/hacktoberfest-swag/Update%20README/master?logo=github&style=for-the-badge)](https://github.com/benbarth/hacktoberfest-swag/actions?query=workflow%3A"Update+README")
+
+[![Validation](https://img.shields.io/github/actions/workflow/status/benbarth/hacktoberfest-swag/UpdateReadme.yml?branch=master&style=for-the-badge&logo=github)](https://github.com/benbarth/hacktoberfest-swag/actions/workflows/UpdateReadme.yml)
 [![GitHub Fork](https://img.shields.io/github/forks/benbarth/hacktoberfest-swag.svg?style=for-the-badge&label=Fork)](https://github.com/benbarth/hacktoberfest-swag/fork)
 [![GitHub Stars](https://img.shields.io/github/stars/benbarth/hacktoberfest-swag.svg?style=for-the-badge&label=Stars)](https://github.com/benbarth/hacktoberfest-swag/stargazers)
 

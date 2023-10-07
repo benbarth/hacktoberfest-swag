@@ -1,0 +1,8 @@
+Name: WireMock
+Website: https://wiremock.org/
+Swag:
+  - stickers
+  - shirts
+  - swag
+Description: "All code and no-code contributions are accepted. Build new features, fix bugs, add enhancements, use WireMock in your projects, improve the documentation, create new demos or guides, publish a new mock API template, or any other way you can contribute to the project. Every contribution counts. Active contributors will receive swag. Fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeBiJSYV4PNFYOH1Jo9PSheOYKxqV2NJE3LELL9a_fYq4fpfw/viewform?usp=sf_link) to participate in a swag raffle or if you have contributed outside their Github."
+Details: https://wiremock.org/events/hacktoberfest/
