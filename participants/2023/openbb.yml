@@ -1,0 +1,9 @@
+Name: OpenBB
+Website: https://openbb.co/
+Swag:
+  - shirt
+  - swag
+Description: "Make 5 no-code contributions or 3 code/performance enhancements [here](https://github.com/OpenBB-finance/OpenBBTerminal/issues) or 1 non-extension feature (this can be something in the core or adding endpoints to an existing extension) to qualify for an OpenBB t-shirt or hat,
+Make 1 Custom OpenBB Extension to get both the OpenBB t-Shirt and the hat.
+Sign up on the OpenBB Hub at my.openbb.co and DM on Twitter or Discord with the PR/PyPI extension link to claim the swag."
+Details: https://openbb.co/blog/hacktoberfest-join-us-in-celebrating-open-source
