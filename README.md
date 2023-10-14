@@ -156,26 +156,26 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/codeOraaange>
+            <img src=https://avatars.githubusercontent.com/u/66554199?v=4 width="100;"  alt=Hana Hasanah/>
+            <br />
+            <sub style="font-size:14px"><b>Hana Hasanah</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/tasawernawaz>
             <img src=https://avatars.githubusercontent.com/u/4245618?v=4 width="100;"  alt=Tasawer Nawaz/>
             <br />
             <sub style="font-size:14px"><b>Tasawer Nawaz</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/Ishaan28malik>
             <img src=https://avatars.githubusercontent.com/u/27343592?v=4 width="100;"  alt=Championrunner/>
             <br />
             <sub style="font-size:14px"><b>Championrunner</b></sub>
-        </a>
-    </td>
-</tr>
-<tr>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/codeOraaange>
-            <img src=https://avatars.githubusercontent.com/u/66554199?v=4 width="100;"  alt=Hana Hasanah/>
-            <br />
-            <sub style="font-size:14px"><b>Hana Hasanah</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
