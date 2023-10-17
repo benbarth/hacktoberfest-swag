@@ -1,0 +1,9 @@
+Name: Zilliz
+Website: https://zilliz.com/
+Swag:
+  - t-shirts
+  - stickers
+  - swag
+Description: Start with [these issues](https://github.com/milvus-io/milvus/issues?q=is%3Aopen+is%3Aissue+label%3AHacktoberfest) and make 3 merged PRs, build a demo app using Milvus, write a blog post about a project which is using Milvus, 
+or create a written/video tutorial for new users/maintainers getting started with Milvus. Both code and non-code contributions on Milvus are welcome!
+Details: https://zilliz.com/hacktoberfest

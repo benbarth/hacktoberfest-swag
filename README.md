@@ -44,22 +44,26 @@ In all of the Hacktoberfest excitement, many companies want to join the celebrat
 | [Chimoney](https://chimoney.io) | ![Other](icons/other.png) ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) | <details><summary>How to contribute?</summary>$25 for each merged PR, exclusive Chimoney T-shirts and Stickers</details> | [More Details here](https://chimoney.io/blogs/Join-Chimoney-for-hacktoberfest-2023) |
 | [Cloudinary](https://cloudinary.com/) | ![Other](icons/other.png) ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | <details><summary>How to contribute?</summary>Make 4 or more valid PRs in cloudinary Libaries and SDKs with 'hacktoberfest' label.</details> | [More Details here](https://cloudinary.com/blog/hacktoberfest-celebrate-open-source-sdks) |
 | [Collectiv AI](https://collectivai.com/) | ![Other](icons/other.png) ![Shirt](icons/shirt.png) | <details><summary>How to contribute?</summary>make four meaningful (read non-spam) contributions to *any* repo with >100 stars and fill out this really simple form. We will verify and ship a really cool merch kit anywhere you are in the world!</details> | [More Details here](https://collectivai.com/blog/hactoberfest-2023-t-shirts-are-not-entirely-gone) |
+| [Configu](https://configu.com/) | ![Shirt](icons/shirt.png) ![Socks](icons/socks.png) | <details><summary>How to contribute?</summary>Contributors making one valid pull request will receive Configu Socks. Contributors making two or more valid pull requests will secure a Configu LIMITED-EDITION Hacktoberfest T-shirt.</details> | [More Details here](https://github.com/configu/configu/issues/266) |
 | [Covalent](https://www.covalent.xyz/) | ![Other](icons/other.png) | <details><summary>How to contribute?</summary>Cash Prizes per merged PR ($25 for Beginner, $50 for Intermediate, $100 for Expert difficulty-level)</details> | [More Details here](https://www.covalent.xyz/covalent-x-hacktoberfest-2023/) |
 | [DagsHub](https://dagshub.com/) | ![Other](icons/other.png) ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | <details><summary>How to contribute?</summary>Register to [DagsHub](https://dagshub.com/user/sign_up) and Hacktoberfest and contribute to any of the DagsHub hosted projects with the topic 'hacktoberfest'.</details> | [More Details here](https://dagshub.com/blog/hacktoberfest-2023/) |
 | [devICT](https://devict.org/) | ![Stickers](icons/stickers.png) | <details><summary>How to contribute?</summary>Make 2 valid PRs against open issues in any of devICT, MakeICT and other Wichita Community projects. [Register](https://hacktoberfest.devict.org/auth/github) to track your contributions.</details> | [More Details here](https://hacktoberfest.devict.org/) |
 | [DocsGPT](https://docsgpt.arc53.com/) | ![Shirt](icons/shirt.png) | <details><summary>How to contribute?</summary>Contribute to code and make a valid PR or improve the documentation by fixing the existing documentation or by creating a guide or improve the UI/UX or design a new feature.</details> | [More Details here](https://github.com/arc53/DocsGPT/blob/main/HACKTOBERFEST.md) |
 | [Dyrector.io](https://dyrectorio.com/) | ![Other](icons/other.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | <details><summary>How to contribute?</summary>Contribute to any [open issue](https://github.com/dyrector-io/dyrectorio/issues) to win swag</details> | [More Details here](https://github.com/dyrector-io/dyrectorio/issues/837) |
 | [EMQ](https://www.emqx.com/) | ![Shirt](icons/shirt.png) | <details><summary>How to contribute?</summary>Make two valid PRs by contributing to [eKuiper](https://github.com/lf-edge/ekuiper/) or [NanoMQ](https://github.com/emqx/nanomq/) projects by fixing any open issue.</details> | [More Details here](https://www.emqx.com/en/blog/join-hacktoberfest-2023-with-emq-community) |
+| [Featureform](https://www.featureform.com/) | ![Other](icons/other.png) ![Swag](icons/swag.png) | <details><summary>How to contribute?</summary>All contributors that have a merged PR or tutorial submissions will receive commemorative swag and will be entered into a $500 raffle. Technical Contributions that are merged will receive a $250 gift card</details> | [More Details here](https://www.featureform.com/hacktoberfest-2023) |
 | [Flyte](https://flyte.org/) | ![Other](icons/other.png) ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | <details><summary>How to contribute?</summary>Make at least 2 merged/accepted PRs to any of the issues labeled 'hacktoberfest'. Check [this issue](https://github.com/flyteorg/flyte/issues/4064) for all the eligible issues.</details> | [More Details here](https://flyte.org/blog/flyte-at-hacktoberfest-2023) |
 | [Formbricks](https://formtribe.com) | ![Laptop](icons/laptop.png) ![Other](icons/other.png) ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) | <details><summary>How to contribute?</summary>Code, Documentation, Social Media, Design, contribute how you like it! Higher you are on the leaderboard, higher your chances! Just complete any 1 quest and get in the draw for the Apple Macbook. Top 50 in the leaderboard win guaranteed swag.</details> | [More Details here](https://formtribe.com) |
 | [FormTribe](https://formbricks.com/) | ![Laptop](icons/laptop.png) ![Other](icons/other.png) ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) | <details><summary>How to contribute?</summary>Earn points by contributing to [open issues](https://github.com/formbricks/formbricks/issues) or doing the [side quests](https://formbricks.com/formtribe#side-quests) to increase your chances of entering the draw to win one of the 64 prizes. Higher the number of points, higher the chance to win.</details> | [More Details here](https://formbricks.com/formtribe) |
 | [Hacksquad](https://www.hacksquad.dev/) | ![Other](icons/other.png) ![Swag](icons/swag.png) | <details><summary>How to contribute?</summary>Make a squad of up to 5 members, and contribute during hacktoberfest to earn points. Each contribution is worth 1 point. Top 60 squads will win swag. Attend hacksquad events to participate in swag giveaway.</details> | [More Details here](https://www.hacksquad.dev/) |
 | [Hanko](https://www.hanko.io/) | ![Laptop](icons/laptop.png) ![Other](icons/other.png) ![Swag](icons/swag.png) | <details><summary>How to contribute?</summary>Build an app with Hanko auth integration and stand a chance to win a laptop or 10x Yubikey 5C or exclusive Hanko swag. For app ideas check the [Hanko hackathon](https://www.hanko.io/hackathon) page. Hanko is also collaborating with Hacksquad, so your project contribution will not only count towards Hacktoberfest but also towards Hacksquad points.</details> | [More Details here](https://www.hanko.io/hackathon) |
+| [Hasura](https://hasura.io/) | ![Other](icons/other.png) ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) | <details><summary>How to contribute?</summary>Contribute to the Hasura Docs, specifically issues tagged for hacktoberfest.</details> | [More Details here](https://hasura.io/blog/the-hasura-hacktoberfest-fiesta-build-a-supergraph-and-win-1000/) |
 | [Hyperswitch](https://hyperswitch.io/) | ![Other](icons/other.png) ![Shirt](icons/shirt.png) | <details><summary>How to contribute?</summary>Submit a PR to any of the [open issues](https://github.com/juspay/hyperswitch/issues) or build a demo app or write a blog post to be eligible to win swag.</details> | [More Details here](https://hyperswitch.io/hacktoberfest) |
 | [InstillAI](https://www.instill.tech/) | ![Mug](icons/mug.png) ![Other](icons/other.png) ![Stickers](icons/stickers.png) | <details><summary>How to contribute?</summary>Earn credits by contributing. Be in the top 30% contributions to win swag. Three main ways to contribute and earn credits; contribute with code by fixing open issues or create and share an Instill Cloud pipeline or create video or blog tutorials demonstrating how to harness the power of InstillVDP to construct an application from start to finish.</details> | [More Details here](https://www.instill.tech/blog/celebrate-Hacktoberfest-2023) |
 | [Interledger](https://interledger.org/) | ![Shirt](icons/shirt.png) ![Swag](icons/swag.png) | <details><summary>How to contribute?</summary>Make 1 or more accepted PRs to win a t-shirt, earn an extra swag pack for 4 or more accepted PRs. Look for 'hacktoberfest' label in all the [Interledger repos](https://github.com/interledger).</details> | [More Details here](https://community.interledger.org/devcer/hacktoberfest-with-interledger-join-the-open-payments-movement-3bkd) |
 | [JavaScript Today](https://blog.javascripttoday.com/) | ![Stickers](icons/stickers.png) | <details><summary>How to contribute?</summary>Be the first 50 people to submit a PR in the [hacktoberfest](https://github.com/JavaScriptToday/hacktoberfest) repo</details> | [More Details here](https://blog.javascripttoday.com/blog/hacktoberfest-2023/) |
 | [Leapfrog Technology](https://www.lftechnology.com/) | ![Other](icons/other.png) ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) | <details><summary>How to contribute?</summary>Make atleast 8 PR to be eligible for swags</details> | [More Details here](https://frogtoberfest.lftechnology.com/) |
+| [Loft Labs](https://loft.sh/blog/?utm_medium=reader&utm_source=loft-blog&utm_campaign=/blog/) | ![Other](icons/other.png) ![Shirt](icons/shirt.png) ![Swag](icons/swag.png) | <details><summary>How to contribute?</summary>Contribute to the vCluster and/or DevPod projects from Loft Labs</details> | [More Details here](https://loft.sh/blog/celebrating-the-spirit-of-hacktoberfest-at-loft/?utm_medium=reader&utm_source=hacktoberfest-list) |
 | [Mattermost](https://mattermost.com/) | ![Other](icons/other.png) ![Swag](icons/swag.png) | <details><summary>How to contribute?</summary>Contribute to any of the Mattermost projects with code or translations or create guides to earn swag. Make a valid contribution to the QA during hacktoberfest for an extra custom swag.</details> | [More Details here](https://mattermost.com/hacktoberfest/) |
 | [MindsDB](https://mindsdb.com/) | ![Laptop](icons/laptop.png) ![Mug](icons/mug.png) ![Other](icons/other.png) ![Shirt](icons/shirt.png) ![Socks](icons/socks.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | <details><summary>How to contribute?</summary>Contribute to code and no-code [tasks](https://github.com/mindsdb/mindsdb/labels/hacktoberfest) to earn credits. Each issue will mention the credits you will earn. You can redeem the credits to get anything from their swag store. [Use this form](https://forms.gle/JbALs1oW7HrtsANh8) to claim your credits once you PR is merged. For each 100 credits, you enter a draw to win the laptop.</details> | [More Details here](https://mindsdb.com/hacktoberfest) |
 | [Modtoberfest](https://modtoberfest.com/) | ![Other](icons/other.png) ![Stickers](icons/stickers.png) ![Plant](icons/plant.png) | <details><summary>How to contribute?</summary>Make at least 4 PRs to any of the [participating repositories](https://modtoberfest.com/repositories). Sign up at [modtoberfest](https://modtoberfest.com/api/auth/signin) to track your contributions.</details> | [More Details here](https://modtoberfest.com/rules/) |
@@ -153,12 +157,21 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/codeOraaange>
+            <img src=https://avatars.githubusercontent.com/u/66554199?v=4 width="100;"  alt=Hana Hasanah/>
+            <br />
+            <sub style="font-size:14px"><b>Hana Hasanah</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/tasawernawaz>
             <img src=https://avatars.githubusercontent.com/u/4245618?v=4 width="100;"  alt=Tasawer Nawaz/>
             <br />
             <sub style="font-size:14px"><b>Tasawer Nawaz</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/Ishaan28malik>
             <img src=https://avatars.githubusercontent.com/u/27343592?v=4 width="100;"  alt=Championrunner/>
@@ -166,8 +179,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Championrunner</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/bharatr21>
             <img src=https://avatars.githubusercontent.com/u/13381361?v=4 width="100;"  alt=Bharat Raghunathan/>
@@ -203,6 +214,8 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Zheng He Hu</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/hemant404>
             <img src=https://avatars.githubusercontent.com/u/56862469?v=4 width="100;"  alt=Hemant Manwani/>
@@ -210,8 +223,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Hemant Manwani</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/nabokovas>
             <img src=https://avatars.githubusercontent.com/u/27001193?v=4 width="100;"  alt=nabokovas/>
@@ -247,6 +258,8 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Aman Mehta</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/CoderSaty>
             <img src=https://avatars.githubusercontent.com/u/47601531?v=4 width="100;"  alt=Anuranjan Srivastava/>
@@ -254,8 +267,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Anuranjan Srivastava</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/arshadkazmi42>
             <img src=https://avatars.githubusercontent.com/u/4654382?v=4 width="100;"  alt=Arshad Kazmi/>
@@ -291,6 +302,8 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Maurice T. Meyer</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/berry120>
             <img src=https://avatars.githubusercontent.com/u/7595149?v=4 width="100;"  alt=Michael Berry/>
@@ -298,8 +311,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Michael Berry</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/nevo-david>
             <img src=https://avatars.githubusercontent.com/u/100117126?v=4 width="100;"  alt=Nevo David/>
@@ -335,6 +346,8 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Sujay Swain</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/YaelRiv>
             <img src=https://avatars.githubusercontent.com/u/67264175?v=4 width="100;"  alt=YaelRiv/>
@@ -342,8 +355,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>YaelRiv</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/emrecil>
             <img src=https://avatars.githubusercontent.com/u/45103933?v=4 width="100;"  alt=Emre Cilesiz/>
@@ -379,6 +390,8 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>l i a</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/Cool-Runningz>
             <img src=https://avatars.githubusercontent.com/u/6391149?v=4 width="100;"  alt=Alyssa Holland/>
@@ -386,8 +399,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Alyssa Holland</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/sid-am-ahd935>
             <img src=https://avatars.githubusercontent.com/u/83830134?v=4 width="100;"  alt=Aman Ahmed Siddiqui/>
@@ -423,6 +434,8 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>B. Hamonangan</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/B3v3>
             <img src=https://avatars.githubusercontent.com/u/34847525?v=4 width="100;"  alt=Dawid Boksa/>
@@ -430,8 +443,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Dawid Boksa</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/2brownc>
             <img src=https://avatars.githubusercontent.com/u/86018533?v=4 width="100;"  alt=Brown/>
@@ -465,13 +476,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <img src=https://avatars.githubusercontent.com/u/69895353?v=4 width="100;"  alt=Gambhir ⚡/>
             <br />
             <sub style="font-size:14px"><b>Gambhir ⚡</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/codeOraaange>
-            <img src=https://avatars.githubusercontent.com/u/66554199?v=4 width="100;"  alt=Hana Hasanah/>
-            <br />
-            <sub style="font-size:14px"><b>Hana Hasanah</b></sub>
         </a>
     </td>
 </tr>
