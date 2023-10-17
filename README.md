@@ -30,7 +30,7 @@ Register at [hacktoberfest.com](https://hacktoberfest.com/).
 * The first 50,000 participants to have their first PR/MR accepted will have a tree planted in their name through Tree Nation
 * Participants with four pull/merge requests accepted between October 1 and October 31 will receive a unique digital reward
 
-## Supporting Swag Opportunities
+## Additional Swag Opportunities
 
 In all of the Hacktoberfest excitement, many companies want to join the celebration by rewarding their contributors with even more swag! That's why we're here!
 
