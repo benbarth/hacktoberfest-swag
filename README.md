@@ -6,7 +6,7 @@
 
 [![Website](https://img.shields.io/badge/Website-visit-2a8?style=for-the-badge&logo=google-chrome&logoColor=white)](https://benbarth.github.io/hacktoberfest-swag/)
 
-[![Validation](https://img.shields.io/github/actions/workflow/status/benbarth/hacktoberfest-swag/UpdateReadme.yml?branch=master&style=for-the-badge&logo=github)](https://github.com/benbarth/hacktoberfest-swag/actions/workflows/UpdateReadme.yml)
+[![Validation](https://img.shields.io/github/actions/workflow/status/benbarth/hacktoberfest-swag/UpdateReadme.yml?branch=main&style=for-the-badge&logo=github)](https://github.com/benbarth/hacktoberfest-swag/actions/workflows/UpdateReadme.yml)
 [![GitHub Fork](https://img.shields.io/github/forks/benbarth/hacktoberfest-swag.svg?style=for-the-badge&label=Fork)](https://github.com/benbarth/hacktoberfest-swag/fork)
 [![GitHub Stars](https://img.shields.io/github/stars/benbarth/hacktoberfest-swag.svg?style=for-the-badge&label=Stars)](https://github.com/benbarth/hacktoberfest-swag/stargazers)
 
@@ -18,13 +18,25 @@ Looking for Hacktoberfest swag? You've come to the right place.
 
 "Hacktoberfest is a month-long celebration of open source software." - _DigitalOcean_
 
-Hacktoberfest is open to everyone. For the official limited edition Hacktoberfest shirt, _you must register and make four pull requests_ in the month of October (to a repository with the _hacktoberfest_ label) - you can even contribute to this repository! You can sign up at [hacktoberfest.digitalocean.com](https://hacktoberfest.digitalocean.com).
-
 Hacktoberfest® encourages participation in the open source community.
+
+## Official Participation
+
+Register at [hacktoberfest.com](https://hacktoberfest.com/).
+
+* Register anytime between September 26 and October 31
+* Pull requests can be made in any GitHub or GitLab hosted project that’s participating in Hacktoberfest (look for the “hacktoberfest” topic)
+* Project maintainers must accept your pull/merge requests for them to count toward your total
+* The first 50,000 participants to have their first PR/MR accepted will have a tree planted in their name through Tree Nation
+* Participants with four pull/merge requests accepted between October 1 and October 31 will receive a unique digital reward
+
+## Additional Swag Opportunities
 
 In all of the Hacktoberfest excitement, many companies want to join the celebration by rewarding their contributors with even more swag! That's why we're here!
 
 ### The purpose of this list is to incentivize meaningful contributions. If you intend to make low-value changes -- just for swag. *Don't.*
+
+QUANTITY IS FUN, QUALITY IS KEY
 
 ## Verified participants <!-- current year start -->2023<!-- current year end -->
 <!-- verified start -->
