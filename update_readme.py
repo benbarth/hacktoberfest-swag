@@ -86,7 +86,7 @@ def get_participants() -> List[Dict]:
     with open(work_dir + "hacktoberfest.yml", "r") as stream:
         ret.append({"sponsor": yaml.safe_load(stream)})
 
-    for file in sorted(glob.glob(work_dir + "**" + os.path.sep + "*.yml")):
+    for file in sorted(glob.glob(work_dir + "**" + os.path.sep + "*.yml"), key=str.casefold):
         with open(file, "r") as stream:
             try:
                 data = yaml.safe_load(stream)
