@@ -172,17 +172,17 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/StrikerRUS>
-            <img src=https://avatars.githubusercontent.com/u/25141164?v=4 width="100;"  alt=Nikita Titov/>
-            <br />
-            <sub style="font-size:14px"><b>Nikita Titov</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/codeOraaange>
             <img src=https://avatars.githubusercontent.com/u/66554199?v=4 width="100;"  alt=Hana Hasanah/>
             <br />
             <sub style="font-size:14px"><b>Hana Hasanah</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/StrikerRUS>
+            <img src=https://avatars.githubusercontent.com/u/25141164?v=4 width="100;"  alt=Nikita Titov/>
+            <br />
+            <sub style="font-size:14px"><b>Nikita Titov</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
