@@ -85,6 +85,7 @@ jobs:
 
       - name: Commit and push on changes
         run: |-
+          git pull
           git add .
           git diff
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
