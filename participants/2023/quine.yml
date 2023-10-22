@@ -1,0 +1,16 @@
+# Name of the participant
+Name: Quine
+
+# Website URL of the participant
+Website: https://quine.sh
+
+# List of obtainable swag. Allowed values are
+# glasses, laptop, mug, shirt, socks, stickers, swag, trees, other
+Swag:
+  - swag
+
+# Description of the participation (aka "How to get swag?")
+Description: "Be in the top 50 contributors of [this leaderboard](https://quine.sh/hacktoberfest?type=developers). Open issues for eligible repos at the [Quine contribute page](https://quine.sh/hacktoberfest?type=repos)."
+
+# URL of a details page
+Details: https://twitter.com/quine_sh/status/1712434350921322818
