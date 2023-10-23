@@ -203,19 +203,19 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/donno2048>
-            <img src=https://avatars.githubusercontent.com/u/61805754?v=4 width="100;"  alt=Elisha Hollander/>
+        <a href=https://github.com/tvermaashutosh>
+            <img src=https://avatars.githubusercontent.com/u/96707067?v=4 width="100;"  alt=Ash V/>
             <br />
-            <sub style="font-size:14px"><b>Elisha Hollander</b></sub>
+            <sub style="font-size:14px"><b>Ash V</b></sub>
         </a>
     </td>
 </tr>
 <tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/tvermaashutosh>
-            <img src=https://avatars.githubusercontent.com/u/96707067?v=4 width="100;"  alt=Ash V/>
+        <a href=https://github.com/donno2048>
+            <img src=https://avatars.githubusercontent.com/u/61805754?v=4 width="100;"  alt=Elisha Hollander/>
             <br />
-            <sub style="font-size:14px"><b>Ash V</b></sub>
+            <sub style="font-size:14px"><b>Elisha Hollander</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
