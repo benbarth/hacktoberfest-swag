@@ -1,7 +1,0 @@
-Name: Configu
-Website: https://configu.com/
-Swag:
-  - socks
-  - shirt
-Description: "Contributors making one valid pull request will receive Configu Socks. Contributors making two or more valid pull requests will secure a Configu LIMITED-EDITION Hacktoberfest T-shirt."
-Details: https://github.com/configu/configu/issues/266

@@ -1,8 +1,0 @@
-Name: Truffle Security
-Website: https://trufflesecurity.com
-Swag: 
-  - laptop
-  - swag
-  - other
-Description: "Fix [issues](https://github.com/trufflesecurity/trufflehog/issues) in the Trufflehog Repository. Each merged PR with a Hacktoberfest-Detector-Competition-New or Hacktoberfest-Detector-Competition-Fix will be awarded 1 or 2 points, respectively. Submit PRs in the Trufflehog Repository and earn points to win prizes."
-Details: https://events.mlh.io/events/10254-trufflehog-hacktoberfest-2023

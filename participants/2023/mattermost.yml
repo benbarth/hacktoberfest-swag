@@ -1,7 +1,0 @@
-Name: Mattermost
-Website: https://mattermost.com/
-Swag:
-  - swag
-  - other
-Description: "Contribute to any of the Mattermost projects with code or translations or create guides to earn swag. Make a valid contribution to the QA during hacktoberfest for an extra custom swag."
-Details: https://mattermost.com/hacktoberfest/

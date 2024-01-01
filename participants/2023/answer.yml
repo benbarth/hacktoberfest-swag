@@ -1,8 +1,0 @@
-Name: Answer
-Website: https://answer.dev/
-Swag: 
-  - stickers
-  - swag
-  - other
-Description: "Build a plugin and merge PR [here](https://github.com/answerdev/plugins) or find a bug in current plugin and report it with [issues](https://github.com/answerdev/plugins/issues/new)."
-Details: https://answer.dev/blog/2023/09/27/celebrate-answer-first-anniversary-with-hacktoberfest-2023/ 

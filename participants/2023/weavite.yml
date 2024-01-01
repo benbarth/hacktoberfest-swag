@@ -1,7 +1,0 @@
-Name: Weaviate
-Website: https://weaviate.io/developers/weaviate
-Swag: 
-  - swag
-  - other
-Description: "Submit PRs to solve one or more open [issues](https://github.com/weaviate/weaviate/issues)"
-Details: https://weaviate.io/blog/hacktoberfest-2023
