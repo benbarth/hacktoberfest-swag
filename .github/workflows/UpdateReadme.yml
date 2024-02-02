@@ -106,4 +106,4 @@ jobs:
           REPO_NAME: 'benbarth/hacktoberfest-swag'
           CONTRIBUTOR: '## Contributors ✨'
           ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          IGNORED_CONTRIBUTORS: 'Ben Barth,Sascha Greuel,Chandler Weiner'
+          IGNORED_CONTRIBUTORS: 'Ben Barth,Sascha Greuel,Chandler Weiner,Elisha Hollander'
