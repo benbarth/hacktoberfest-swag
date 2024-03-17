@@ -137,13 +137,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
 </tr>
 <tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/donno2048>
-            <img src=https://avatars.githubusercontent.com/u/61805754?v=4 width="100;"  alt=Elisha Hollander/>
-            <br />
-            <sub style="font-size:14px"><b>Elisha Hollander</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/tasawernawaz>
             <img src=https://avatars.githubusercontent.com/u/4245618?v=4 width="100;"  alt=Tasawer Nawaz/>
             <br />
@@ -165,17 +158,24 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/Kriti021999>
-            <img src=https://avatars.githubusercontent.com/u/39064533?v=4 width="100;"  alt=Kriti Mehta/>
+        <a href=https://github.com/nabokovas>
+            <img src=https://avatars.githubusercontent.com/u/27001193?v=4 width="100;"  alt=nabokovas/>
             <br />
-            <sub style="font-size:14px"><b>Kriti Mehta</b></sub>
+            <sub style="font-size:14px"><b>nabokovas</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/mzuehlke>
-            <img src=https://avatars.githubusercontent.com/u/204523?v=4 width="100;"  alt=Marco Zühlke/>
+        <a href=https://github.com/hemant404>
+            <img src=https://avatars.githubusercontent.com/u/56862469?v=4 width="100;"  alt=Hemant Manwani/>
             <br />
-            <sub style="font-size:14px"><b>Marco Zühlke</b></sub>
+            <sub style="font-size:14px"><b>Hemant Manwani</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/aeonzh>
+            <img src=https://avatars.githubusercontent.com/u/9359296?v=4 width="100;"  alt=Zheng He Hu/>
+            <br />
+            <sub style="font-size:14px"><b>Zheng He Hu</b></sub>
         </a>
     </td>
 </tr>
@@ -188,24 +188,17 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/aeonzh>
-            <img src=https://avatars.githubusercontent.com/u/9359296?v=4 width="100;"  alt=Zheng He Hu/>
+        <a href=https://github.com/mzuehlke>
+            <img src=https://avatars.githubusercontent.com/u/204523?v=4 width="100;"  alt=Marco Zühlke/>
             <br />
-            <sub style="font-size:14px"><b>Zheng He Hu</b></sub>
+            <sub style="font-size:14px"><b>Marco Zühlke</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/hemant404>
-            <img src=https://avatars.githubusercontent.com/u/56862469?v=4 width="100;"  alt=Hemant Manwani/>
+        <a href=https://github.com/Kriti021999>
+            <img src=https://avatars.githubusercontent.com/u/39064533?v=4 width="100;"  alt=Kriti Mehta/>
             <br />
-            <sub style="font-size:14px"><b>Hemant Manwani</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/nabokovas>
-            <img src=https://avatars.githubusercontent.com/u/27001193?v=4 width="100;"  alt=nabokovas/>
-            <br />
-            <sub style="font-size:14px"><b>nabokovas</b></sub>
+            <sub style="font-size:14px"><b>Kriti Mehta</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
@@ -222,8 +215,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Nazia Tasnim</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/Kamesh-Mishra>
             <img src=https://avatars.githubusercontent.com/u/58304583?v=4 width="100;"  alt=Kamesh Mishra/>
@@ -231,76 +222,13 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Kamesh Mishra</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/devtayls>
             <img src=https://avatars.githubusercontent.com/u/16793430?v=4 width="100;"  alt=tayls/>
             <br />
             <sub style="font-size:14px"><b>tayls</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/Aman-am>
-            <img src=https://avatars.githubusercontent.com/u/28986596?v=4 width="100;"  alt=Aman Mehta/>
-            <br />
-            <sub style="font-size:14px"><b>Aman Mehta</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/CoderSaty>
-            <img src=https://avatars.githubusercontent.com/u/47601531?v=4 width="100;"  alt=Anuranjan Srivastava/>
-            <br />
-            <sub style="font-size:14px"><b>Anuranjan Srivastava</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/arshadkazmi42>
-            <img src=https://avatars.githubusercontent.com/u/4654382?v=4 width="100;"  alt=Arshad Kazmi/>
-            <br />
-            <sub style="font-size:14px"><b>Arshad Kazmi</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/duncanmcclean>
-            <img src=https://avatars.githubusercontent.com/u/19637309?v=4 width="100;"  alt=Duncan McClean/>
-            <br />
-            <sub style="font-size:14px"><b>Duncan McClean</b></sub>
-        </a>
-    </td>
-</tr>
-<tr>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/MrKrishnaAgarwal>
-            <img src=https://avatars.githubusercontent.com/u/100597998?v=4 width="100;"  alt=Krishna Agarwal/>
-            <br />
-            <sub style="font-size:14px"><b>Krishna Agarwal</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/lucasarvelo>
-            <img src=https://avatars.githubusercontent.com/u/6098495?v=4 width="100;"  alt=Lucas Arvelo/>
-            <br />
-            <sub style="font-size:14px"><b>Lucas Arvelo</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/mauricetmeyer>
-            <img src=https://avatars.githubusercontent.com/u/17762773?v=4 width="100;"  alt=Maurice T. Meyer/>
-            <br />
-            <sub style="font-size:14px"><b>Maurice T. Meyer</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/berry120>
-            <img src=https://avatars.githubusercontent.com/u/7595149?v=4 width="100;"  alt=Michael Berry/>
-            <br />
-            <sub style="font-size:14px"><b>Michael Berry</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/nevo-david>
-            <img src=https://avatars.githubusercontent.com/u/100117126?v=4 width="100;"  alt=Nevo David/>
-            <br />
-            <sub style="font-size:14px"><b>Nevo David</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
@@ -310,8 +238,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Nityananda Gohain</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/koppor>
             <img src=https://avatars.githubusercontent.com/u/1366654?v=4 width="100;"  alt=Oliver Kopp/>
@@ -340,6 +266,8 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>YaelRiv</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/emrecil>
             <img src=https://avatars.githubusercontent.com/u/45103933?v=4 width="100;"  alt=Emre Cilesiz/>
@@ -354,8 +282,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>icextreme</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/ishan-sriv>
             <img src=https://avatars.githubusercontent.com/u/22341442?v=4 width="100;"  alt=Ishan Srivastava />
@@ -378,216 +304,107 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/Cool-Runningz>
-            <img src=https://avatars.githubusercontent.com/u/6391149?v=4 width="100;"  alt=Alyssa Holland/>
+        <a href=https://github.com/nevo-david>
+            <img src=https://avatars.githubusercontent.com/u/100117126?v=4 width="100;"  alt=Nevo David/>
             <br />
-            <sub style="font-size:14px"><b>Alyssa Holland</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/sid-am-ahd935>
-            <img src=https://avatars.githubusercontent.com/u/83830134?v=4 width="100;"  alt=Aman Ahmed Siddiqui/>
-            <br />
-            <sub style="font-size:14px"><b>Aman Ahmed Siddiqui</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/Aniket-508>
-            <img src=https://avatars.githubusercontent.com/u/71957423?v=4 width="100;"  alt=Aniket Pawar/>
-            <br />
-            <sub style="font-size:14px"><b>Aniket Pawar</b></sub>
+            <sub style="font-size:14px"><b>Nevo David</b></sub>
         </a>
     </td>
 </tr>
 <tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/ankit-kumar-dwivedi>
-            <img src=https://avatars.githubusercontent.com/u/37617951?v=4 width="100;"  alt=Ankit Kumar Dwivedi/>
+        <a href=https://github.com/berry120>
+            <img src=https://avatars.githubusercontent.com/u/7595149?v=4 width="100;"  alt=Michael Berry/>
             <br />
-            <sub style="font-size:14px"><b>Ankit Kumar Dwivedi</b></sub>
+            <sub style="font-size:14px"><b>Michael Berry</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/ashish8947>
-            <img src=https://avatars.githubusercontent.com/u/57180502?v=4 width="100;"  alt=Ashish Sharma/>
+        <a href=https://github.com/mauricetmeyer>
+            <img src=https://avatars.githubusercontent.com/u/17762773?v=4 width="100;"  alt=Maurice T. Meyer/>
             <br />
-            <sub style="font-size:14px"><b>Ashish Sharma</b></sub>
+            <sub style="font-size:14px"><b>Maurice T. Meyer</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/hamonangann>
-            <img src=https://avatars.githubusercontent.com/u/70834922?v=4 width="100;"  alt=B. Hamonangan/>
+        <a href=https://github.com/lucasarvelo>
+            <img src=https://avatars.githubusercontent.com/u/6098495?v=4 width="100;"  alt=Lucas Arvelo/>
             <br />
-            <sub style="font-size:14px"><b>B. Hamonangan</b></sub>
+            <sub style="font-size:14px"><b>Lucas Arvelo</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/B3v3>
-            <img src=https://avatars.githubusercontent.com/u/34847525?v=4 width="100;"  alt=Dawid Boksa/>
+        <a href=https://github.com/MrKrishnaAgarwal>
+            <img src=https://avatars.githubusercontent.com/u/100597998?v=4 width="100;"  alt=Krishna Agarwal/>
             <br />
-            <sub style="font-size:14px"><b>Dawid Boksa</b></sub>
+            <sub style="font-size:14px"><b>Krishna Agarwal</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/2brownc>
-            <img src=https://avatars.githubusercontent.com/u/86018533?v=4 width="100;"  alt=Brown/>
+        <a href=https://github.com/duncanmcclean>
+            <img src=https://avatars.githubusercontent.com/u/19637309?v=4 width="100;"  alt=Duncan McClean/>
             <br />
-            <sub style="font-size:14px"><b>Brown</b></sub>
+            <sub style="font-size:14px"><b>Duncan McClean</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/burneikis>
-            <img src=https://avatars.githubusercontent.com/u/87457198?v=4 width="100;"  alt=Burneikis/>
+        <a href=https://github.com/arshadkazmi42>
+            <img src=https://avatars.githubusercontent.com/u/4654382?v=4 width="100;"  alt=Arshad Kazmi/>
             <br />
-            <sub style="font-size:14px"><b>Burneikis</b></sub>
-        </a>
-    </td>
-</tr>
-<tr>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/eldadfux>
-            <img src=https://avatars.githubusercontent.com/u/1297371?v=4 width="100;"  alt=Eldad A. Fux/>
-            <br />
-            <sub style="font-size:14px"><b>Eldad A. Fux</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/adeyinkaezra123>
-            <img src=https://avatars.githubusercontent.com/u/65364356?v=4 width="100;"  alt=Ezra Adeyinka/>
-            <br />
-            <sub style="font-size:14px"><b>Ezra Adeyinka</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/gambhirsharma>
-            <img src=https://avatars.githubusercontent.com/u/69895353?v=4 width="100;"  alt=Gambhir ⚡/>
-            <br />
-            <sub style="font-size:14px"><b>Gambhir ⚡</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/sachincool>
-            <img src=https://avatars.githubusercontent.com/u/25671488?v=4 width="100;"  alt=Harshit  Luthra/>
-            <br />
-            <sub style="font-size:14px"><b>Harshit  Luthra</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/hussainbadri21>
-            <img src=https://avatars.githubusercontent.com/u/11241245?v=4 width="100;"  alt=Hussain Mustafa/>
-            <br />
-            <sub style="font-size:14px"><b>Hussain Mustafa</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/jatin-code21>
-            <img src=https://avatars.githubusercontent.com/u/87281201?v=4 width="100;"  alt=Jatin Oza/>
-            <br />
-            <sub style="font-size:14px"><b>Jatin Oza</b></sub>
+            <sub style="font-size:14px"><b>Arshad Kazmi</b></sub>
         </a>
     </td>
 </tr>
 <tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/jbampton>
-            <img src=https://avatars.githubusercontent.com/u/418747?v=4 width="100;"  alt=John Bampton/>
+        <a href=https://github.com/CoderSaty>
+            <img src=https://avatars.githubusercontent.com/u/47601531?v=4 width="100;"  alt=Anuranjan Srivastava/>
             <br />
-            <sub style="font-size:14px"><b>John Bampton</b></sub>
+            <sub style="font-size:14px"><b>Anuranjan Srivastava</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/justinh5>
-            <img src=https://avatars.githubusercontent.com/u/15842740?v=4 width="100;"  alt=Justin Haupt/>
+        <a href=https://github.com/Aman-am>
+            <img src=https://avatars.githubusercontent.com/u/28986596?v=4 width="100;"  alt=Aman Mehta/>
             <br />
-            <sub style="font-size:14px"><b>Justin Haupt</b></sub>
+            <sub style="font-size:14px"><b>Aman Mehta</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/polaroi8d>
-            <img src=https://avatars.githubusercontent.com/u/9247788?v=4 width="100;"  alt=Levente Orban/>
+        <a href=https://github.com/tddschn>
+            <img src=https://avatars.githubusercontent.com/u/45612704?v=4 width="100;"  alt=Teddy Xinyuan Chen/>
             <br />
-            <sub style="font-size:14px"><b>Levente Orban</b></sub>
+            <sub style="font-size:14px"><b>Teddy Xinyuan Chen</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/marado>
-            <img src=https://avatars.githubusercontent.com/u/33163?v=4 width="100;"  alt=Marcos Marado/>
+        <a href=https://github.com/sudhanshutiwari264>
+            <img src=https://avatars.githubusercontent.com/u/62458868?v=4 width="100;"  alt=Sudhanshu tiwari/>
             <br />
-            <sub style="font-size:14px"><b>Marcos Marado</b></sub>
+            <sub style="font-size:14px"><b>Sudhanshu tiwari</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/mtmattei>
-            <img src=https://avatars.githubusercontent.com/u/90909523?v=4 width="100;"  alt=Matt/>
+        <a href=https://github.com/ShubhamPalriwala>
+            <img src=https://avatars.githubusercontent.com/u/55556994?v=4 width="100;"  alt=Shubham Palriwala/>
             <br />
-            <sub style="font-size:14px"><b>Matt</b></sub>
+            <sub style="font-size:14px"><b>Shubham Palriwala</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/McTechie>
-            <img src=https://avatars.githubusercontent.com/u/69250084?v=4 width="100;"  alt=Mcvean Soans/>
+        <a href=https://github.com/specbeck>
+            <img src=https://avatars.githubusercontent.com/u/98754084?v=4 width="100;"  alt=Saransh Sood/>
             <br />
-            <sub style="font-size:14px"><b>Mcvean Soans</b></sub>
-        </a>
-    </td>
-</tr>
-<tr>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/Nirzak>
-            <img src=https://avatars.githubusercontent.com/u/11460645?v=4 width="100;"  alt=Nirjas Jakilim/>
-            <br />
-            <sub style="font-size:14px"><b>Nirjas Jakilim</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/PierreBresson>
-            <img src=https://avatars.githubusercontent.com/u/8709134?v=4 width="100;"  alt=Pierre Bresson/>
-            <br />
-            <sub style="font-size:14px"><b>Pierre Bresson</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/Pittyolo>
-            <img src=https://avatars.githubusercontent.com/u/25435148?v=4 width="100;"  alt=Pittyolo/>
-            <br />
-            <sub style="font-size:14px"><b>Pittyolo</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/PiyushB001>
-            <img src=https://avatars.githubusercontent.com/u/40162129?v=4 width="100;"  alt=PiyushB001/>
-            <br />
-            <sub style="font-size:14px"><b>PiyushB001</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/Prathamesh404>
-            <img src=https://avatars.githubusercontent.com/u/25879588?v=4 width="100;"  alt=Prathamesh/>
-            <br />
-            <sub style="font-size:14px"><b>Prathamesh</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/rafaeelaudibert>
-            <img src=https://avatars.githubusercontent.com/u/32079912?v=4 width="100;"  alt=Rafael Baldasso Audibert/>
-            <br />
-            <sub style="font-size:14px"><b>Rafael Baldasso Audibert</b></sub>
+            <sub style="font-size:14px"><b>Saransh Sood</b></sub>
         </a>
     </td>
 </tr>
 <tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/mrc03>
-            <img src=https://avatars.githubusercontent.com/u/31211332?v=4 width="100;"  alt=Raj Mehrotra/>
+        <a href=https://github.com/tilda>
+            <img src=https://avatars.githubusercontent.com/u/8301262?v=4 width="100;"  alt=tilda/>
             <br />
-            <sub style="font-size:14px"><b>Raj Mehrotra</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/shresritik>
-            <img src=https://avatars.githubusercontent.com/u/66729712?v=4 width="100;"  alt=Ritik Shrestha/>
-            <br />
-            <sub style="font-size:14px"><b>Ritik Shrestha</b></sub>
+            <sub style="font-size:14px"><b>tilda</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
@@ -598,40 +415,47 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/tilda>
-            <img src=https://avatars.githubusercontent.com/u/8301262?v=4 width="100;"  alt=tilda/>
+        <a href=https://github.com/shresritik>
+            <img src=https://avatars.githubusercontent.com/u/66729712?v=4 width="100;"  alt=Ritik Shrestha/>
             <br />
-            <sub style="font-size:14px"><b>tilda</b></sub>
+            <sub style="font-size:14px"><b>Ritik Shrestha</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/specbeck>
-            <img src=https://avatars.githubusercontent.com/u/98754084?v=4 width="100;"  alt=Saransh Sood/>
+        <a href=https://github.com/mrc03>
+            <img src=https://avatars.githubusercontent.com/u/31211332?v=4 width="100;"  alt=Raj Mehrotra/>
             <br />
-            <sub style="font-size:14px"><b>Saransh Sood</b></sub>
+            <sub style="font-size:14px"><b>Raj Mehrotra</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/ShubhamPalriwala>
-            <img src=https://avatars.githubusercontent.com/u/55556994?v=4 width="100;"  alt=Shubham Palriwala/>
+        <a href=https://github.com/rafaeelaudibert>
+            <img src=https://avatars.githubusercontent.com/u/32079912?v=4 width="100;"  alt=Rafael Baldasso Audibert/>
             <br />
-            <sub style="font-size:14px"><b>Shubham Palriwala</b></sub>
+            <sub style="font-size:14px"><b>Rafael Baldasso Audibert</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/Prathamesh404>
+            <img src=https://avatars.githubusercontent.com/u/25879588?v=4 width="100;"  alt=Prathamesh/>
+            <br />
+            <sub style="font-size:14px"><b>Prathamesh</b></sub>
         </a>
     </td>
 </tr>
 <tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/sudhanshutiwari264>
-            <img src=https://avatars.githubusercontent.com/u/62458868?v=4 width="100;"  alt=Sudhanshu tiwari/>
+        <a href=https://github.com/PiyushB001>
+            <img src=https://avatars.githubusercontent.com/u/40162129?v=4 width="100;"  alt=PiyushB001/>
             <br />
-            <sub style="font-size:14px"><b>Sudhanshu tiwari</b></sub>
+            <sub style="font-size:14px"><b>PiyushB001</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/tddschn>
-            <img src=https://avatars.githubusercontent.com/u/45612704?v=4 width="100;"  alt=Teddy Xinyuan Chen/>
+        <a href=https://github.com/Cool-Runningz>
+            <img src=https://avatars.githubusercontent.com/u/6391149?v=4 width="100;"  alt=Alyssa Holland/>
             <br />
-            <sub style="font-size:14px"><b>Teddy Xinyuan Chen</b></sub>
+            <sub style="font-size:14px"><b>Alyssa Holland</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
@@ -720,6 +544,175 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <img src=https://avatars.githubusercontent.com/u/104707806?v=4 width="100;"  alt=Suvan Banerjee/>
             <br />
             <sub style="font-size:14px"><b>Suvan Banerjee</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/sid-am-ahd935>
+            <img src=https://avatars.githubusercontent.com/u/83830134?v=4 width="100;"  alt=Aman Ahmed Siddiqui/>
+            <br />
+            <sub style="font-size:14px"><b>Aman Ahmed Siddiqui</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/Aniket-508>
+            <img src=https://avatars.githubusercontent.com/u/71957423?v=4 width="100;"  alt=Aniket Pawar/>
+            <br />
+            <sub style="font-size:14px"><b>Aniket Pawar</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/ankit-kumar-dwivedi>
+            <img src=https://avatars.githubusercontent.com/u/37617951?v=4 width="100;"  alt=Ankit Kumar Dwivedi/>
+            <br />
+            <sub style="font-size:14px"><b>Ankit Kumar Dwivedi</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/ashish8947>
+            <img src=https://avatars.githubusercontent.com/u/57180502?v=4 width="100;"  alt=Ashish Sharma/>
+            <br />
+            <sub style="font-size:14px"><b>Ashish Sharma</b></sub>
+        </a>
+    </td>
+</tr>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/hamonangann>
+            <img src=https://avatars.githubusercontent.com/u/70834922?v=4 width="100;"  alt=B. Hamonangan/>
+            <br />
+            <sub style="font-size:14px"><b>B. Hamonangan</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/B3v3>
+            <img src=https://avatars.githubusercontent.com/u/34847525?v=4 width="100;"  alt=Dawid Boksa/>
+            <br />
+            <sub style="font-size:14px"><b>Dawid Boksa</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/2brownc>
+            <img src=https://avatars.githubusercontent.com/u/86018533?v=4 width="100;"  alt=Brown/>
+            <br />
+            <sub style="font-size:14px"><b>Brown</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/burneikis>
+            <img src=https://avatars.githubusercontent.com/u/87457198?v=4 width="100;"  alt=Burneikis/>
+            <br />
+            <sub style="font-size:14px"><b>Burneikis</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/eldadfux>
+            <img src=https://avatars.githubusercontent.com/u/1297371?v=4 width="100;"  alt=Eldad A. Fux/>
+            <br />
+            <sub style="font-size:14px"><b>Eldad A. Fux</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/adeyinkaezra123>
+            <img src=https://avatars.githubusercontent.com/u/65364356?v=4 width="100;"  alt=Ezra Adeyinka/>
+            <br />
+            <sub style="font-size:14px"><b>Ezra Adeyinka</b></sub>
+        </a>
+    </td>
+</tr>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/gambhirsharma>
+            <img src=https://avatars.githubusercontent.com/u/69895353?v=4 width="100;"  alt=Gambhir ⚡/>
+            <br />
+            <sub style="font-size:14px"><b>Gambhir ⚡</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/sachincool>
+            <img src=https://avatars.githubusercontent.com/u/25671488?v=4 width="100;"  alt=Harshit  Luthra/>
+            <br />
+            <sub style="font-size:14px"><b>Harshit  Luthra</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/hussainbadri21>
+            <img src=https://avatars.githubusercontent.com/u/11241245?v=4 width="100;"  alt=Hussain Mustafa/>
+            <br />
+            <sub style="font-size:14px"><b>Hussain Mustafa</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/jatin-code21>
+            <img src=https://avatars.githubusercontent.com/u/87281201?v=4 width="100;"  alt=Jatin Oza/>
+            <br />
+            <sub style="font-size:14px"><b>Jatin Oza</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/jbampton>
+            <img src=https://avatars.githubusercontent.com/u/418747?v=4 width="100;"  alt=John Bampton/>
+            <br />
+            <sub style="font-size:14px"><b>John Bampton</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/justinh5>
+            <img src=https://avatars.githubusercontent.com/u/15842740?v=4 width="100;"  alt=Justin Haupt/>
+            <br />
+            <sub style="font-size:14px"><b>Justin Haupt</b></sub>
+        </a>
+    </td>
+</tr>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/polaroi8d>
+            <img src=https://avatars.githubusercontent.com/u/9247788?v=4 width="100;"  alt=Levente Orban/>
+            <br />
+            <sub style="font-size:14px"><b>Levente Orban</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/marado>
+            <img src=https://avatars.githubusercontent.com/u/33163?v=4 width="100;"  alt=Marcos Marado/>
+            <br />
+            <sub style="font-size:14px"><b>Marcos Marado</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/mtmattei>
+            <img src=https://avatars.githubusercontent.com/u/90909523?v=4 width="100;"  alt=Matt/>
+            <br />
+            <sub style="font-size:14px"><b>Matt</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/McTechie>
+            <img src=https://avatars.githubusercontent.com/u/69250084?v=4 width="100;"  alt=Mcvean Soans/>
+            <br />
+            <sub style="font-size:14px"><b>Mcvean Soans</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/Nirzak>
+            <img src=https://avatars.githubusercontent.com/u/11460645?v=4 width="100;"  alt=Nirjas Jakilim/>
+            <br />
+            <sub style="font-size:14px"><b>Nirjas Jakilim</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/PierreBresson>
+            <img src=https://avatars.githubusercontent.com/u/8709134?v=4 width="100;"  alt=Pierre Bresson/>
+            <br />
+            <sub style="font-size:14px"><b>Pierre Bresson</b></sub>
+        </a>
+    </td>
+</tr>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/Pittyolo>
+            <img src=https://avatars.githubusercontent.com/u/25435148?v=4 width="100;"  alt=Pittyolo/>
+            <br />
+            <sub style="font-size:14px"><b>Pittyolo</b></sub>
         </a>
     </td>
 </tr>
