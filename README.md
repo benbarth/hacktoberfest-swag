@@ -29,11 +29,11 @@ Register at [hacktoberfest.com](https://hacktoberfest.com/).
 * Aim to submit four high-quality pull/merge requests between October 1 and October 31, with project maintainers accepting your pull/merge requests for them to count toward your total
 * You’ll unlock a digital badge when you register for Hacktoberfest, and level it up with each of your four pull/merge requests accepted during Hacktoberfest
 
-## Additional Swag Opportunities
+## Opportunities for Swag
 
-In all of the Hacktoberfest excitement, many companies want to join the celebration by rewarding their contributors with even more swag! That's why we're here!
+In all of the Hacktoberfest excitement, many companies want to join the celebration by rewarding their contributors with swag! That's why we're here!
 
-### The purpose of this list is to incentivize meaningful contributions. If you intend to make low-value changes -- just for swag. *Don't.*
+### The purpose of this list is to incentivize meaningful contributions. If you intend to make low-value changes -- just for swag. *DON'T.*
 
 QUANTITY IS FUN, QUALITY IS KEY
 
@@ -53,7 +53,7 @@ Open source is changing the world – one pull request at a time.
 
 Support your favorite project with a [donation](https://hacktoberfest.com/donate).
 
-You can contribute by resolving a [Hacktoberfest issue on GitHub](https://github.com/search?q=label%3AHacktoberfest&state=open&type=Issues).
+Contribute by resolving a [Hacktoberfest issue on GitHub](https://github.com/search?q=label%3AHacktoberfest&state=open&type=Issues).
 
 New to contributing? You can look for [good first issues](https://github.com/search?utf8=✓&q=label%3A"good+first+issue"&type=Issues) or go to [Up For Grabs](https://up-for-grabs.net/#/).
 
