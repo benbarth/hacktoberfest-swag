@@ -26,9 +26,8 @@ Register at [hacktoberfest.com](https://hacktoberfest.com/).
 
 * Register anytime between September 23 and October 31
 * Pull requests can be made in any GitHub or GitLab hosted project that’s participating in Hacktoberfest (look for the “hacktoberfest” topic)
-* Project maintainers must accept your pull/merge requests for them to count toward your total
-* The first 50,000 participants to have their first PR/MR accepted will have a tree planted in their name through Tree Nation
-* Participants with four pull/merge requests accepted between October 1 and October 31 will receive a unique digital reward
+* Aim to submit four high-quality pull/merge requests between October 1 and October 31, with project maintainers accepting your pull/merge requests for them to count toward your total
+* You’ll unlock a digital badge when you register for Hacktoberfest, and level it up with each of your four pull/merge requests accepted during Hacktoberfest
 
 ## Additional Swag Opportunities
 
