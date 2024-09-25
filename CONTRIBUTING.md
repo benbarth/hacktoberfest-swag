@@ -26,7 +26,7 @@ To publish your changes, [create a pull request](https://docs.github.com/en/free
 
 If your changes affect the README in any way, they will be automatically deployed to <https://hacktoberfest-swag.com>
 
-Every legit pull request made between Oct 01 and Oct 31 also counts towards your contributions goal at <https://hacktoberfest.com/profile/>, and may reward you with a ![Shirt](icons/shirt.png), ![Stickers](icons/stickers.png), and/or the possibility to plant a ![Tree](icons/plant.png).
+Every accepted pull request made between Oct 01 and Oct 31 also counts towards your contributions goal at <https://hacktoberfest.com/profile/>.
 
 ### Blacklisted participants
 
