@@ -41,7 +41,7 @@ QUANTITY IS FUN, QUALITY IS KEY
 <!-- verified start -->
 | Who | What | How | Additional Details |
 | :---: | :---: | --- | --- |
-| [DigitalOcean + Sponsors](https://hacktoberfest.com/) | ![Other](icons/other.png) | <details><summary>How to contribute?</summary>Starting 2023, Hacktoberfest will be moving away from the official t-shirt rewards to a digital reward kit in partnership with Holopin. Four pull requests to any participating public repo on GitHub or GitLab. To reduce spam DigitalOcean introduced new measures in 2020: PRs count only if: **Submitted in a repo with the hacktoberfest topic AND during the month of October AND (The PR is merged OR The PR is labelled as hacktoberfest-accepted by a maintainer OR The PR has been approved)**</details> | [More Details here](https://hacktoberfest.com/participation/) |
+| [DigitalOcean + Sponsors](https://hacktoberfest.com/) | ![Other](icons/other.png) | <details><summary>How to contribute?</summary>You’ll unlock a digital badge when you register for Hacktoberfest, and level it up with each of your four pull/merge requests accepted during Hacktoberfest</details> | [More Details here](https://hacktoberfest.com/participation/) |
 | | | | |
 <!-- verified end -->
 
