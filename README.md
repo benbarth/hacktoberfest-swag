@@ -128,9 +128,9 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/tvermaashutosh>
-            <img src=https://avatars.githubusercontent.com/u/96707067?v=4 width="100;"  alt=Ash V/>
+            <img src=https://avatars.githubusercontent.com/u/96707067?v=4 width="100;"  alt=tvermaashutosh/>
             <br />
-            <sub style="font-size:14px"><b>Ash V</b></sub>
+            <sub style="font-size:14px"><b>tvermaashutosh</b></sub>
         </a>
     </td>
 </tr>
@@ -429,9 +429,9 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/rafaeelaudibert>
-            <img src=https://avatars.githubusercontent.com/u/32079912?v=4 width="100;"  alt=Rafael Baldasso Audibert/>
+            <img src=https://avatars.githubusercontent.com/u/32079912?v=4 width="100;"  alt=Rafael Audibert/>
             <br />
-            <sub style="font-size:14px"><b>Rafael Baldasso Audibert</b></sub>
+            <sub style="font-size:14px"><b>Rafael Audibert</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
@@ -495,10 +495,10 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/fer22f>
-            <img src=https://avatars.githubusercontent.com/u/3057302?v=4 width="100;"  alt=Fernando K/>
+        <a href=https://github.com/ferk6a>
+            <img src=https://avatars.githubusercontent.com/u/3057302?v=4 width="100;"  alt=Fernando Kiotheka/>
             <br />
-            <sub style="font-size:14px"><b>Fernando K</b></sub>
+            <sub style="font-size:14px"><b>Fernando Kiotheka</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
