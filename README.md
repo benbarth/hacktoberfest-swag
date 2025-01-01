@@ -2,7 +2,7 @@
 
 ![Hacktoberfest](assets/hacktoberfest-logo.png "Hacktoberfest")
 
-# Hacktoberfest Swag <!-- current year start -->2024<!-- current year end -->
+# Hacktoberfest Swag <!-- current year start -->2025<!-- current year end -->
 
 [![Website](https://img.shields.io/badge/Website-visit-2a8?style=for-the-badge&logo=google-chrome&logoColor=white)](https://benbarth.github.io/hacktoberfest-swag/)
 
@@ -37,7 +37,7 @@ In all of the Hacktoberfest excitement, many companies want to join the celebrat
 
 QUANTITY IS FUN, QUALITY IS KEY
 
-## Verified participants <!-- current year start -->2024<!-- current year end -->
+## Verified participants <!-- current year start -->2025<!-- current year end -->
 <!-- verified start -->
 | Who | What | How | Additional Details |
 | :---: | :---: | --- | --- |
