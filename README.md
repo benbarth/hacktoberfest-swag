@@ -46,6 +46,7 @@ QUANTITY IS FUN, QUALITY IS KEY
 | [ballerina](https://ballerina.io) | ![Other](icons/other.png) ![Swag](icons/swag.png) | <details><summary>How to contribute?</summary>Collect credits and exchange them later for swags.</details> | [More Details here](https://ballerina.io/hacktoberfest/) |
 | [Cloudinary](https://cloudinary.com) | ![Other](icons/other.png) ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) | <details><summary>How to contribute?</summary>https://cloudinary.com</details> | [More Details here](https://cloudinary.com/blog/hacktoberfest-2025) |
 | [devICT](https://devict.org/) | ![Stickers](icons/stickers.png) | <details><summary>How to contribute?</summary>Submit two pull requests to qualifying Wichita projects during the month of October and receive stickers.</details> | [More Details here](https://hacktoberfest.devict.org/) |
+| [ServiceNow](www.servicenow.com) | ![Other](icons/other.png) ![Shirt](icons/shirt.png) | <details><summary>How to contribute?</summary>Have SIX (6) of your Pull Requests accepted in eligible Hacktoberfest repositories.</details> | [More Details here](https://www.servicenow.com/community/developer-advocate-blog/hacktoberfest-2025-building-with-servicenow-giving-with/ba-p/3386849) |
 | [WSO2](https://wso2.com/hacktoberfest/) | ![Other](icons/other.png) | <details><summary>How to contribute?</summary>https://wso2.com/</details> | [More Details here](https://wso2.com/hacktoberfest/) |
 <!-- verified end -->
 
