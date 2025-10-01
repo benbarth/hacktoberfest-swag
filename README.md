@@ -47,7 +47,7 @@ QUANTITY IS FUN, QUALITY IS KEY
 | [WSO2](https://wso2.com/hacktoberfest/) | ![Other](icons/other.png) | <details><summary>How to contribute?</summary>https://wso2.com/</details> | [More Details here](https://wso2.com/hacktoberfest/) |
 <!-- verified end -->
 
-[View some of this cool swag on Twitter.](https://twitter.com/search?q=%23hacktoberfest%20%23swag)
+[View some of this cool swag.](https://x.com/search?q=%23hacktoberfest%20%23swag)
 
 Open source is changing the world – one pull request at a time.
 
