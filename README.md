@@ -43,6 +43,8 @@ QUANTITY IS FUN, QUALITY IS KEY
 | :---: | :---: | --- | --- |
 | [DigitalOcean + Sponsors](https://hacktoberfest.com/) | ![Other](icons/other.png) | <details><summary>How to contribute?</summary>You’ll unlock a digital badge when you register for Hacktoberfest, and level it up with each of your four pull/merge requests accepted during Hacktoberfest</details> | [More Details here](https://hacktoberfest.com/participation/) |
 | | | | |
+| [Cloudinary](https://cloudinary.com) | ![Other](icons/other.png) ![Shirt](icons/shirt.png) ![Stickers](icons/stickers.png) | <details><summary>How to contribute?</summary>https://cloudinary.com</details> | [More Details here](https://cloudinary.com/blog/hacktoberfest-2025) |
+| [WSO2](https://wso2.com/hacktoberfest/) | ![Other](icons/other.png) | <details><summary>How to contribute?</summary>https://wso2.com/</details> | [More Details here](https://wso2.com/hacktoberfest/) |
 <!-- verified end -->
 
 [View some of this cool swag on Twitter.](https://twitter.com/search?q=%23hacktoberfest%20%23swag)
