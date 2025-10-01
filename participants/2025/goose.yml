@@ -1,0 +1,13 @@
+Name: goose
+
+Website: https://ballerina.io
+
+Swag:
+  - swag
+  - other
+
+Description: Every hacktoberfest PR and contribution will earn you points on our leaderboard. The Top 20 Contributors with the most points by the end of the month will win special prizes!
+
+Details: https://block.github.io/goose/blog/2025/09/26/hacktoberfest-2025/
+
+IsSponsor: False
