@@ -1,0 +1,13 @@
+Name: ballerina
+
+Website: https://ballerina.io
+
+Swag:
+  - swag
+  - other
+
+Description: Collect credits and exchange them later for swags.
+
+Details: https://ballerina.io/hacktoberfest/
+
+IsSponsor: False
