@@ -451,10 +451,10 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
 </tr>
 <tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/fadkeabhi>
-            <img src=https://avatars.githubusercontent.com/u/31249309?v=4 width="100;"  alt=ABHISHEK FADAKE/>
+        <a href=https://github.com/Pittyolo>
+            <img src=https://avatars.githubusercontent.com/u/25435148?v=4 width="100;"  alt=Pittyolo/>
             <br />
-            <sub style="font-size:14px"><b>ABHISHEK FADAKE</b></sub>
+            <sub style="font-size:14px"><b>Pittyolo</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
@@ -546,6 +546,13 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/fadkeabhi>
+            <img src=https://avatars.githubusercontent.com/u/31249309?v=4 width="100;"  alt=ABHISHEK FADAKE/>
+            <br />
+            <sub style="font-size:14px"><b>ABHISHEK FADAKE</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/Cool-Runningz>
             <img src=https://avatars.githubusercontent.com/u/6391149?v=4 width="100;"  alt=Alyssa Holland/>
             <br />
@@ -573,6 +580,8 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Ankit Kumar Dwivedi</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/ashish8947>
             <img src=https://avatars.githubusercontent.com/u/57180502?v=4 width="100;"  alt=Ashish Sharma/>
@@ -580,8 +589,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Ashish Sharma</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/hamonangann>
             <img src=https://avatars.githubusercontent.com/u/70834922?v=4 width="100;"  alt=B. Hamonangan/>
@@ -594,6 +601,13 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <img src=https://avatars.githubusercontent.com/u/34847525?v=4 width="100;"  alt=Dawid Boksa/>
             <br />
             <sub style="font-size:14px"><b>Dawid Boksa</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/Better-Boy>
+            <img src=https://avatars.githubusercontent.com/u/19553184?v=4 width="100;"  alt=Better-Boy/>
+            <br />
+            <sub style="font-size:14px"><b>Better-Boy</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
@@ -610,6 +624,8 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Burneikis</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/eldadfux>
             <img src=https://avatars.githubusercontent.com/u/1297371?v=4 width="100;"  alt=Eldad A. Fux/>
@@ -624,8 +640,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Ezra Adeyinka</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/gambhirsharma>
             <img src=https://avatars.githubusercontent.com/u/69895353?v=4 width="100;"  alt=gambhir 🌊/>
@@ -654,6 +668,8 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Jatin Oza</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/jbampton>
             <img src=https://avatars.githubusercontent.com/u/418747?v=4 width="100;"  alt=John Bampton/>
@@ -668,8 +684,6 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Justin Haupt</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/marado>
             <img src=https://avatars.githubusercontent.com/u/33163?v=4 width="100;"  alt=Marcos Marado/>
@@ -698,18 +712,13 @@ Know of another Hacktoberfest swag opportunity? Learn how to contribute to this 
             <sub style="font-size:14px"><b>Nirjas Jakilim</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/PierreBresson>
             <img src=https://avatars.githubusercontent.com/u/8709134?v=4 width="100;"  alt=Pierre Bresson/>
             <br />
             <sub style="font-size:14px"><b>Pierre Bresson</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/Pittyolo>
-            <img src=https://avatars.githubusercontent.com/u/25435148?v=4 width="100;"  alt=Pittyolo/>
-            <br />
-            <sub style="font-size:14px"><b>Pittyolo</b></sub>
         </a>
     </td>
 </tr>
