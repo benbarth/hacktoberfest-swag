@@ -1,5 +1,5 @@
 {
-      "yaml.schemas": {
-        "/home/runner/work/hacktoberfest-swag/hacktoberfest-swag/.jsonschema": ["/participants/**/*.yml"]
-      }
+  "yaml.schemas": {
+    "${workspaceFolder}/.jsonschema": ["/participants/**/*.yml"]
+  }
 }

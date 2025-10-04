@@ -1,8 +1,7 @@
 ---
-name: "[UPD] Update existing Swag Opportunity"
-description: >-
-  Raise an issue with information about an updated opportunity
-title: "[UPD] Update existing Swag Opportunity"
+name: "[UPD] Update existing swag opportunity"
+description: Share changes to an existing swag opportunity entry.
+title: "[UPD] Update existing swag opportunity"
 labels:
   - enhancement
   - help wanted
@@ -11,7 +10,7 @@ body:
     id: org
     attributes:
       label: Organization
-      description: Name of the organization giving this swag
+      description: Name of the organization offering this swag.
       placeholder: Acme Corporation
     validations:
       required: true
@@ -19,8 +18,8 @@ body:
     id: website
     attributes:
       label: Organization Website
-      description: Website URL of the organization
-      placeholder: https://acme.corp
+      description: Website URL of the organization.
+      placeholder: https://www.acme.example
     validations:
       required: true
   - type: input
@@ -28,24 +27,25 @@ body:
     attributes:
       label: Announcement URL
       description: >-
-        Link to the place where the company has announced their Hacktoberfest
-        participation (e.g. blog post, GitHub issue, Medium Article, etc.)
-      placeholder: https://blog.acme.corp/hacktoberfest/
+        Link to the announcement confirming the organization's Hacktoberfest
+        participation (for example a blog post, GitHub issue, or community
+        update).
+      placeholder: https://blog.acme.example/hacktoberfest
   - type: textarea
     id: desc
     attributes:
-      label: Description / Summary
+      label: Description / summary
       description: >-
-        A concise description of the swag and what has to be done in order to
-        get it
-      placeholder: Create one or more merged pull requests.
+        Summarize what changed about the swag items or contribution
+        requirements.
+      placeholder: Update the number of required merged pull requests.
     validations:
       required: true
   - type: checkboxes
     id: swaglist
     attributes:
-      label: Swag Items
-      description: The list of swag items being offered
+      label: Swag items
+      description: Select all swag items being offered after the update.
       options:
         - label: Glasses
         - label: Laptop

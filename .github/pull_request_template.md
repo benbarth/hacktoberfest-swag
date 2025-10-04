@@ -1,23 +1,26 @@
-- [ ] I have read and understand the [Contributing.md](../blob/main/CONTRIBUTING.md) guidelines
-- [ ] I do not intend to make low-value changes, just for swag. I am aware that my PR could otherwise be flagged as `spam` or `invalid` and may lead to permanent exclusion from the Hacktoberfest event.
+## Pre-flight checklist
+
+- [ ] I have read and follow the [contributing guidelines](../CONTRIBUTING.md).
+- [ ] I am submitting meaningful changes and understand that low-value PRs may be flagged as spam or invalid.
 
 ### Adding a new Hacktoberfest participant
 
-- [ ] I did not edit the README.md file by hand
-- [ ] I have checked to ensure the new participant is not a duplicate and has not already been added
-- [ ] I am not adding a company from the [blocklist](../blob/main/.gitignore)
-- [ ] I have added the participant according to the [Contributing.md](../blob/main/CONTRIBUTING.md) guidelines
+- [ ] I did not edit the `README.md` file manually.
+- [ ] I confirmed the participant does not already exist in the repository.
+- [ ] I am not adding a company from the [blocklist](../.gitignore).
+- [ ] I followed the steps in the contributing guidelines when adding the participant entry.
 
 ### Updating an existing Hacktoberfest participant
 
-- [ ] I did not edit the README.md file by hand
-- [ ] I have updated the existing participant.yml file according to the [Contributing.md](../blob/main/CONTRIBUTING.md) guidelines
+- [ ] I did not edit the `README.md` file manually.
+- [ ] I updated the existing `participant.yml` file according to the contributing guidelines.
 
 ### Removing a participant
-- [ ] I did not edit the README.md file by hand
-- [ ] I have checked to ensure the participant is not participating this year
-- [ ] I have provided evidence that the participant is not participating this year
 
-### Updating the README.md
+- [ ] I did not edit the `README.md` file manually.
+- [ ] I verified that the participant is no longer participating this year.
+- [ ] I included evidence supporting the removal.
 
-- [ ] I have discussed the proposed changes and received approval from a maintainer (@benbarth, @SoftCreatR, or @crweiner)
+### Updating the README
+
+- [ ] I discussed the proposed changes and received approval from a maintainer (@benbarth, or @SoftCreatR).
