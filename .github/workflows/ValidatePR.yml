@@ -4,54 +4,83 @@ on:
   pull_request:
     paths:
       - 'participants/**/*.yml'
+      - '.jsonschema'
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - ready_for_review
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
 
 jobs:
-  ValidateYAML:
+  validate:
+    name: Validate YAML & links
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
-      - name: Git checkout
-        uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Detect participant changes
+        id: changed
+        uses: tj-actions/changed-files@v47
+        with:
+          files: |
+            participants/**/*.yml
+
+      - name: Prepare target file list
+        id: targets
+        env:
+          CHANGED_FILES: ${{ steps.changed.outputs.added_modified_files }}
+        run: |
+          set -eo pipefail
+          declare -a files=()
+
+          if [ -n "$CHANGED_FILES" ]; then
+            while IFS= read -r file; do
+              [ -n "$file" ] && files+=("$file")
+            done <<<"$CHANGED_FILES"
+          fi
+
+          if [ "${#files[@]}" -eq 0 ]; then
+            {
+              echo 'files='
+              echo 'csv='
+            } >>"$GITHUB_OUTPUT"
+            echo "No participant YAML changes detected; skipping validation."
+            exit 0
+          fi
+
+          printf '%s\n' "${files[@]}" | tee files-to-validate.txt
+
+          {
+            echo 'files<<EOF'
+            printf '%s\n' "${files[@]}"
+            echo 'EOF'
+            printf 'csv=%s\n' "$(IFS=,; echo "${files[*]}")"
+          } >>"$GITHUB_OUTPUT"
 
       - name: Validate YAML files
+        if: steps.targets.outputs.files != ''
         uses: SoftCreatR/validate-yaml-schema@v2.0.0
+        with:
+          settingsFile: .vscode/settings.json
 
-  ValidateLinks:
-    runs-on: ubuntu-latest
-    needs: [ValidateYAML]
-
-    steps:
-      - name: Git checkout
-        uses: actions/checkout@v3
-
-      - name: Set up Ruby 2.6
+      - name: Set up Ruby
+        if: steps.targets.outputs.csv != ''
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.6
+          ruby-version: '3.4'
 
-      - id: file-diff
-        uses: lots0logs/gh-action-get-changed-files@2.2.2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Validate Links
+      - name: Validate links
+        if: steps.targets.outputs.csv != ''
         run: |
-          FILELIST=""
-
-          for FILENAME in $(jq '.[]' $HOME/files.json); do
-            FILENAME="${FILENAME:1}"
-            FILENAME="${FILENAME::-1}"
-
-            if [ -f "$FILENAME" ] && [[ $FILENAME == *"participants"* ]] && [ "${FILENAME: -4}" == ".yml" ]; then
-              FILELIST+="$FILENAME,"
-            else
-              echo "- Skipped $FILENAME"
-            fi
-          done
-
-          if [ -n "$FILELIST" ]; then
-            gem install awesome_bot
-            awesome_bot --files "$FILELIST" --allow-dupe --allow-redirect --skip-save-results
-          else
-            echo "Nothing to do."
-          fi
+          gem install --no-document awesome_bot
+          awesome_bot --files "${{ steps.targets.outputs.csv }}" --allow-dupe --allow-redirect --skip-save-results

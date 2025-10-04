@@ -1,9 +1,7 @@
 ---
-name: "[ADD] New Swag Opportunity"
-description: >-
-  Raise an issue with information about a new swag which isn't a part of the
-  list yet
-title: "[ADD] New Swag Opportunity"
+name: "[ADD] New swag opportunity"
+description: Share details about a new swag opportunity that is not listed yet.
+title: "[ADD] New swag opportunity"
 labels:
   - enhancement
   - help wanted
@@ -12,7 +10,7 @@ body:
     id: org
     attributes:
       label: Organization
-      description: Name of the organization giving this swag
+      description: Name of the organization offering this swag.
       placeholder: Acme Corporation
     validations:
       required: true
@@ -20,8 +18,8 @@ body:
     id: website
     attributes:
       label: Organization Website
-      description: Website URL of the organization
-      placeholder: https://acme.corp
+      description: Website URL of the organization.
+      placeholder: https://www.acme.example
     validations:
       required: true
   - type: input
@@ -29,24 +27,25 @@ body:
     attributes:
       label: Announcement URL
       description: >-
-        Link to the place where the company has announced their Hacktoberfest
-        participation (e.g. blog post, GitHub issue, Medium Article, etc.)
-      placeholder: https://blog.acme.corp/hacktoberfest/
+        Link to the announcement confirming the organization's Hacktoberfest
+        participation (for example a blog post, GitHub issue, or community
+        update).
+      placeholder: https://blog.acme.example/hacktoberfest
   - type: textarea
     id: desc
     attributes:
-      label: Description / Summary
+      label: Description / summary
       description: >-
-        A concise description of the swag and what has to be done in order to
-        get it
+        Provide a concise overview of the swag items and the contribution
+        requirements to earn them.
       placeholder: Create one or more merged pull requests.
     validations:
       required: true
   - type: checkboxes
     id: swaglist
     attributes:
-      label: Swag Items
-      description: The list of swag items being offered
+      label: Swag items
+      description: Select all swag items being offered.
       options:
         - label: Glasses
         - label: Laptop
