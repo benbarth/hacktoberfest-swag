@@ -135,11 +135,11 @@
     "status": "verified",
     "year": "2025",
     "name": "WSO2",
-    "website": "https://wso2.com/hacktoberfest/",
+    "website": "https://wso2.com/",
     "swag": [
       "other"
     ],
-    "description": "https://wso2.com/",
+    "description": "Refer to the Hacktoberfest project board and select an issue to work on. Once you start working on an issue, leave a comment stating that you're working on it to reserve it for yourself. When your work is ready, submit a pull request (PR). Address any review comments if needed and get your PR merged. After your PR is merged, fill out the [form](https://docs.google.com/forms/d/1tn3F1k3mERAXOCNNFOzX9i6rSSwbVcGkgkGL93Bgo5s/edit) with the PR details and other relevant information.",
     "detailsUrl": "https://wso2.com/hacktoberfest/",
     "isSponsor": false
   }
