@@ -68,6 +68,18 @@
   {
     "status": "verified",
     "year": "2025",
+    "name": "DocsGPT",
+    "website": "https://www.docsgpt.cloud",
+    "swag": [
+      "swag"
+    ],
+    "description": "Have one meaningful pull request merged. The PR must be for an issue with the hacktoberfest label (set by our maintainer team). Contributions can include code, API extensions, documentation, or design improvements. Fill out https://forms.gle/Npaba4n9Epfyx56S8 after PR is merged.",
+    "detailsUrl": "https://github.com/arc53/DocsGPT/blob/main/HACKTOBERFEST.md",
+    "isSponsor": false
+  },
+  {
+    "status": "verified",
+    "year": "2025",
     "name": "Dodo Payments",
     "website": "https://dodopayments.com/",
     "swag": [
