@@ -1,0 +1,134 @@
+[
+  {
+    "status": "sponsor",
+    "year": "2025",
+    "name": "DigitalOcean + Sponsors",
+    "website": "https://hacktoberfest.com/",
+    "swag": [
+      "other"
+    ],
+    "description": "You’ll unlock a digital badge when you register for Hacktoberfest, and level it up with each of your four pull/merge requests accepted during Hacktoberfest",
+    "detailsUrl": "https://hacktoberfest.com/participation/",
+    "isSponsor": true
+  },
+  {
+    "status": "verified",
+    "year": "2025",
+    "name": "Appwrite",
+    "website": "https://appwrite.io/",
+    "swag": [
+      "other",
+      "shirt",
+      "stickers",
+      "swag"
+    ],
+    "description": "Build and deploy amazing apps using Appwrite Cloud! Submit your app for a chance to win an Appwrite swag kit!",
+    "detailsUrl": "https://hacktoberfest.appwrite.network/",
+    "isSponsor": false
+  },
+  {
+    "status": "verified",
+    "year": "2025",
+    "name": "ballerina",
+    "website": "https://ballerina.io",
+    "swag": [
+      "other",
+      "swag"
+    ],
+    "description": "Collect credits and exchange them later for swags.",
+    "detailsUrl": "https://ballerina.io/hacktoberfest/",
+    "isSponsor": false
+  },
+  {
+    "status": "verified",
+    "year": "2025",
+    "name": "Cloudinary",
+    "website": "https://cloudinary.com",
+    "swag": [
+      "other",
+      "shirt",
+      "stickers"
+    ],
+    "description": "Contribute a valid pull request to one of our open-source projects, and you’ll score a free Cloudinary swag pack. https://cloudinary.com/blog/hacktoberfest-2025#how_can_i_contribute_",
+    "detailsUrl": "https://cloudinary.com/blog/hacktoberfest-2025",
+    "isSponsor": false
+  },
+  {
+    "status": "verified",
+    "year": "2025",
+    "name": "devICT",
+    "website": "https://devict.org/",
+    "swag": [
+      "stickers"
+    ],
+    "description": "Submit two pull requests to qualifying Wichita projects during the month of October and receive stickers.",
+    "detailsUrl": "https://hacktoberfest.devict.org/",
+    "isSponsor": false
+  },
+  {
+    "status": "verified",
+    "year": "2025",
+    "name": "Dodo Payments",
+    "website": "https://dodopayments.com/",
+    "swag": [
+      "shirt",
+      "stickers",
+      "swag"
+    ],
+    "description": "Major contributors will receive limited Dodo “Tracks” swag packs: t-shirts, caps, and stickers.",
+    "detailsUrl": "https://dodopayments.com/blogs/hacktoberfest-2025-dodo-payments",
+    "isSponsor": false
+  },
+  {
+    "status": "verified",
+    "year": "2025",
+    "name": "goose",
+    "website": "https://block.github.io/goose/",
+    "swag": [
+      "other",
+      "swag"
+    ],
+    "description": "Every hacktoberfest PR and contribution will earn you points on our leaderboard. The Top 20 Contributors with the most points by the end of the month will win special prizes!",
+    "detailsUrl": "https://block.github.io/goose/blog/2025/09/26/hacktoberfest-2025/",
+    "isSponsor": false
+  },
+  {
+    "status": "verified",
+    "year": "2025",
+    "name": "MindsDB",
+    "website": "https://mindsdb.com",
+    "swag": [
+      "laptop",
+      "other",
+      "shirt"
+    ],
+    "description": "Create AI apps powered by MindsDB's Knowledge Bases that query enterprise-like data in place—delivering accurate, explainable answers.",
+    "detailsUrl": "https://github.com/mindsdb/mindsdb/tree/main/mindsdb%20hacktoberfest",
+    "isSponsor": false
+  },
+  {
+    "status": "verified",
+    "year": "2025",
+    "name": "ServiceNow",
+    "website": "www.servicenow.com",
+    "swag": [
+      "other",
+      "shirt"
+    ],
+    "description": "Have SIX (6) of your Pull Requests accepted in eligible Hacktoberfest repositories.",
+    "detailsUrl": "https://www.servicenow.com/community/developer-advocate-blog/hacktoberfest-2025-building-with-servicenow-giving-with/ba-p/3386849",
+    "isSponsor": false
+  },
+  {
+    "status": "verified",
+    "year": "2025",
+    "name": "WSO2",
+    "website": "https://wso2.com/hacktoberfest/",
+    "swag": [
+      "other"
+    ],
+    "description": "https://wso2.com/",
+    "detailsUrl": "https://wso2.com/hacktoberfest/",
+    "isSponsor": false
+  }
+]

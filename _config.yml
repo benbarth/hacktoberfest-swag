@@ -1,6 +1,10 @@
 ---
 
-theme: jekyll-theme-hacker
+theme: null
 markdown: GFM
-include: [ 'CONTRIBUTING.md', 'CODE_OF_CONDUCT.md', '.jsonschema' ]
+include:
+  - 'CONTRIBUTING.md'
+  - 'CODE_OF_CONDUCT.md'
+  - '.jsonschema'
+  - 'assets/data/participants.json'
 url: 'https://hacktoberfest-swag.com'
