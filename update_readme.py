@@ -22,10 +22,11 @@ SOFTWARE.
 
 import datetime
 import glob
+import json
 import os
 import re
 import shutil
-from typing import Dict, List
+from typing import Dict, List, Set
 
 import yaml
 
@@ -37,6 +38,7 @@ __email__ = "hello@1-2.dev"
 __status__ = "Production"
 
 root = os.getcwd() + os.path.sep
+icons_dir = os.path.join(root, "icons")
 current_year = datetime.datetime.now().strftime("%Y")
 
 
@@ -128,24 +130,44 @@ def get_participants() -> List[Dict]:
     return ret
 
 
-def build_row(data: Dict) -> str:
+def normalize_swag_item(raw_item: str) -> str:
+    """Normalizes swag labels to match available icons."""
+
+    swag_item = raw_item.casefold()
+
+    if swag_item in {"tshirt", "t-shirt", "teeshirt", "tee-shirt"}:
+        swag_item = "shirt"
+    elif swag_item == "sticker":
+        swag_item = "stickers"
+    elif swag_item in {"face-mask", "face mask", "facemask"}:
+        swag_item = "mask"
+    elif swag_item in {"tree", "trees", "plant tree", "plant trees"}:
+        swag_item = "plant"
+
+    return swag_item
+
+
+def load_available_icons() -> Set[str]:
+    """Return a set of available icon names without file extensions."""
+
+    if not os.path.isdir(icons_dir):
+        return set()
+
+    return {
+        os.path.splitext(filename)[0]
+        for filename in os.listdir(icons_dir)
+        if filename.lower().endswith(".png")
+    }
+
+
+def build_row(data: Dict, available_icons: Set[str]) -> str:
     """ Returns a markdown formatted table row for a given participant """
     row = "| [" + data["Name"] + "](" + data["Website"] + ") | "
 
-    for swag_item in sorted(data["Swag"]):
-        swag_item = swag_item.casefold()
+    for swag_item in sorted(data.get("Swag", [])):
+        swag_item = normalize_swag_item(swag_item)
 
-        # convert synonyms
-        if swag_item == "tshirt" or swag_item == "t-shirt" or swag_item == "teeshirt" or swag_item == "tee-shirt":
-            swag_item = "shirt"
-        elif swag_item == "sticker":
-            swag_item = "stickers"
-        elif swag_item == "face-mask" or swag_item == "face mask" or swag_item == "facemask":
-            swag_item = "mask"
-        elif swag_item == "tree" or swag_item == "trees" or swag_item == "plant tree" or swag_item == "plant trees":
-            swag_item = "plant"
-
-        if os.path.exists(root + "icons" + os.path.sep + swag_item + ".png"):
+        if swag_item in available_icons:
             row += "![" + swag_item.capitalize() + "](icons/" + swag_item + ".png) "
 
     row += "| "
@@ -155,12 +177,68 @@ def build_row(data: Dict) -> str:
     return row
 
 
+def build_json_dataset(participants: List[Dict], available_icons: Set[str]) -> List[Dict]:
+    """Transforms participant data into a JSON serializable structure."""
+
+    dataset: List[Dict] = []
+
+    for participant in participants:
+        status, data = next(iter(participant.items()))
+
+        normalized_swag = []
+
+        for item in sorted(set(data.get("Swag", []))):
+            normalized = normalize_swag_item(item)
+
+            if normalized in available_icons:
+                normalized_swag.append(normalized)
+
+        year = current_year if status in {"sponsor", "verified"} else str(int(current_year) - 1)
+
+        dataset.append(
+            {
+                "status": status,
+                "year": year,
+                "name": data.get("Name"),
+                "website": data.get("Website"),
+                "swag": normalized_swag,
+                "description": data.get("Description", ""),
+                "detailsUrl": data.get("Details"),
+                "isSponsor": data.get("IsSponsor", False),
+            }
+        )
+
+    return dataset
+
+
+def export_participants_json(participants: List[Dict], available_icons: Set[str]) -> None:
+    """Exports participant data for the web experience."""
+
+    dataset = build_json_dataset(participants, available_icons)
+
+    assets_dir = os.path.join(root, "assets")
+    data_dir = os.path.join(assets_dir, "data")
+
+    os.makedirs(data_dir, exist_ok=True)
+
+    output_path = os.path.join(data_dir, "participants.json")
+
+    with open(output_path, "w", encoding="utf-8") as json_file:
+        json.dump(dataset, json_file, indent=2, ensure_ascii=False)
+
+
 if __name__ == "__main__":
     init()
 
     readme_path = root + "README.md"
-    readme = open(readme_path, "r").read()
+
+    with open(readme_path, "r", encoding="utf-8") as readme_file:
+        readme = readme_file.read()
+
     participants = get_participants()
+    available_icons = load_available_icons()
+
+    export_participants_json(participants, available_icons)
 
     # Sponsors & Verified participants
     replacement_v = "| | | | |\n"
@@ -174,11 +252,11 @@ if __name__ == "__main__":
 
     for participant in participants:
         if "sponsor" in participant:
-            replacement_s += build_row(participant["sponsor"])
+            replacement_s += build_row(participant["sponsor"], available_icons)
         elif "verified" in participant:
-            replacement_v += build_row(participant["verified"])
+            replacement_v += build_row(participant["verified"], available_icons)
         elif "unverified" in participant:
-            replacement_uv += build_row(participant["unverified"])
+            replacement_uv += build_row(participant["unverified"], available_icons)
 
     # Sponsors = Verified (but on top of the list)
     replacement_v = replacement_s + replacement_v
@@ -214,4 +292,5 @@ if __name__ == "__main__":
     readme_contents = readme_contents.replace("\r\n", "\n").replace("\r", "\n")
 
     # Update README
-    open(readme_path, "w").write(readme_contents)
+    with open(readme_path, "w", encoding="utf-8") as readme_file:
+        readme_file.write(readme_contents)

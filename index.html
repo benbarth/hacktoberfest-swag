@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hacktoberfest Swag Opportunities</title>
+    <meta
+      name="description"
+      content="Discover verified Hacktoberfest swag opportunities with search, filters, and quick details."
+    />
+    <link rel="icon" type="image/png" href="assets/hacktoberfest-logo.png" />
+    <link rel="stylesheet" href="assets/css/site.css" />
+    <script type="module" src="assets/js/site.js" defer></script>
+    <script type="module" src="assets/js/app.js" defer></script>
+  </head>
+  <body class="no-js" data-page="home">
+    <a class="skip-link" href="#mainContent">Skip to main content</a>
+    <header class="site-header" role="banner">
+      <div class="site-header__inner page-shell">
+        <a class="site-header__logo" href="/">Hacktoberfest Swag</a>
+        <button
+          class="site-header__toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="siteNav"
+          data-nav-toggle
+        >
+          <span class="sr-only">Toggle navigation</span>
+          <span class="site-header__toggle-icon" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </button>
+        <nav class="site-header__nav" id="siteNav" aria-label="Primary" role="navigation" data-nav>
+          <a class="site-header__link" href="/" data-page-target="home">Swag Explorer</a>
+          <a class="site-header__link" href="guidelines.html" data-page-target="guidelines">Contribution Guidelines</a>
+          <a
+            class="site-header__link"
+            href="code-of-conduct.html"
+            data-page-target="code-of-conduct"
+          >
+            Code of Conduct
+          </a>
+          <a
+            class="site-header__link"
+            href="https://github.com/benbarth/hacktoberfest-swag/issues/new?template=new-swag-opportunity.yml"
+            data-issue-trigger
+          >
+            Share an Opportunity
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <header class="hero" role="presentation" aria-labelledby="explorerHeading">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="hero__inner page-shell">
+        <p class="hero__eyebrow">Hacktoberfest Swag Hub</p>
+        <h1 class="hero__headline" id="explorerHeading">Find your next open source reward</h1>
+        <p class="hero__subhead">
+          Search, filter, and explore curated Hacktoberfest swag opportunities.
+          Every listing is community contributed and regularly verified.
+        </p>
+        <div class="hero__cta">
+          <a class="cta-button" href="https://hacktoberfest.com/" target="_blank" rel="noreferrer">
+            Register for Hacktoberfest
+          </a>
+          <a
+            class="cta-button cta-button--secondary"
+            href="https://github.com/benbarth/hacktoberfest-swag/issues/new?template=new-swag-opportunity.yml"
+            data-issue-trigger
+          >
+            Share a swag opportunity
+          </a>
+          <a class="cta-link" href="https://github.com/benbarth/hacktoberfest-swag" target="_blank" rel="noreferrer">
+            Explore the repo
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main id="mainContent" tabindex="-1" role="main" aria-labelledby="resultsHeading">
+      <section class="filters page-shell" role="complementary" aria-labelledby="filtersHeading">
+        <h2 class="filters__title" id="filtersHeading">Filter results</h2>
+        <div class="filters__primary">
+          <label class="search" for="searchInput">
+            <span class="search__icon" aria-hidden="true">🔍</span>
+            <input
+              id="searchInput"
+              type="search"
+              name="search"
+              placeholder="Search by company, reward, or keywords"
+              autocomplete="off"
+            />
+          </label>
+          <div class="filters__actions">
+            <button type="button" class="filters__reset" id="resetFilters">Clear filters</button>
+            <div class="filters__select">
+              <label class="filters__label" for="sortSelect">Sort by</label>
+              <div class="filters__select-control">
+                <select id="sortSelect" name="sort">
+                  <option value="recommended">Recommended</option>
+                  <option value="name-asc">Name (A → Z)</option>
+                  <option value="name-desc">Name (Z → A)</option>
+                  <option value="swag-desc">Most reward types</option>
+                  <option value="year-desc">Newest listings</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="filters__group" role="group" aria-labelledby="statusFiltersHeading">
+          <h3 class="filters__heading" id="statusFiltersHeading">Status</h3>
+          <div class="filters__chips" id="statusFilters"></div>
+        </div>
+        <div class="filters__group" role="group" aria-labelledby="swagFiltersHeading">
+          <h3 class="filters__heading" id="swagFiltersHeading">Reward type</h3>
+          <div class="filters__chips" id="swagFilters"></div>
+        </div>
+      </section>
+
+      <section
+        class="results page-shell"
+        role="region"
+        aria-live="polite"
+        aria-labelledby="resultsHeading"
+      >
+        <div class="results__header">
+          <h2 class="results__title" id="resultsHeading">Swag opportunities</h2>
+        </div>
+        <div class="results__meta">
+          <p id="resultsCount" class="results__count">Loading opportunities…</p>
+          <div id="activeFilters" class="results__chips" aria-live="polite"></div>
+        </div>
+        <div id="resultsGrid" class="results__grid" role="list"></div>
+        <p id="emptyState" class="results__empty" hidden tabindex="-1">
+          No matches yet. Try adjusting your filters or searching for a different keyword.
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+      <div class="footer__inner page-shell">
+        <button class="footer__issue" type="button" data-issue-trigger>
+          <span>Create an issue</span>
+          <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+            <path
+              d="M14.44 5.56a.75.75 0 0 0-1.06 1.06l1.72 1.72H6a.75.75 0 0 0 0 1.5h9.1l-1.72 1.72a.75.75 0 0 0 1.06 1.06l3.25-3.25a.75.75 0 0 0 0-1.06z"
+            />
+          </svg>
+        </button>
+        <p>
+          Maintained with ❤️ by the community.
+          <a href="https://github.com/benbarth/hacktoberfest-swag" target="_blank" rel="noreferrer"
+            >View the project on GitHub</a
+          >.
+        </p>
+        <p class="footer__small">
+          Icons lovingly borrowed from the original project. Data is refreshed automatically from participant submissions.
+        </p>
+      </div>
+    </footer>
+    <div class="issue-overlay" data-issue-overlay hidden>
+      <div class="issue-overlay__backdrop" data-issue-close></div>
+      <div
+        class="issue-overlay__panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="issueOverlayTitle"
+        aria-describedby="issueOverlayDescription"
+      >
+        <header class="issue-overlay__header">
+          <div>
+            <p class="issue-overlay__eyebrow">Create issue</p>
+            <h2 class="issue-overlay__title" id="issueOverlayTitle">
+              Choose how you'd like to contribute
+            </h2>
+            <p class="issue-overlay__subtitle" id="issueOverlayDescription">
+              Open an issue to add a new listing, request changes, or contact the maintainers.
+            </p>
+          </div>
+          <button type="button" class="issue-overlay__close" data-issue-close aria-label="Close issue menu">
+            ×
+          </button>
+        </header>
+        <ul class="issue-overlay__list">
+          <li>
+            <a
+              class="issue-overlay__link"
+              href="https://github.com/benbarth/hacktoberfest-swag/issues/new?template=new-swag-opportunity.yml"
+              data-issue-link
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="issue-overlay__link-title">Add new swag opportunity</span>
+              <span class="issue-overlay__link-description"
+                >Share details about a swag opportunity that isn't listed yet.</span
+              >
+            </a>
+          </li>
+          <li>
+            <a
+              class="issue-overlay__link"
+              href="https://github.com/benbarth/hacktoberfest-swag/issues/new?template=update-swag-opportunity.yml"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="issue-overlay__link-title">Update existing opportunity</span>
+              <span class="issue-overlay__link-description">Suggest edits to a swag opportunity entry.</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="issue-overlay__link"
+              href="https://github.com/benbarth/hacktoberfest-swag/issues/new?template=takedown-request.yml"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="issue-overlay__link-title">Request takedown</span>
+              <span class="issue-overlay__link-description">Ask us to remove a listing that shouldn't appear.</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="issue-overlay__link"
+              href="https://github.com/benbarth/hacktoberfest-swag/issues/new"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="issue-overlay__link-title">Blank issue</span>
+              <span class="issue-overlay__link-description">Start fresh when none of the templates fit.</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
