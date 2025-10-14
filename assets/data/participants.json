@@ -94,6 +94,18 @@
   {
     "status": "verified",
     "year": "2025",
+    "name": ".Net Foundation",
+    "website": "https://dotnetfoundation.org/",
+    "swag": [
+      "other"
+    ],
+    "description": "Contribute to an official .NET Foundation project this October and claim a digital certificate for Hacktoberfest.",
+    "detailsUrl": "https://dotnetfoundation.org/community/hacktoberfest",
+    "isSponsor": false
+  },
+  {
+    "status": "verified",
+    "year": "2025",
     "name": "goose",
     "website": "https://block.github.io/goose/",
     "swag": [
