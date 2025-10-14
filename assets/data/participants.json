@@ -119,6 +119,18 @@
   {
     "status": "verified",
     "year": "2025",
+    "name": "Hyperswitch",
+    "website": "https://hyperswitch.io/",
+    "swag": [
+      "shirt"
+    ],
+    "description": "Contribute to Hyperswitch by tackling beginner-friendly, tooling, low-code/no-code, or bounty issues. Earn swag for your merged pull requests.",
+    "detailsUrl": "https://hyperswitch.io/hacktoberfest",
+    "isSponsor": false
+  },
+  {
+    "status": "verified",
+    "year": "2025",
     "name": "MindsDB",
     "website": "https://mindsdb.com",
     "swag": [
