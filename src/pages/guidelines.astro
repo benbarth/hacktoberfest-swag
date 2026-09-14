@@ -1,0 +1,27 @@
+---
+import { marked } from "marked";
+import guidelines from "../../CONTRIBUTING.md?raw";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const webGuidelines = guidelines
+  .replace(/^# Contributing\s*/u, "")
+  .replace("](CODE_OF_CONDUCT.md)", "](/code-of-conduct.html)");
+const content = (await marked.parse(webGuidelines)).replaceAll("<pre>", '<pre tabindex="0">');
+const submissionUrl = "https://github.com/benbarth/hacktoberfest-swag/issues/new?template=new-swag-opportunity.yml";
+---
+
+<BaseLayout
+  title="Contribution Guidelines | Hacktoberfest Swag"
+  description="Add or update a Hacktoberfest swag opportunity with clear rules, verified links, and useful contribution expectations."
+  page="guidelines"
+>
+  <main id="main-content" class="prose-page shell" tabindex="-1">
+    <header class="prose-page__header">
+      <p class="section-kicker">Contribute to the directory</p>
+      <h1>Bring a useful opportunity.</h1>
+      <p>Keep the directory current without creating noise for maintainers or contributors.</p>
+      <a class="button button--primary" href={submissionUrl} target="_blank" rel="noreferrer">Start a submission</a>
+    </header>
+    <article class="prose" set:html={content} />
+  </main>
+</BaseLayout>

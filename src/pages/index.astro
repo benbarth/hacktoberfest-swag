@@ -1,0 +1,82 @@
+---
+import { Image } from "astro:assets";
+import Explorer from "../components/Explorer.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import deskImage from "../assets/open-source-desk.webp";
+
+const addOpportunity = "https://github.com/benbarth/hacktoberfest-swag/issues/new?template=new-swag-opportunity.yml";
+---
+
+<BaseLayout
+  title="Hacktoberfest Swag 2026 | Community Opportunities"
+  description="Find verified Hacktoberfest 2026 swag opportunities, understand the new Fest format, and share a meaningful open-source contribution program."
+  page="home"
+>
+  <main id="main-content" tabindex="-1">
+    <section class="hero">
+      <div class="hero__inner shell">
+        <div class="hero__copy">
+          <p class="hero__kicker">Independent community directory</p>
+          <h1>Find work <span>worth doing.</span></h1>
+          <p class="hero__lede">Explore current rewards, read every project’s rules, and put useful open-source work ahead of the prize.</p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#directory">Browse listings</a>
+            <a class="button button--secondary" href={addOpportunity} target="_blank" rel="noreferrer">Add yours</a>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <Image
+            src={deskImage}
+            alt="A contributor's desk with a keyboard, notebook, mug, stickers, and folded T-shirt"
+            widths={[640, 960, 1280]}
+            sizes="(max-width: 760px) 100vw, 55vw"
+            loading="eager"
+            quality={88}
+          />
+        </div>
+      </div>
+    </section>
+
+    <Explorer />
+
+    <section class="season-shift shell" aria-labelledby="season-title">
+      <div class="season-shift__year" aria-hidden="true">2026</div>
+      <div class="season-shift__content">
+        <h2 id="season-title">Hacktoberfest works differently now.</h2>
+        <p class="season-shift__intro">The official event now centers on organizer-led Fests and hands-on learning with open-source AI.</p>
+        <div class="season-shift__paths">
+          <article>
+            <div class="season-shift__path-title">
+              <i class="ph ph-users-three" aria-hidden="true"></i>
+              <h3>Join or host a Fest</h3>
+            </div>
+            <p>Hacktoberfest.com now directs people to local and online events instead of an individual four-PR sign-up.</p>
+            <a href="https://hacktoberfest.com/" target="_blank" rel="noreferrer">Visit the official site <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+          </article>
+          <article>
+            <div class="season-shift__path-title">
+              <i class="ph ph-git-pull-request" aria-hidden="true"></i>
+              <h3>Contribute for project rewards</h3>
+            </div>
+            <p>Projects can still run independent programs for meaningful pull requests. This directory tracks those offers.</p>
+            <a href="#directory">Explore the directory <i class="ph ph-arrow-down" aria-hidden="true"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="principle shell">
+      <p>Swag is a thank-you, not the task.</p>
+      <h2>Read the issue. Understand the project. Leave the codebase better than you found it.</h2>
+      <a href="/guidelines.html">Contribution guidelines <i class="ph ph-arrow-right" aria-hidden="true"></i></a>
+    </section>
+
+    <section class="submit shell">
+      <div>
+        <h2>Running a real reward program?</h2>
+        <p>Share the rules, reward details, and a stable link. We will validate the entry before it joins the directory.</p>
+      </div>
+      <a class="button button--primary" href={addOpportunity} target="_blank" rel="noreferrer">Submit an opportunity</a>
+    </section>
+  </main>
+</BaseLayout>

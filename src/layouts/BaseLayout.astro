@@ -1,0 +1,52 @@
+---
+import "@fontsource/barlow-semi-condensed/latin-400.css";
+import "@fontsource/barlow-semi-condensed/latin-600.css";
+import "@fontsource/barlow-semi-condensed/latin-700.css";
+import "@fontsource/barlow-semi-condensed/latin-800.css";
+import "@fontsource/martian-mono/latin-400.css";
+import "@fontsource/martian-mono/latin-600.css";
+import "@fontsource/martian-mono/latin-700.css";
+import "@phosphor-icons/web/regular";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description: string;
+  page?: "home" | "guidelines" | "conduct" | "accessibility";
+}
+
+const { title, description, page = "home" } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#3d5f58" />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href="/hacktoberfest-2026.svg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta name="twitter:card" content="summary" />
+    <title>{title}</title>
+    <script is:inline>
+      document.documentElement.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+  </head>
+  <body data-page={page}>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <Header page={page} />
+    <slot />
+    <Footer />
+    <script>
+      import "../scripts/site";
+    </script>
+  </body>
+</html>

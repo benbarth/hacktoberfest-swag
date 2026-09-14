@@ -1,26 +1,11 @@
-## Pre-flight checklist
+## What changed?
 
-- [ ] I have read and follow the [contributing guidelines](../CONTRIBUTING.md).
-- [ ] I am submitting meaningful changes and understand that low-value PRs may be flagged as spam or invalid.
+Describe the listing or repository change and link to the public source that supports it.
 
-### Adding a new Hacktoberfest participant
+## Checklist
 
-- [ ] I did not edit the `README.md` file manually.
-- [ ] I confirmed the participant does not already exist in the repository.
-- [ ] I am not adding a company from the [blocklist](../.gitignore).
-- [ ] I followed the steps in the contributing guidelines when adding the participant entry.
-
-### Updating an existing Hacktoberfest participant
-
-- [ ] I did not edit the `README.md` file manually.
-- [ ] I updated the existing `participant.yml` file according to the contributing guidelines.
-
-### Removing a participant
-
-- [ ] I did not edit the `README.md` file manually.
-- [ ] I verified that the participant is no longer participating this year.
-- [ ] I included evidence supporting the removal.
-
-### Updating the README
-
-- [ ] I discussed the proposed changes and received approval from a maintainer (@benbarth, or @SoftCreatR).
+- [ ] New opportunities are in `participants/2026/` and are not already listed or blocked.
+- [ ] The details URL uses HTTPS and explains eligibility, deadlines, reward availability, limits, and fulfillment.
+- [ ] Rewards use the canonical values from `CONTRIBUTING.md`.
+- [ ] The program asks for meaningful work and does not encourage low-value pull requests.
+- [ ] I ran the relevant validation commands from `CONTRIBUTING.md`.

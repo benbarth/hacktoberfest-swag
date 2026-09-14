@@ -1,0 +1,25 @@
+---
+import { marked } from "marked";
+import conduct from "../../CODE_OF_CONDUCT.md?raw";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const content = (await marked.parse(conduct.replace(/^# Contributor Covenant Code of Conduct\s*/u, ""))).replaceAll(
+  "<pre>",
+  '<pre tabindex="0">',
+);
+---
+
+<BaseLayout
+  title="Code of Conduct | Hacktoberfest Swag"
+  description="The community standards for participating in and contributing to the Hacktoberfest Swag directory."
+  page="conduct"
+>
+  <main id="main-content" class="prose-page shell" tabindex="-1">
+    <header class="prose-page__header">
+      <p class="section-kicker">Community standard</p>
+      <h1>Make room for good work.</h1>
+      <p>Everyone who uses or contributes to this directory deserves a safe, respectful experience.</p>
+    </header>
+    <article class="prose" set:html={content} />
+  </main>
+</BaseLayout>

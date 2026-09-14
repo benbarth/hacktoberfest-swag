@@ -1,0 +1,62 @@
+---
+interface Opportunity {
+  name: string;
+  website: string;
+  swag: string[];
+  description: string;
+  detailsUrl: string;
+  year: number;
+}
+
+interface Props {
+  opportunity: Opportunity;
+}
+
+const { opportunity } = Astro.props;
+const rewardLabels: Record<string, string> = {
+  glasses: "Glasses",
+  laptop: "Laptop",
+  mask: "Mask",
+  mug: "Mug",
+  other: "Other reward",
+  plant: "Tree planting",
+  shirt: "T-shirt",
+  socks: "Socks",
+  stickers: "Stickers",
+  swag: "Swag pack",
+};
+const searchable = [opportunity.name, opportunity.description, ...opportunity.swag.map((item) => rewardLabels[item] ?? item)].join(" ").toLocaleLowerCase();
+---
+
+<article
+  class="opportunity"
+  data-opportunity
+  data-name={opportunity.name.toLocaleLowerCase()}
+  data-search={searchable}
+  data-rewards={opportunity.swag.join(",")}
+>
+  <div class="opportunity__topline">
+    <span class="status">Verified opportunity</span>
+    <span class="opportunity__year">{opportunity.year}</span>
+  </div>
+  <div class="opportunity__body">
+    <h3>{opportunity.name}</h3>
+    <p>{opportunity.description}</p>
+  </div>
+  <ul class="reward-list" aria-label="Available rewards">
+    {opportunity.swag.map((reward) => (
+      <li>
+        <img src={`/icons/${reward}.png`} alt="" width="48" height="48" loading="lazy" />
+        <span>{rewardLabels[reward] ?? reward}</span>
+      </li>
+    ))}
+  </ul>
+  <div class="opportunity__links">
+    <a href={opportunity.detailsUrl} target="_blank" rel="noreferrer">
+      View details <i class="ph ph-arrow-up-right" aria-hidden="true"></i>
+    </a>
+    {opportunity.website !== opportunity.detailsUrl && (
+      <a href={opportunity.website} target="_blank" rel="noreferrer" class="text-link">Website</a>
+    )}
+  </div>
+</article>

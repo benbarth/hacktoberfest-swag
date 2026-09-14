@@ -1,0 +1,5 @@
+{
+  "./.jsonschema": [
+    "participants/*/*.yml"
+  ]
+}

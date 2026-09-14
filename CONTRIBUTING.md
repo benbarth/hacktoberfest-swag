@@ -1,75 +1,76 @@
 # Contributing
 
-When contributing to this repository, please first discuss the change you wish to make via issue before submitting a pull request.
+Thanks for helping keep the directory current. Submit only programs with clear rules, a stable public details page, and rewards tied to meaningful work.
 
-Please note we have a code of conduct, please follow it in all your interactions with the project.
+Hacktoberfest 2026 no longer uses the old individual registration and four-pull-request model. Official participation now centers on Fests and hands-on open-source AI learning. This repository separately tracks project-run contribution rewards.
 
-## Pull Request Process
+## Add an opportunity
 
-Most parts of the README.md are generated automatically. To add or update participants, please refer to the participants directory.
+1. Check that the organization is not already listed in `participants/2026/`.
+2. Create a lowercase, filesystem-safe YAML file such as `participants/2026/example-project.yml`.
+3. Use the format below and submit a pull request.
 
-### Making changes
+```yaml
+Name: Example Project
+Website: https://example.com/
+Swag:
+  - stickers
+  - shirt
+Description: Fix an accepted issue and have the pull request reviewed and merged during October 2026.
+Details: https://example.com/hacktoberfest-2026/
+```
 
-#### Adding a new participant
+`Swag` accepts these canonical values:
 
-Adding a new participant for the current year's Hacktoberfest event is easy as 1-2-3.
+- `glasses`
+- `laptop`
+- `mask`
+- `mug`
+- `other`
+- `plant`
+- `shirt`
+- `socks`
+- `stickers`
+- `swag`
 
-Simply create a file named after the participant (e.g. `acme.yml`) and put it in `/participants/CURRENT_YEAR/` and provide all required information as explained [here](#participant-file).
+Use HTTPS URLs. The details page must explain eligibility, deadlines, reward availability, geographic limits, and any fulfillment steps. Do not claim that every participant receives an item unless the organizer says so explicitly.
 
-Before creating a new file, you may check first, if it doesn't already exist the directory `/participants/LAST_YEAR/`. If it does, please move it to `/participants/CURRENT_YEAR/` and edit it instead.
+## Update or remove an opportunity
 
-Please refrain from editing the file README.md directly, in order to add new participants, as your changes would be overwritten during the next automatic update.
+Edit the existing YAML file when rules or URLs change. For a listing that should be removed, use the [takedown request](https://github.com/benbarth/hacktoberfest-swag/issues/new?template=takedown-request.yml) or submit a pull request that explains why removal is appropriate.
 
-### Publishing your changes
+Organizations that have asked not to appear are recorded in the blocklist section of `.gitignore`. Do not recreate a blocked listing.
 
-To publish your changes, [create a pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request). If all tests pass and the PR gets merged, your changes will be live for everyone to see.
+## Validate your change
 
-If your changes affect the README in any way, they will be automatically deployed to <https://hacktoberfest-swag.com>
+For an immediate preview, install Node.js 24 or newer and run:
 
-Every accepted pull request made between Oct 01 and Oct 31 also counts towards your contributions goal at <https://hacktoberfest.com/profile/>.
+```shell
+npm ci --no-audit --no-fund
+npm run dev
+```
 
-### Blacklisted participants
+Astro reads `participants/` directly, reports schema errors with the source file, and refreshes the browser after a valid edit. No generated data file is involved.
 
-Some companies/participants do not want more attention for their participation in Hacktoberfest than is absolutely necessary, which is why they ask or have asked not to be included in the list. As we fully respect this decision, we keep a block list of companies/participants which cannot/should not be added. For simplicity, this list is maintained in the [.gitignore file](.gitignore).
+Before opening a pull request, install Python 3.12 or newer and run:
 
-We would like to ask all contributors to respect this decision as well and not add the companies/participants in question to the list.
+```shell
+python -m pip install -e '.[dev]'
+python -m hacktoberfest_swag validate
+python -m hacktoberfest_swag links participants/2026/example-project.yml
+pytest
+ruff check .
+npm run check
+```
 
----
+Pull requests receive the same schema, link, Python, and website checks in GitHub Actions. URL checks retry transient failures. A confirmed `404` or `410` fails validation, while bot blocks, rate limits, timeouts, and server errors produce warnings for maintainers to review.
 
-#### Participant file
+## Yearly rollover
 
-Every participant file (`.yml`) will be automatically validated in two steps upon your PR:
+The January 1 workflow intentionally removes participant directories from past years and creates the directory for the new season. Before cleanup, the workflow preserves the completed season with a matching Git tag. Link health never blocks this rollover.
 
-1. Validate file(s) against the [schema file](.jsonschema)
-2. Validate link(s) within the file(s) using [awesome_bot](https://github.com/dkhamsing/awesome_bot)
+Do not move past-year files forward without confirming that the program is active and its rules are current.
 
-If all checks have passed, your PR is ready to be merged. Otherwise, you need to make sure, that the file(s) provided follow the required schema (see example below) and that all URLs provided are valid.
+## Conduct
 
-__Example File__
-
-> `participants/2022/acme.yml`
-> ```yaml
-> ---
-> 
-> # Name of the participant
-> Name: Acme Corporation
-> 
-> # Website URL of the participant
-> Website: https://acme.corp
-> 
-> # List of obtainable swag. Allowed values are
-> # glasses, laptop, mug, shirt, socks, stickers, swag, trees, other
-> Swag:
->   - stickers
->   - shirt
->   - other
-> 
-> # Description of the participation (aka "How to get swag?")
-> Description: Create one or more merged pull requests.
-> 
-> # URL of a details page
-> Details: https://blog.acme.corp/hacktoberfest/
->
-> # Optional flag for sponsors
-> IsSponsor: False
-> ```
+All participation in this repository is governed by the [Code of Conduct](CODE_OF_CONDUCT.md).

@@ -1,0 +1,53 @@
+name: Deploy website
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - participants/**
+      - public/**
+      - src/**
+      - astro.config.mjs
+      - package.json
+      - package-lock.json
+      - tsconfig.json
+      - .github/workflows/pages.yml
+  workflow_run:
+    workflows: [Open a new season]
+    types: [completed]
+  workflow_dispatch:
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v7
+
+      - name: Build and upload the Astro site
+        uses: withastro/action@v6
+        with:
+          node-version: 24
+
+  deploy:
+    name: Publish to GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v5

@@ -1,0 +1,112 @@
+---
+import { getCollection } from "astro:content";
+import OpportunityCard from "./OpportunityCard.astro";
+
+const rewardLabels: Record<string, string> = {
+  glasses: "Glasses",
+  laptop: "Laptop",
+  mask: "Mask",
+  mug: "Mug",
+  other: "Other",
+  plant: "Tree planting",
+  shirt: "T-shirt",
+  socks: "Socks",
+  stickers: "Stickers",
+  swag: "Swag pack",
+};
+const season = new Date().getUTCFullYear();
+const entries = await getCollection("opportunities");
+const opportunities = entries
+  .map((entry) => ({
+    name: entry.data.Name,
+    website: entry.data.Website,
+    swag: [...entry.data.Swag].sort(),
+    description: entry.data.Description.replace(/\s+/gu, " ").trim(),
+    detailsUrl: entry.data.Details,
+    year: season,
+  }))
+  .sort((left, right) => left.name.localeCompare(right.name, "en", { sensitivity: "base" }));
+const rewards = [...new Set(opportunities.flatMap((item) => item.swag))].sort();
+---
+
+<section class="directory shell" id="directory" aria-labelledby="directory-title" data-explorer>
+  <header class="section-heading">
+    <p class="section-kicker">Community listings</p>
+    <h2 id="directory-title">Find a contribution worth making.</h2>
+    <p>Every listing points to its own rules. Read them, respect the maintainers, and choose work you can improve.</p>
+  </header>
+
+  <div class="explorer-controls">
+    <div class="search-control">
+      <label for="opportunity-search">Search opportunities</label>
+      <div class="input-wrap">
+        <i class="ph ph-magnifying-glass" aria-hidden="true"></i>
+        <input id="opportunity-search" type="search" placeholder="Organization, task, or reward" autocomplete="off" data-search />
+      </div>
+    </div>
+    <div class="sort-control">
+      <label for="opportunity-sort">Sort</label>
+      <select id="opportunity-sort" data-sort>
+        <option value="name">Name A-Z</option>
+        <option value="rewards">Most reward types</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="filter-row">
+    {rewards.length > 0 && (
+      <fieldset>
+        <legend>Reward</legend>
+        <div class="filter-options">
+          {rewards.map((reward) => (
+            <button type="button" aria-pressed="false" data-filter="reward" data-value={reward}>
+              {rewardLabels[reward] ?? reward}
+            </button>
+          ))}
+        </div>
+      </fieldset>
+    )}
+    <button class="clear-filters" type="button" data-clear hidden>Clear filters</button>
+  </div>
+
+  <div class="results-bar">
+    <p aria-live="polite" data-results-count>{opportunities.length} {opportunities.length === 1 ? "listing" : "listings"}</p>
+    <p>{opportunities.length > 0 ? `Verified for ${season}` : `${season} submissions open`}</p>
+  </div>
+
+  <div class="opportunity-grid" data-results>
+    {opportunities.map((opportunity) => (
+      <OpportunityCard opportunity={opportunity} />
+    ))}
+  </div>
+
+  <div class="empty-state" data-empty hidden={opportunities.length > 0}>
+    <div class="empty-state__visual" aria-hidden="true">
+      <span><i class="ph ph-git-pull-request"></i></span>
+      <span><i class="ph ph-t-shirt"></i></span>
+      <span><i class="ph ph-sparkle"></i></span>
+      <i class="ph ph-arrow-bend-down-right empty-state__arrow"></i>
+    </div>
+    <div class="empty-state__copy">
+      <p class="section-kicker">Open space</p>
+      <h3>{opportunities.length === 0 ? "The next listing could be yours." : "Nothing matches this view."}</h3>
+      <p>
+        {opportunities.length === 0
+          ? "Know a project offering a thoughtful 2026 contributor reward? Help the community find it."
+          : "Clear the filters, or add a useful opportunity that the directory is missing."}
+      </p>
+      <div class="empty-state__actions">
+        {opportunities.length > 0 && <button class="button button--primary" type="button" data-empty-clear>Reset directory</button>}
+        <a class="button button--secondary" href="/guidelines.html">How to add one <i class="ph ph-arrow-right" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <noscript>
+    <p class="notice">JavaScript is off. All current listings are still shown, but search and filters are unavailable.</p>
+  </noscript>
+</section>
+
+<script>
+  import "../scripts/explorer";
+</script>

@@ -1,0 +1,49 @@
+name: Check links
+
+on:
+  pull_request:
+    paths:
+      - participants/**/*.yml
+      - hacktoberfest_swag/**
+      - pyproject.toml
+      - .github/workflows/links.yml
+  schedule:
+    - cron: "41 3 * * 0"
+  workflow_dispatch:
+
+concurrency:
+  group: links-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  links:
+    name: Participant URLs
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version-file: .python-version
+          cache: pip
+
+      - name: Install link checker
+        run: python -m pip install --disable-pip-version-check --no-input .
+
+      - name: Check changed participant links
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: python -m hacktoberfest_swag links --changed-since "$BASE_SHA"
+
+      - name: Audit current-season links
+        if: github.event_name != 'pull_request'
+        run: python -m hacktoberfest_swag links

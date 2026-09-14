@@ -1,0 +1,39 @@
+name: "[A11Y] Report an accessibility barrier"
+description: Tell us about something that is difficult to perceive, operate, or understand.
+title: "[A11Y] "
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Thank you for helping make the directory usable for everyone. Do not include
+        private medical information or other sensitive personal data.
+  - type: input
+    id: page
+    attributes:
+      label: Page or URL
+      description: Which page or feature contains the barrier?
+      placeholder: https://hacktoberfest-swag.com/
+    validations:
+      required: true
+  - type: textarea
+    id: barrier
+    attributes:
+      label: What happened?
+      description: Describe what was difficult to read, reach, understand, or operate.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What would make it work better?
+      description: Tell us what you expected, if you know.
+    validations:
+      required: false
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and assistive technology
+      description: Include your browser, device, keyboard use, screen reader, zoom level, or other relevant setup.
+      placeholder: Firefox 143, Windows 11, NVDA
+    validations:
+      required: false

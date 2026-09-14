@@ -1,57 +1,42 @@
----
-name: "[UPD] Update existing swag opportunity"
-description: Share changes to an existing swag opportunity entry.
-title: "[UPD] Update existing swag opportunity"
+name: "[UPD] Update a reward opportunity"
+description: Correct the rules, links, rewards, or availability of a current listing.
+title: "[UPD] "
 labels:
   - enhancement
   - help wanted
 body:
   - type: input
-    id: org
+    id: organization
     attributes:
-      label: Organization
-      description: Name of the organization offering this swag.
-      placeholder: Acme Corporation
+      label: Organization or project
+      placeholder: Acme Open Source
     validations:
       required: true
   - type: input
-    id: website
+    id: listing
     attributes:
-      label: Organization Website
-      description: Website URL of the organization.
-      placeholder: https://www.acme.example
+      label: Existing listing or source file
+      placeholder: participants/2026/acme-open-source.yml
     validations:
       required: true
   - type: input
-    id: announcement
+    id: details
     attributes:
-      label: Announcement URL
-      description: >-
-        Link to the announcement confirming the organization's Hacktoberfest
-        participation (for example a blog post, GitHub issue, or community
-        update).
-      placeholder: https://blog.acme.example/hacktoberfest
+      label: Current public reward rules
+      placeholder: https://www.acme.example/hacktoberfest-2026/
+    validations:
+      required: true
   - type: textarea
-    id: desc
+    id: changes
     attributes:
-      label: Description / summary
-      description: >-
-        Summarize what changed about the swag items or contribution
-        requirements.
-      placeholder: Update the number of required merged pull requests.
+      label: What changed?
+      description: Include corrected eligibility, deadlines, availability, geographic limits, or fulfillment details.
     validations:
       required: true
   - type: checkboxes
-    id: swaglist
+    id: confirmation
     attributes:
-      label: Swag items
-      description: Select all swag items being offered after the update.
+      label: Confirmation
       options:
-        - label: Glasses
-        - label: Laptop
-        - label: Mug
-        - label: Shirt
-        - label: Socks
-        - label: Stickers
-        - label: Trees
-        - label: Other
+        - label: I checked this information against the linked public rules.
+          required: true

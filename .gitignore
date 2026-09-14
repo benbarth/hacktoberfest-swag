@@ -2,3 +2,22 @@
 lakefs*
 umbraco*
 # Blocklist end
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Astro and Node.js
+node_modules/
+dist/
+.astro/
+playwright-report/
+test-results/
+
+# Editors and operating systems
+.idea/
+.DS_Store

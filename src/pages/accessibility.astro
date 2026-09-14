@@ -1,0 +1,40 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const accessibilityIssue = "https://github.com/benbarth/hacktoberfest-swag/issues/new?template=accessibility-barrier.yml";
+---
+
+<BaseLayout
+  title="Accessibility | Hacktoberfest Swag"
+  description="Accessibility goals, testing scope, and a direct way to report barriers on the Hacktoberfest Swag directory."
+  page="accessibility"
+>
+  <main id="main-content" tabindex="-1" class="shell prose-page">
+    <header class="prose-page__header">
+      <p class="section-kicker">Accessibility</p>
+      <h1>Everyone should be able to use this directory.</h1>
+      <a class="button button--primary" href={accessibilityIssue} target="_blank" rel="noreferrer">Report a barrier</a>
+    </header>
+    <article class="prose">
+      <h2>Our target</h2>
+      <p>We design and test this website against the Web Content Accessibility Guidelines, WCAG 2.2 Level AA. The same work supports the European Accessibility Act principles that digital services should be perceivable, operable, understandable, and robust.</p>
+
+      <h2>What we test</h2>
+      <ul>
+        <li>Keyboard navigation, visible focus, and a skip link.</li>
+        <li>Semantic headings, landmarks, labels, link names, and image alternatives.</li>
+        <li>Color contrast in light and dark themes.</li>
+        <li>Text resizing, narrow-screen reflow, and user-defined text spacing.</li>
+        <li>Reduced-motion preferences and touch-target sizing.</li>
+      </ul>
+
+      <h2>Known limitations</h2>
+      <p>Opportunity details open on external project websites. Those sites are maintained independently, and their accessibility can differ from this directory.</p>
+
+      <h2>Report a problem</h2>
+      <p>If something is difficult to read, reach, understand, or operate, <a href={accessibilityIssue} target="_blank" rel="noreferrer">open an accessibility issue on GitHub</a>. Include the page, browser, assistive technology if relevant, and what you expected to happen.</p>
+
+      <p>Last reviewed: 14 September 2026.</p>
+    </article>
+  </main>
+</BaseLayout>

@@ -1,0 +1,23 @@
+---
+const repository = "https://github.com/benbarth/hacktoberfest-swag";
+const currentYear = new Date().getUTCFullYear();
+---
+
+<footer class="site-footer">
+  <div class="shell site-footer__grid">
+    <div>
+      <p class="site-footer__title">Good work first. Swag second.</p>
+      <p class="site-footer__copy">An independent, community-maintained directory for meaningful contribution opportunities.</p>
+    </div>
+    <nav aria-label="Footer">
+      <a href="/guidelines.html">Add an opportunity</a>
+      <a href="/code-of-conduct.html">Code of Conduct</a>
+      <a href="/accessibility.html">Accessibility</a>
+      <a href={repository} target="_blank" rel="noreferrer">Source on GitHub</a>
+    </nav>
+    <div class="site-footer__legal">
+      <p>Copyright &copy; {currentYear} by <a href="https://1-2.dev">Sascha Greuel</a> and contributors.</p>
+      <p>Hacktoberfest is a registered trademark of DigitalOcean, LLC. This directory is not the official Hacktoberfest website.</p>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,62 @@
+name: Validate
+
+on:
+  pull_request:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Data, Python, and website
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v7
+
+      - name: Validate participant YAML
+        uses: SoftCreatR/validate-yaml-schema@9760fa3906852df5daa258907e70e4893afc4f9a # v3.0.0
+        with:
+          settingsFile: .yaml-schema.json
+          failOnNoFiles: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version-file: .python-version
+          cache: pip
+
+      - name: Install Python tooling
+        run: python -m pip install --disable-pip-version-check --no-input -e '.[dev]'
+
+      - name: Lint and test Python
+        run: |
+          ruff check .
+          pytest
+          python -m hacktoberfest_swag validate
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install website dependencies
+        run: npm ci --no-audit --no-fund
+
+      - name: Type-check the website
+        run: npm run check
+
+      - name: Install the browser test runtime
+        run: npx playwright install --with-deps chromium
+
+      - name: Build and test the website
+        run: npm run test:e2e

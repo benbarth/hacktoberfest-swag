@@ -1,57 +1,69 @@
----
-name: "[ADD] New swag opportunity"
-description: Share details about a new swag opportunity that is not listed yet.
-title: "[ADD] New swag opportunity"
+name: "[ADD] New reward opportunity"
+description: Share a current project-run contribution reward program.
+title: "[ADD] "
 labels:
   - enhancement
   - help wanted
 body:
-  - type: input
-    id: org
+  - type: markdown
     attributes:
-      label: Organization
-      description: Name of the organization offering this swag.
-      placeholder: Acme Corporation
+      value: >-
+        This directory covers independent project rewards. For official 2026 Fests,
+        use hacktoberfest.com.
+  - type: input
+    id: organization
+    attributes:
+      label: Organization or project
+      placeholder: Acme Open Source
     validations:
       required: true
   - type: input
     id: website
     attributes:
-      label: Organization Website
-      description: Website URL of the organization.
-      placeholder: https://www.acme.example
+      label: Project website
+      placeholder: https://www.acme.example/
     validations:
       required: true
   - type: input
-    id: announcement
+    id: details
     attributes:
-      label: Announcement URL
-      description: >-
-        Link to the announcement confirming the organization's Hacktoberfest
-        participation (for example a blog post, GitHub issue, or community
-        update).
-      placeholder: https://blog.acme.example/hacktoberfest
+      label: Public reward rules
+      description: Link directly to eligibility, deadlines, availability, limits, and fulfillment details.
+      placeholder: https://www.acme.example/hacktoberfest-2026/
+    validations:
+      required: true
   - type: textarea
-    id: desc
+    id: description
     attributes:
-      label: Description / summary
-      description: >-
-        Provide a concise overview of the swag items and the contribution
-        requirements to earn them.
-      placeholder: Create one or more merged pull requests.
+      label: Contribution and reward summary
+      description: Explain the useful work contributors should do and what the project offers in return.
+      placeholder: Resolve an accepted issue and have the pull request reviewed and merged during October 2026.
     validations:
       required: true
   - type: checkboxes
-    id: swaglist
+    id: rewards
     attributes:
-      label: Swag items
-      description: Select all swag items being offered.
+      label: Rewards
+      description: Select every reward type that applies.
       options:
         - label: Glasses
         - label: Laptop
+        - label: Face mask
         - label: Mug
+        - label: Plant or tree planting
         - label: Shirt
         - label: Socks
         - label: Stickers
-        - label: Trees
+        - label: Swag pack
         - label: Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: The program is public, current for 2026, and rewards meaningful contributions.
+          required: true
+        - label: I understand that inclusion here does not make this an official Hacktoberfest Fest.
+          required: true

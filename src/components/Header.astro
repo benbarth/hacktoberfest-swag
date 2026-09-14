@@ -1,0 +1,41 @@
+---
+interface Props {
+  page: "home" | "guidelines" | "conduct" | "accessibility";
+}
+
+const { page } = Astro.props;
+const repoUrl = "https://github.com/benbarth/hacktoberfest-swag";
+---
+
+<header class="site-header">
+  <div class="shell site-header__inner">
+    <a class="brand" href="/" aria-label="Hacktoberfest Swag home">
+      <img src="/hacktoberfest-2026.svg" alt="Hacktoberfest 2026" width="2243" height="215" />
+      <span>Swag directory</span>
+    </a>
+
+    <button class="icon-button nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" data-nav-toggle>
+      <i class="ph ph-list" aria-hidden="true" data-nav-icon></i>
+      <span class="sr-only" data-nav-label>Open navigation</span>
+    </button>
+
+    <nav class="primary-nav" id="primary-nav" aria-label="Primary" data-nav>
+      <a class="mobile-nav-brand" href="/" aria-label="Hacktoberfest Swag home">
+        <img src="/hacktoberfest-2026.svg" alt="" width="2243" height="215" />
+      </a>
+      <a href="/#directory" class:list={[{ active: page === "home" }]} aria-current={page === "home" ? "page" : undefined}>Directory</a>
+      <a href="/guidelines.html" class:list={[{ active: page === "guidelines" }]} aria-current={page === "guidelines" ? "page" : undefined}>Contribute</a>
+      <a href="/code-of-conduct.html" class:list={[{ active: page === "conduct" }]} aria-current={page === "conduct" ? "page" : undefined}>Code of Conduct</a>
+      <div class="nav-tools">
+        <a class="repo-link" href={repoUrl} target="_blank" rel="noreferrer">
+          <i class="ph ph-github-logo" aria-hidden="true"></i>
+          <span>GitHub</span>
+        </a>
+        <button class="icon-button theme-toggle" type="button" data-theme-toggle aria-label="Change color theme">
+          <i class="ph ph-circle-half" aria-hidden="true"></i>
+          <span class="theme-toggle__label" aria-hidden="true">Theme</span>
+        </button>
+      </div>
+    </nav>
+  </div>
+</header>

@@ -1,5 +1,0 @@
-{
-  "yaml.schemas": {
-    "${workspaceFolder}/.jsonschema": ["/participants/**/*.yml"]
-  }
-}
