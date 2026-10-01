@@ -1,12 +1,15 @@
 import AxeBuilder from "@axe-core/playwright";
 import { expect, test } from "@playwright/test";
 
-test("empty directory provides a useful contribution path", async ({ page }) => {
+test("empty results provide a useful contribution path", async ({ page }) => {
   await page.goto("/");
 
   await expect(page.getByRole("heading", { level: 1 })).toHaveText("Find work worth doing.");
+  await page.getByLabel("Search opportunities").fill("no listing matches this search");
   await expect(page.getByText("0 listings", { exact: true })).toBeVisible();
-  await expect(page.getByRole("heading", { name: "The next listing could be yours." })).toBeVisible();
+  await expect(
+    page.getByRole("heading", { name: /^(The next listing could be yours|Nothing matches this view)\.$/u }),
+  ).toBeVisible();
   await page.getByRole("link", { name: "How to add one" }).click();
   await expect(page).toHaveURL(/\/guidelines\.html$/u);
 });
