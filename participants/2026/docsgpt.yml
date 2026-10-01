@@ -1,0 +1,6 @@
+Name: DocsGPT
+Website: https://www.docsgpt.cloud/
+Swag:
+  - shirt
+Description: DocsGPT is an open-source (MIT) platform for building AI agents and RAG assistants over your docs. T-shirts go to meaningful pull requests merged between October 1 and 31, 2026, such as a real bug fix, a feature, or a noticeable documentation improvement. Typo fixes and other trivial changes don't qualify. Issues labelled hacktoberfest are suggestions, but any meaningful merged pull request counts. Check for an existing issue or open one, and wait to be assigned before you start. The T-shirt design and claim form will be announced on Discord and in the project README, so keep a link to your merged pull request.
+Details: https://github.com/arc53/DocsGPT/blob/main/HACKTOBERFEST.md
