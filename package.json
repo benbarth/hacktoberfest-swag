@@ -15,7 +15,7 @@
     "@fontsource/barlow-semi-condensed": "5.3.0",
     "@fontsource/martian-mono": "5.3.0",
     "@phosphor-icons/web": "2.1.2",
-    "astro": "7.3.2",
+    "astro": "7.4.7",
     "marked": "18.0.13"
   },
   "devDependencies": {
